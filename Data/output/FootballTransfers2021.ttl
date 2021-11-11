@@ -1,0 +1,10 @@
+<http://ex.org/entity/Mohamed%20Daramy>
+        a       <https://dbpedia.org/ontology/SoccerPlayer> ;
+        <http://xmlns.com/foaf/0.1/age>
+                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/playsAtPosition>
+                "Right Winger" ;
+        <https://dbpedia.org/property/transferFee>
+                "10.8" ;
+        <https://dbpedia.org/property/transferedFrom>
+                "FC Copenhagen" .
