@@ -1,0 +1,1819 @@
+<https://dbpedia.org/page/Swansea%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2288" .
+
+<https://dbpedia.org/page/Portimonense%20Sc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "7378" .
+
+<https://dbpedia.org/page/Amiens%20Sc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1416" .
+
+<https://dbpedia.org/page/Goztepe>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1467" .
+
+<https://dbpedia.org/page/Moreirense%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "979" .
+
+<https://dbpedia.org/page/Viborg%20Ff>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1063" .
+
+<https://dbpedia.org/page/Odense%20Boldklub>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "173" .
+
+<https://dbpedia.org/page/Goverla%20Uzhgorod>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6996" .
+
+<https://dbpedia.org/page/Zska%20Moskau>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2410" .
+
+<https://dbpedia.org/page/As%20Monaco>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "162" .
+
+<https://dbpedia.org/page/Inter%20Mailand>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "46" .
+
+<https://dbpedia.org/page/Giresunspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "11688" .
+
+<https://dbpedia.org/page/As%20Rom>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "12" .
+
+<https://dbpedia.org/page/Ska%20Khabarovsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3690" .
+
+<https://dbpedia.org/page/Asteras%20Tripolis>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6676" .
+
+<https://dbpedia.org/page/Royal%20Excel%20Mouscron>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "29228" .
+
+<https://dbpedia.org/page/Fc%20Brentford>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1148" .
+
+<https://dbpedia.org/page/Fc%20Turin>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "416" .
+
+<https://dbpedia.org/page/1%20Fsv%20Mainz%2005>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "39" .
+
+<https://dbpedia.org/page/West%20Bromwich%20Albion>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "984" .
+
+<https://dbpedia.org/page/Pas%20Giannina>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2671" .
+
+<https://dbpedia.org/page/Ac%20Horsens>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2414" .
+
+<https://dbpedia.org/page/Nac%20Breda>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "132" .
+
+<https://dbpedia.org/page/Bayer%2004%20Leverkusen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "15" .
+
+<https://dbpedia.org/page/As%20Saint%20Etienne>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "618" .
+
+<https://dbpedia.org/page/Kuban%20Krasnodar>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2439" .
+
+<https://dbpedia.org/page/Aalborg%20Bk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1053" .
+
+<https://dbpedia.org/page/Olimpik%20Donetsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "23611" .
+
+<https://dbpedia.org/page/Ksc%20Lokeren>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "498" .
+
+<https://dbpedia.org/page/Kv%20Mechelen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "354" .
+
+<https://dbpedia.org/page/Dinamo%20Moskau>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "121" .
+
+<https://dbpedia.org/page/Fc%20Nordsjaelland>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2778" .
+
+<https://dbpedia.org/page/Fc%20Malaga>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1084" .
+
+<https://dbpedia.org/page/Fc%20Vizela>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6912" .
+
+<https://dbpedia.org/page/Randers%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "5724" .
+
+<https://dbpedia.org/page/Gaziantepspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "524" .
+
+<https://dbpedia.org/page/Newcastle%20United>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "762" .
+
+<https://dbpedia.org/page/Wolverhampton%20Wanderers>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "543" .
+
+<https://dbpedia.org/page/Waasland%20Beveren>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "28643" .
+
+<https://dbpedia.org/page/Silkeborg%20If>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1177" .
+
+<https://dbpedia.org/page/Boavista%20Porto%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2503" .
+
+<https://dbpedia.org/page/Fc%20Emmen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1283" .
+
+<https://dbpedia.org/page/Sporting%20Gijon>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2448" .
+
+<https://dbpedia.org/page/Sampdoria%20Genua>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1038" .
+
+<https://dbpedia.org/page/West%20Ham%20United>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "379" .
+
+<https://dbpedia.org/page/Lazio%20Rom>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "398" .
+
+<https://dbpedia.org/page/Ae%20Larisa>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4603" .
+
+<https://dbpedia.org/page/Fc%20Valencia>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1049" .
+
+<https://dbpedia.org/page/Sk%20Dnipro%201>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "60551" .
+
+<https://dbpedia.org/page/Iraklis%20Thessaloniki>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "47" .
+
+<https://dbpedia.org/page/Benfica%20Lissabon>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "294" .
+
+<https://dbpedia.org/page/Dundee%20United%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1519" .
+
+<https://dbpedia.org/page/Huddersfield%20Town>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1110" .
+
+<https://dbpedia.org/page/Nimes%20Olympique>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1160" .
+
+<https://dbpedia.org/page/Veria%20Nps>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2079" .
+
+<https://dbpedia.org/page/Fc%20Groningen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "202" .
+
+<https://dbpedia.org/page/Kvc%20Westerlo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "968" .
+
+<https://dbpedia.org/page/Olympique%20Marseille>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "244" .
+
+<https://dbpedia.org/page/Ofi%20Kreta>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "653" .
+
+<https://dbpedia.org/page/Caykur%20Rizespor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "126" .
+
+<https://dbpedia.org/page/Ionikos%20Nikeas>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "553" .
+
+<https://dbpedia.org/page/Sporting%20Lissabon>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "336" .
+
+<https://dbpedia.org/page/Fc%20Bologna>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1025" .
+
+<https://dbpedia.org/page/Hellas%20Verona>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "276" .
+
+<https://dbpedia.org/page/Fc%20Southampton>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "180" .
+
+<https://dbpedia.org/page/Tottenham%20Hotspur>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "148" .
+
+<https://dbpedia.org/page/Tsg%201899%20Hoffenheim>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "533" .
+
+<https://dbpedia.org/page/Fatih%20Karagumruk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6646" .
+
+<https://dbpedia.org/page/Parma%20Calcio%201913>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "130" .
+
+<https://dbpedia.org/page/Sv%20Darmstadt%2098>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "105" .
+
+<https://dbpedia.org/page/Fk%20Mariupol>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6993" .
+
+<https://dbpedia.org/page/Volos%20Nps>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "60949" .
+
+<https://dbpedia.org/page/Afc%20Bournemouth>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "989" .
+
+<https://dbpedia.org/page/Amkar%20Perm>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4128" .
+
+<https://dbpedia.org/page/Rsc%20Anderlecht>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "58" .
+
+<https://dbpedia.org/page/Desna%20Chernigiv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "16239" .
+
+<https://dbpedia.org/page/Apollon%20Smyrnis>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "441" .
+
+<https://dbpedia.org/page/Mke%20Ankaragucu>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "868" .
+
+<https://dbpedia.org/page/Carpi%20Fc%201909>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4102" .
+
+<https://dbpedia.org/page/Eskisehirspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "825" .
+
+<https://dbpedia.org/page/Kayserispor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3205" .
+
+<https://dbpedia.org/page/Psv%20Eindhoven>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "383" .
+
+<https://dbpedia.org/page/Ado%20Den%20Haag>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1268" .
+
+<https://dbpedia.org/page/Pfk%20Lviv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "18105" .
+
+<https://dbpedia.org/page/Fc%20Midtjylland>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "865" .
+
+<https://dbpedia.org/page/Adana%20Demirspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3840" .
+
+<https://dbpedia.org/page/Sc%20Braga>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1075" .
+
+<https://dbpedia.org/page/Krc%20Genk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1184" .
+
+<https://dbpedia.org/page/Us%20Lecce>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1005" .
+
+<https://dbpedia.org/page/Espanyol%20Barcelona>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "714" .
+
+<https://dbpedia.org/page/Fc%20Cadiz>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2687" .
+
+<https://dbpedia.org/page/Benevento%20Calcio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4171" .
+
+<https://dbpedia.org/page/Fk%20Oleksandriya>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "18303" .
+
+<https://dbpedia.org/page/Ud%20Levante>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3368" .
+
+<https://dbpedia.org/page/Spvgg%20Greuther%20Furth>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "65" .
+
+<https://dbpedia.org/page/Ac%20Florenz>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "430" .
+
+<https://dbpedia.org/page/Genclerbirligi%20Ankara>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "820" .
+
+<https://dbpedia.org/page/Manchester%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "281" .
+
+<https://dbpedia.org/page/Vitoria%20Setubal%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1085" .
+
+<https://dbpedia.org/page/Afc%20Sunderland>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "289" .
+
+<https://dbpedia.org/page/Ca%20Osasuna>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "331" .
+
+<https://dbpedia.org/page/Atletico%20Madrid>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "13" .
+
+<https://dbpedia.org/page/Sc%20Heerenveen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "306" .
+
+<https://dbpedia.org/page/Pfk%20Stal%20Kamyanske>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "16247" .
+
+<https://dbpedia.org/page/Lyngby%20Bk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "369" .
+
+<https://dbpedia.org/page/Pfk%20Tambov>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "41201" .
+
+<https://dbpedia.org/page/Rsc%20Charleroi>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "172" .
+
+<https://dbpedia.org/page/Fc%20Everton>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "29" .
+
+<https://dbpedia.org/page/Vvv%20Venlo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1426" .
+
+<https://dbpedia.org/page/Mersin%20Idmanyurdu>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3216" .
+
+<https://dbpedia.org/page/Gil%20Vicente%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2424" .
+
+<https://dbpedia.org/page/Hull%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3008" .
+
+<https://dbpedia.org/page/Juventus%20Turin>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "506" .
+
+<https://dbpedia.org/page/Montpellier%20Hsc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "969" .
+
+<https://dbpedia.org/page/Fc%20Metz>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "347" .
+
+<https://dbpedia.org/page/Sheffield%20United>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "350" .
+
+<https://dbpedia.org/page/Ingulets%20Petrove>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "49364" .
+
+<https://dbpedia.org/page/Roda%20Jc%20Kerkrade>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "192" .
+
+<https://dbpedia.org/page/Enisey%20Krasnoyarsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3714" .
+
+<https://dbpedia.org/page/Kaa%20Gent>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "157" .
+
+<https://dbpedia.org/page/Metalist%20Kharkiv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6414" .
+
+<https://dbpedia.org/page/Fc%20Crotone>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4083" .
+
+<https://dbpedia.org/page/Delfino%20Pescara%201936>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2921" .
+
+<https://dbpedia.org/page/Rfc%20Seraing>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2715" .
+
+<https://dbpedia.org/page/Hamburger%20Sv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "41" .
+
+<https://dbpedia.org/page/Fc%20Arsenal>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "11" .
+
+<https://dbpedia.org/page/Sv%20Werder%20Bremen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "86" .
+
+<https://dbpedia.org/page/Cd%20Santa%20Clara>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2423" .
+
+<https://dbpedia.org/page/1%20Fc%20Koln>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3" .
+
+<https://dbpedia.org/page/Us%20Salernitana%201919>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "380" .
+
+<https://dbpedia.org/page/Aris%20Thessaloniki>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "605" .
+
+<https://dbpedia.org/page/Stoke%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "512" .
+
+<https://dbpedia.org/page/Desportivo%20Aves>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3336" .
+
+<https://dbpedia.org/page/Ac%20Mailand>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "5" .
+
+<https://dbpedia.org/page/Fc%20Kopenhagen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "190" .
+
+<https://dbpedia.org/page/Leeds%20United>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "399" .
+
+<https://dbpedia.org/page/Genua%20Cfc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "252" .
+
+<https://dbpedia.org/page/Fc%20Bayern%20Munchen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "27" .
+
+<https://dbpedia.org/page/Manchester%20United>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "985" .
+
+<https://dbpedia.org/page/Trabzonspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "449" .
+
+<https://dbpedia.org/page/Stade%20Brest%2029>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3911" .
+
+<https://dbpedia.org/page/Fk%20Krasnodar>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "16704" .
+
+<https://dbpedia.org/page/Heart%20Of%20Midlothian%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "43" .
+
+<https://dbpedia.org/page/Pec%20Zwolle>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1269" .
+
+<https://dbpedia.org/page/Buyuksehir%20Belediye%20Erzurumspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "39722" .
+
+<https://dbpedia.org/page/Borussia%20Dortmund>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "16" .
+
+<https://dbpedia.org/page/Brondby%20If>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "206" .
+
+<https://dbpedia.org/page/Feyenoord%20Rotterdam>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "234" .
+
+<https://dbpedia.org/page/Fc%20Burnley>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1132" .
+
+<https://dbpedia.org/page/Fk%20Sochi>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "41231" .
+
+<https://dbpedia.org/page/Bursaspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "20" .
+
+<https://dbpedia.org/page/Fc%20Arouca>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "8024" .
+
+<https://dbpedia.org/page/Fc%20Porto>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "720" .
+
+<https://dbpedia.org/page/Az%20Alkmaar>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1090" .
+
+<https://dbpedia.org/page/Fc%20Villarreal>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1050" .
+
+<https://dbpedia.org/page/Fortuna%20Dusseldorf>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "38" .
+
+<https://dbpedia.org/page/Glasgow%20Rangers>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "124" .
+
+<https://dbpedia.org/page/Fc%20Chelsea>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "631" .
+
+<https://dbpedia.org/page/Sco%20Angers>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1420" .
+
+<https://dbpedia.org/page/Partick%20Thistle%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2760" .
+
+<https://dbpedia.org/page/Stade%20Reims>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1421" .
+
+<https://dbpedia.org/page/Cercle%20Brugge>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "520" .
+
+<https://dbpedia.org/page/Sc%20Freiburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "60" .
+
+<https://dbpedia.org/page/Rubin%20Kazan>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2698" .
+
+<https://dbpedia.org/page/Fc%20Toulouse>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "415" .
+
+<https://dbpedia.org/page/Sc%20Paderborn%2007>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "127" .
+
+<https://dbpedia.org/page/Celtic%20Glasgow>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "371" .
+
+<https://dbpedia.org/page/Altay%20Sk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2375" .
+
+<https://dbpedia.org/page/Rasenballsport%20Leipzig>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "23826" .
+
+<https://dbpedia.org/page/Fk%20Minaj>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "61825" .
+
+<https://dbpedia.org/page/Royale%20Union%20Saint%20Gilloise>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3948" .
+
+<https://dbpedia.org/page/Real%20Sociedad%20San%20Sebastian>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "681" .
+
+<https://dbpedia.org/page/Sc%20Farense>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4294" .
+
+<https://dbpedia.org/page/Brighton%20Amp%20Hove%20Albion>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1237" .
+
+<https://dbpedia.org/page/Fc%20Fulham>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "931" .
+
+<https://dbpedia.org/page/Fc%20Pacos%20De%20Ferreira>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2995" .
+
+<https://dbpedia.org/page/Arsenal%20Kiew>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "9007" .
+
+<https://dbpedia.org/page/Chievo%20Verona>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "862" .
+
+<https://dbpedia.org/page/Denizlispor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "833" .
+
+<https://dbpedia.org/page/Real%20Betis%20Sevilla>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "150" .
+
+<https://dbpedia.org/page/Aston%20Villa>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "405" .
+
+<https://dbpedia.org/page/Hatayspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "7775" .
+
+<https://dbpedia.org/page/Vitesse%20Arnheim>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "499" .
+
+<https://dbpedia.org/page/Standard%20Luttich>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3057" .
+
+<https://dbpedia.org/page/Yeni%20Malatyaspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "19789" .
+
+<https://dbpedia.org/page/Sonderjyske>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "5817" .
+
+<https://dbpedia.org/page/Metalist%201925%20Kharkiv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "55686" .
+
+<https://dbpedia.org/page/Brescia%20Calcio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "19" .
+
+<https://dbpedia.org/page/Akhisarspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "19771" .
+
+<https://dbpedia.org/page/Fenerbahce%20Istanbul>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "36" .
+
+<https://dbpedia.org/page/Gd%20Chaves>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3325" .
+
+<https://dbpedia.org/page/Fc%20Girondins%20Bordeaux>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "40" .
+
+<https://dbpedia.org/page/Ea%20Guingamp>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "855" .
+
+<https://dbpedia.org/page/Fc%20Augsburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "167" .
+
+<https://dbpedia.org/page/Arminia%20Bielefeld>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "10" .
+
+<https://dbpedia.org/page/Besiktas%20Istanbul>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "114" .
+
+<https://dbpedia.org/page/Galatasaray%20Istanbul>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "141" .
+
+<https://dbpedia.org/page/Norwich%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1123" .
+
+<https://dbpedia.org/page/Esbjerg%20Fb>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3426" .
+
+<https://dbpedia.org/page/Sparta%20Rotterdam>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "468" .
+
+<https://dbpedia.org/page/Hibernian%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "903" .
+
+<https://dbpedia.org/page/Vejle%20Boldklub>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "443" .
+
+<https://dbpedia.org/page/Ael%20Kalloni>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "28956" .
+
+<https://dbpedia.org/page/Fk%20Tosno>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "40426" .
+
+<https://dbpedia.org/page/Sm%20Caen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1162" .
+
+<https://dbpedia.org/page/Cd%20Feirense>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3349" .
+
+<https://dbpedia.org/page/1%20Fc%20Nurnberg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4" .
+
+<https://dbpedia.org/page/Nec%20Nijmegen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "467" .
+
+<https://dbpedia.org/page/Willem%20Ii%20Tilburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "403" .
+
+<https://dbpedia.org/page/Fc%20Sevilla>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "368" .
+
+<https://dbpedia.org/page/Panetolikos%20Gfs>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6418" .
+
+<https://dbpedia.org/page/Kas%20Eupen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1245" .
+
+<https://dbpedia.org/page/Real%20Madrid>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "418" .
+
+<https://dbpedia.org/page/Real%20Valladolid>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "366" .
+
+<https://dbpedia.org/page/Hamilton%20Academical%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2999" .
+
+<https://dbpedia.org/page/Us%20Sassuolo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6574" .
+
+<https://dbpedia.org/page/Fk%20Khimki>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3719" .
+
+<https://dbpedia.org/page/Fc%20Middlesbrough>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "641" .
+
+<https://dbpedia.org/page/Sd%20Eibar>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1533" .
+
+<https://dbpedia.org/page/Krylya%20Sovetov%20Samara>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2696" .
+
+<https://dbpedia.org/page/Deportivo%20Alaves>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1108" .
+
+<https://dbpedia.org/page/Spal>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2722" .
+
+<https://dbpedia.org/page/Spezia%20Calcio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3522" .
+
+<https://dbpedia.org/page/Venezia%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "607" .
+
+<https://dbpedia.org/page/Inverness%20Caledonian%20Thistle%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2451" .
+
+<https://dbpedia.org/page/Ross%20County%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2759" .
+
+<https://dbpedia.org/page/Leicester%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1003" .
+
+<https://dbpedia.org/page/Gd%20Estoril%20Praia>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1465" .
+
+<https://dbpedia.org/page/Fc%20Lorient>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1158" .
+
+<https://dbpedia.org/page/Gfc%20Ajaccio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3558" .
+
+<https://dbpedia.org/page/Vfl%20Bochum>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "80" .
+
+<https://dbpedia.org/page/Mordovia%20Saransk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "11126" .
+
+<https://dbpedia.org/page/Sc%20Bastia>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "595" .
+
+<https://dbpedia.org/page/Crystal%20Palace>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "873" .
+
+<https://dbpedia.org/page/Zirka%20Kropyvnytskyi>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "8838" .
+
+<https://dbpedia.org/page/Arsenal%20Tula>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3729" .
+
+<https://dbpedia.org/page/Rc%20Lens>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "826" .
+
+<https://dbpedia.org/page/Fc%20Barcelona>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "131" .
+
+<https://dbpedia.org/page/Pas%20Lamia%201964>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3999" .
+
+<https://dbpedia.org/page/Rkc%20Waalwijk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "235" .
+
+<https://dbpedia.org/page/Academica%20Coimbra>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2990" .
+
+<https://dbpedia.org/page/Panathinaikos%20Athen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "265" .
+
+<https://dbpedia.org/page/Borussia%20Monchengladbach>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "18" .
+
+<https://dbpedia.org/page/Fc%20Nantes>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "995" .
+
+<https://dbpedia.org/page/Adanaspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6" .
+
+<https://dbpedia.org/page/Panionios%20Athen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "169" .
+
+<https://dbpedia.org/page/Celta%20Vigo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "940" .
+
+<https://dbpedia.org/page/Ajax%20Amsterdam>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "610" .
+
+<https://dbpedia.org/page/Atromitos%20Athen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3060" .
+
+<https://dbpedia.org/page/Fortuna%20Sittard>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "385" .
+
+<https://dbpedia.org/page/Rotor%20Volgograd>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3609" .
+
+<https://dbpedia.org/page/Royal%20Antwerpen%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1096" .
+
+<https://dbpedia.org/page/Sc%20Cambuur%20Leeuwarden>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "133" .
+
+<https://dbpedia.org/page/Hertha%20Bsc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "44" .
+
+<https://dbpedia.org/page/Atalanta%20Bergamo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "800" .
+
+<https://dbpedia.org/page/Konyaspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2293" .
+
+<https://dbpedia.org/page/Fc%20Twente%20Enschede>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "317" .
+
+<https://dbpedia.org/page/Fc%20Famalicao>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3329" .
+
+<https://dbpedia.org/page/Beerschot%20V%20A>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "41274" .
+
+<https://dbpedia.org/page/Anzhi%20Makhachkala>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2700" .
+
+<https://dbpedia.org/page/Dynamo%20Kiew>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "338" .
+
+<https://dbpedia.org/page/Fc%20Stade%20Rennes>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "273" .
+
+<https://dbpedia.org/page/Aok%20Kerkyra>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "5219" .
+
+<https://dbpedia.org/page/De%20Graafschap%20Doetinchem>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "642" .
+
+<https://dbpedia.org/page/Fc%20Helsingor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "22110" .
+
+<https://dbpedia.org/page/Akhmat%20Grozny>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3725" .
+
+<https://dbpedia.org/page/Ud%20Las%20Palmas>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "472" .
+
+<https://dbpedia.org/page/Eintracht%20Frankfurt>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "24" .
+
+<https://dbpedia.org/page/Fc%20Getafe>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3709" .
+
+<https://dbpedia.org/page/St%20Johnstone%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2578" .
+
+<https://dbpedia.org/page/Olympique%20Lyon>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1041" .
+
+<https://dbpedia.org/page/Fc%20Paris%20Saint%20Germain>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "583" .
+
+<https://dbpedia.org/page/Tom%20Tomsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3691" .
+
+<https://dbpedia.org/page/Kv%20Kortrijk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "601" .
+
+<https://dbpedia.org/page/Go%20Ahead%20Eagles%20Deventer>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1435" .
+
+<https://dbpedia.org/page/Istanbul%20Basaksehir%20Fk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6890" .
+
+<https://dbpedia.org/page/Fk%20Rostov>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1083" .
+
+<https://dbpedia.org/page/Fc%20Schalke%2004>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "33" .
+
+<https://dbpedia.org/page/Olympiakos%20Piraus>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "683" .
+
+<https://dbpedia.org/page/Alanyaspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "11282" .
+
+<https://dbpedia.org/page/Kv%20Oostende>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2861" .
+
+<https://dbpedia.org/page/Fk%20Orenburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "14589" .
+
+<https://dbpedia.org/page/Motherwell%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "987" .
+
+<https://dbpedia.org/page/Sbv%20Excelsior%20Rotterdam>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "798" .
+
+<https://dbpedia.org/page/Athletic%20Bilbao>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "621" .
+
+<https://dbpedia.org/page/Ssc%20Neapel>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6195" .
+
+<https://dbpedia.org/page/Karpaty%20Lviv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2477" .
+
+<https://dbpedia.org/page/Cagliari%20Calcio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1390" .
+
+<https://dbpedia.org/page/Panthrakikos%20Komotini>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "7185" .
+
+<https://dbpedia.org/page/Rukh%20Lviv>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "48726" .
+
+<https://dbpedia.org/page/Kardemir%20Karabukspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1506" .
+
+<https://dbpedia.org/page/Fc%20Ingolstadt%2004>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4795" .
+
+<https://dbpedia.org/page/Hannover%2096>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "42" .
+
+<https://dbpedia.org/page/Losc%20Lille>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1082" .
+
+<https://dbpedia.org/page/Aarhus%20Gf>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "678" .
+
+<https://dbpedia.org/page/Udinese%20Calcio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "410" .
+
+<https://dbpedia.org/page/Aberdeen%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "370" .
+
+<https://dbpedia.org/page/Kilmarnock%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2553" .
+
+<https://dbpedia.org/page/Vitoria%20Guimaraes%20Sc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2420" .
+
+<https://dbpedia.org/page/1%20Fc%20Union%20Berlin>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "89" .
+
+<https://dbpedia.org/page/Rcd%20Mallorca>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "237" .
+
+<https://dbpedia.org/page/Kasimpasa>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "10484" .
+
+<https://dbpedia.org/page/Zorya%20Lugansk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "10690" .
+
+<https://dbpedia.org/page/As%20Nancy%20Lorraine>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1159" .
+
+<https://dbpedia.org/page/Volyn%20Lutsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "4482" .
+
+<https://dbpedia.org/page/Cf%20Uniao%20Madeira>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "976" .
+
+<https://dbpedia.org/page/Gaziantep%20Fk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2832" .
+
+<https://dbpedia.org/page/Ao%20Xanthi>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "128" .
+
+<https://dbpedia.org/page/Vfb%20Stuttgart>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "79" .
+
+<https://dbpedia.org/page/Es%20Troyes%20Ac>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1095" .
+
+<https://dbpedia.org/page/Dnipro%20Dnipropetrovsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "339" .
+
+<https://dbpedia.org/page/Ankaraspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2944" .
+
+<https://dbpedia.org/page/Sd%20Huesca>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "5358" .
+
+<https://dbpedia.org/page/Ural%20Ekaterinburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "11127" .
+
+<https://dbpedia.org/page/Shakhtar%20Donetsk>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "660" .
+
+<https://dbpedia.org/page/Cd%20Nacional>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "982" .
+
+<https://dbpedia.org/page/Cd%20Tondela>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "7179" .
+
+<https://dbpedia.org/page/Fc%20Watford>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1010" .
+
+<https://dbpedia.org/page/Zenit%20St%20Petersburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "964" .
+
+<https://dbpedia.org/page/Cardiff%20City>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "603" .
+
+<https://dbpedia.org/page/St%20Mirren%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "465" .
+
+<https://dbpedia.org/page/Palermo%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "458" .
+
+<https://dbpedia.org/page/Fc%20Elche>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1531" .
+
+<https://dbpedia.org/page/Belenenses%20Sad>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2457" .
+
+<https://dbpedia.org/page/Spartak%20Moskau>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "232" .
+
+<https://dbpedia.org/page/Deportivo%20La%20Coruna>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "897" .
+
+<https://dbpedia.org/page/Fk%20Nizhny%20Novgorod>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "49702" .
+
+<https://dbpedia.org/page/Sivasspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2381" .
+
+<https://dbpedia.org/page/Hobro%20Ik>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "5818" .
+
+<https://dbpedia.org/page/Fc%20Girona>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "12321" .
+
+<https://dbpedia.org/page/Vfl%20Wolfsburg>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "82" .
+
+<https://dbpedia.org/page/Metalurg%20Zaporizhya%20Bis%202016>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6994" .
+
+<https://dbpedia.org/page/Rayo%20Vallecano>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "367" .
+
+<https://dbpedia.org/page/Cd%20Leganes>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1244" .
+
+<https://dbpedia.org/page/Fk%20Ufa>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "28095" .
+
+<https://dbpedia.org/page/Ogc%20Nizza>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "417" .
+
+<https://dbpedia.org/page/Kolos%20Kovalivka>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "48332" .
+
+<https://dbpedia.org/page/Dijon%20Fco>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2969" .
+
+<https://dbpedia.org/page/Rio%20Ave%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2425" .
+
+<https://dbpedia.org/page/Oud%20Heverlee%20Leuven>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2727" .
+
+<https://dbpedia.org/page/Fc%20Liverpool>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "31" .
+
+<https://dbpedia.org/page/Apo%20Levadiakos>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2672" .
+
+<https://dbpedia.org/page/Vorskla%20Poltava>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2740" .
+
+<https://dbpedia.org/page/Aek%20Athen>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2441" .
+
+<https://dbpedia.org/page/Heracles%20Almelo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1304" .
+
+<https://dbpedia.org/page/Paok%20Thessaloniki>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1091" .
+
+<https://dbpedia.org/page/Lokomotiv%20Moskau>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "932" .
+
+<https://dbpedia.org/page/Chornomorets%20Odessa>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "6992" .
+
+<https://dbpedia.org/page/Fc%20Empoli>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "749" .
+
+<https://dbpedia.org/page/Antalyaspor>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "589" .
+
+<https://dbpedia.org/page/Frosinone%20Calcio>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "8970" .
+
+<https://dbpedia.org/page/Fc%20Utrecht>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "200" .
+
+<https://dbpedia.org/page/Cs%20Maritimo>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1301" .
+
+<https://dbpedia.org/page/Sv%20Zulte%20Waregem>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3508" .
+
+<https://dbpedia.org/page/Ao%20Platanias>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "21957" .
+
+<https://dbpedia.org/page/Nk%20Veres%20Rivne>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "26459" .
+
+<https://dbpedia.org/page/Vendsyssel%20Ff>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "19657" .
+
+<https://dbpedia.org/page/Clermont%20Foot%2063>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "3524" .
+
+<https://dbpedia.org/page/Fc%20Brugge>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "2282" .
+
+<https://dbpedia.org/page/Rc%20Strassburg%20Alsace>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "667" .
+
+<https://dbpedia.org/page/Vv%20St%20Truiden>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "475" .
+
+<https://dbpedia.org/page/Fc%20Granada>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "16795" .
+
+<https://dbpedia.org/page/Livingston%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "1241" .
+
+<https://dbpedia.org/page/Dundee%20Fc>
+        a       <https://dbpedia.org/ontology/SoccerClub> ;
+        <https://dbpedia.org/property/clubId>
+                "511" .

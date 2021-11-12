@@ -1,0 +1,25 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaProp: <https://dbpedia.org/property/>
+
+<#ClubMap>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:tableName "CLUBS"
+    ];
+    rr:subjectMap [
+        rr:template "https://dbpedia.org/page/{PRETTY_NAME}" ;
+        rr:class dbpedia:SoccerClub;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:clubId ;
+        rr:objectMap [
+            rr:column "CLUB_ID";
+            rr:termType rr:Literal;
+             ];
+    ];
+    .
+
+
+
