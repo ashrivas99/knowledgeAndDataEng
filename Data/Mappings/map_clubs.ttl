@@ -12,7 +12,7 @@
     # SUBJECT
     rr:subjectMap [
         rr:template "https://dbpedia.org/page/{PRETTY_NAME}" ;
-        rr:class dbpedia:SoccerClub;
+        rr:class dbpedia:FootballClub;
     ];
 
     # CLUB_ID
@@ -31,7 +31,6 @@
         rr:objectMap [
             rr:column "DOMESTIC_COMPETITION_ID";
             rr:termType rr:Literal;
-            rr:datatype xsd:string;
             ];
     ];
 
@@ -71,7 +70,7 @@
         rr:objectMap [
             rr:column "STADIUM_SEATS";
             rr:termType rr:Literal;
-            rr:datatype xsd:float
+            rr:datatype xsd:int
             ];
     ];
 
@@ -91,7 +90,7 @@
         rr:objectMap [
             rr:column "COACH_NAME";
             rr:termType rr:Literal;
-            rr:datatype xsd:float
+            rr:datatype xsd:string
             ];
     ];
 
@@ -101,7 +100,6 @@
         rr:objectMap [
             rr:column "URL";
             rr:termType rr:Literal;
-            rr:datatype xsd:float
             ];
     ];
     .
