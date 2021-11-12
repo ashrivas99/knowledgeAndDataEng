@@ -8,16 +8,101 @@
     rr:logicalTable [
         rr:tableName "CLUBS"
     ];
+
+    # SUBJECT
     rr:subjectMap [
         rr:template "https://dbpedia.org/page/{PRETTY_NAME}" ;
         rr:class dbpedia:SoccerClub;
     ];
+
+    # CLUB_ID
     rr:predicateObjectMap [
         rr:predicate dbpediaProp:clubId ;
         rr:objectMap [
             rr:column "CLUB_ID";
             rr:termType rr:Literal;
+            rr:datatype xsd:int;
              ];
+    ];
+
+    # DOMESTIC_COMPETITION_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:domesticClubId ;
+        rr:objectMap [
+            rr:column "DOMESTIC_COMPETITION_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+            ];
+    ];
+
+    # TOTAL_MARKET_VALUE
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:marketValue ;
+        rr:objectMap [
+            rr:column "TOTAL_MARKET_VALUE";
+            rr:termType rr:Literal;
+            rr:datatype xsd:float
+            ];
+    ];
+
+    # SQUAD_SIZE
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:SquadSize ;
+        rr:objectMap [
+            rr:column "SQUAD_SIZE";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int
+            ];
+    ];
+
+    # STADIUM_NAME
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:StadiumName ;
+        rr:objectMap [
+            rr:column "STADIUM_NAME";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+            ];
+    ];
+
+    # STADIUM_SEATS
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:StadiumSeats ;
+        rr:objectMap [
+            rr:column "STADIUM_SEATS";
+            rr:termType rr:Literal;
+            rr:datatype xsd:float
+            ];
+    ];
+
+    # NET_TRANSFER_RECORD
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:TransferRecord ;
+        rr:objectMap [
+            rr:column "NET_TRANSFER_RECORD";
+            rr:termType rr:Literal;
+            rr:datatype xsd:float
+            ];
+    ];
+
+    # COACH_NAME
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Coach ;
+        rr:objectMap [
+            rr:column "COACH_NAME";
+            rr:termType rr:Literal;
+            rr:datatype xsd:float
+            ];
+    ];
+
+    # URL
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:URI ;
+        rr:objectMap [
+            rr:column "URL";
+            rr:termType rr:Literal;
+            rr:datatype xsd:float
+            ];
     ];
     .
 
