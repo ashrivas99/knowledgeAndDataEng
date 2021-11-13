@@ -1,0 +1,98 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaProp: <https://dbpedia.org/property/>
+
+<#WHODATA>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:tableName "WHODATA"
+    ];
+
+    # SUBJECT
+    rr:subjectMap [
+        rr:template "https://ex.org/entity/{COUNTRIES}" ;
+        rr:class dbpedia:Country;
+
+    ];
+
+    #TOTAL_POPULATION
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:populationTotal ;
+        rr:objectMap [
+            rr:column "TOTALPOPULATION" ;
+            rr:datatype xsd:integer
+        ]
+    ];
+   
+    #LIFE_EXPECTANCY_AT_BIRTH_(YEARS)
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:lifeExpectancy ;
+        rr:objectMap [
+            rr:column "LIFEEXPECTANCY" ;
+            rr:datatype xsd:float
+        ]
+    ];
+
+    #PROPORTION_OF_BIRTHS_ATTENDED_BY_SKILLED_HEALTH_PERSONNEL
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:proportionOfBirthsAttendedBySkilledHealthPersonnel ;
+        rr:objectMap [
+            rr:column "BIRTHS_ATTENDED_BY_SKILLED_PROFESSIONALS" ;
+            rr:datatype xsd:int
+        ]
+    ];
+
+    #TOTAL_ALCOHOL_PER_CAPITA
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:totalAlcoholPerCapita ;
+        rr:objectMap [
+            rr:column "TOTAL_ALCOHOL_CONSUMPTION" ;
+            rr:datatype xsd:float
+        ]
+    ];
+
+    #POPULATION_WITH_HOUSEHOLD_EXPENDITURES_ON_HEALTH_>_10%
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:populationWithHouseholdExpendituresOnHealthGreaterThan10Percent ;
+        rr:objectMap [
+            rr:column "POPULATIONHOUSEHOLDGT10" ;
+            rr:datatype xsd:float
+        ]
+    ];
+
+    #POPULATION_WITH_HOUSEHOLD_EXPENDITURES_ON_HEALTH_>_25%
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:populationWithHouseholdExpendituresOnHealthGreaterThan25Percent ;
+        rr:objectMap [
+            rr:column "POPULATIONHOUSEHOLDGT25" ;
+            rr:datatype xsd:float
+        ]
+    ];
+
+    #Total net development assistance to medical research per capita
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:MedcicalResearchDevelopment ;
+        rr:objectMap [
+            rr:column "ASSISTANCE_TO_MEDICAL_RESEARCH" ;
+            rr:datatype xsd:float
+        ]
+    ];
+
+    #Density of medical doctors (per 10000 population) 
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:densityMedicalDoctors ;
+        rr:objectMap [
+            rr:column "DENSITY_OF_MEDICAL_DOCTORS" ;
+            rr:datatype xsd:float
+        ]
+    ];
+
+    #Prevalence of obesity among children
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:ObesityInChildren ;
+        rr:objectMap [
+            rr:column "PREVALENCE_OF_OBESITY_AMONG_CHILDREN";
+            rr:datatype xsd:float
+        ]
+    ];

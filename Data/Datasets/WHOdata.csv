@@ -1,6 +1,4 @@
-﻿Countries,Total population (000s),Life expectancy at birth (years),Proportion of births attended by skilled health personnele (%),Total alcohol per capita (≥ 15 years of age) consumptionm (litres of pure alcohol),Population with household expenditures on health > 10% of total household expenditure or incomeq (%),Population with household expenditures on health > 25% of total household expenditure or incomeq (%),"Total net official development assistance to medical research and basic health sectors per capitau (US$), by recipient country
-
-",Density of medical doctorsw (per 10 000 population) ,Prevalence of obesity among children and adolescents (5–19 years)ah(%)
+﻿Countries,Totalpopulation,LifeExpectancy,Births_Attended_By_Skilled_Professionals,Total_alcohol_consumption,POPULATIONHOUSEHOLDGT10,POPULATIONHOUSEHOLDGT25,ASSISTANCE_TO_MEDICAL_RESEARCH,Density_of_medical_doctors,Prevalence_of_obesity_among_children
 Afghanistan,38 042,63.2,59,<0.1,14.6,2,6.9,2.8,3.1
 Albania,2 881,78,100,6.8,16.7,5,2.21,16.5,7.6
 Algeria,43 053,77.1,99,0.6,-,-,0.02,17.2,13.5
