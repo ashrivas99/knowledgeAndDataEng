@@ -1,0 +1,166 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaProp: <https://dbpedia.org/property/>
+
+<CompetitonMap>
+    a rr:TriplesMap ;
+        rr:logicalTable [
+            rr:tableName "COMPETITIONS"
+        ];
+
+    # SUBJECT
+    rr:subjectMap [
+        rr:template "http://ex.org/entity/{NAME}" ;
+        rr:class dbpedia:FootballCompetiton;
+    ];
+
+    # COMPETITON_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:CompetitionId ;
+        rr:objectMap [
+            rr:column "COMPETITION_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+             ];
+    ];
+
+    # TYPE
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:CompetitionId ;
+        rr:objectMap [
+            rr:column "TYPE";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            ];
+    ];
+
+    # CountryId
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:CountryId ;
+        rr:objectMap [
+            rr:column "COUNTRY_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+             ];
+    ];
+
+    # CountryName
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Country ;
+        rr:objectMap [
+            rr:column "COUNTRY_NAME";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            rr:class dbpedia:country;
+             ];
+        rr:joinCondition [
+            rr:parentTriplesMap <#PlayersMap> ;
+            rr:parentAttribute dbpediaProp:Country;
+            rr:childAttribute dbpediaProp:Country;
+        ]
+    ];
+
+
+    #DOMESTIC_LEAGUE_CODE
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:DomesticLeagueCode ;
+        rr:objectMap [
+            rr:column "DOMESTIC_LEAGUE_CODE";
+            rr:termType rr:Literal;
+             ];
+    ];
+
+
+    #CONFEDERATION
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Confederation ;
+        rr:objectMap [
+            rr:column "CONFEDERATION";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+             ];
+    ];
+
+    #URL
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:URL;
+        rr:objectMap [
+            rr:column "URL";
+            rr:termType rr:IRI;
+             ];
+    ];
+    .
+
+
+<#PlayersMap>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:tableName "PLAYERS"
+    ];
+
+    # SUBJECT
+    rr:subjectMap [
+        rr:template "http://ex.org/entity/{PRETTY_NAME}" ;
+        rr:class dbpedia:FootballPlayer;
+    ];
+
+    # PLAYER_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:PlayerId ;
+        rr:objectMap [
+            rr:column "PLAYER_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            ];
+    ];
+
+    # CURRENT_CLUB_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:CurrentClubId ;
+        rr:objectMap [
+            rr:column "CURRENT_CLUB_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+             ];
+    ];
+
+    # PLAYER_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:playerId ;
+        rr:objectMap [
+            rr:column "PLAYER_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+             ];
+    ];
+
+    # COUNTRY_OF_BIRTH
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Country ;
+        rr:objectMap [
+            rr:column "COUNTRY_OF_BIRTH";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+             ];
+    ];
+
+    # COUNTRY_OF_CITIZENSHIP
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:country ;
+        rr:objectMap [
+            rr:column "COUNTRY_OF_CITIZENSHIP";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+             ];
+    ];
+
+    #URL
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:URI;
+        rr:objectMap [
+            rr:column "URL";
+            rr:termType rr:IRI;
+             ];
+    ];
+    .

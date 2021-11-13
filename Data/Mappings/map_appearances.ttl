@@ -1,0 +1,74 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaClass: <http://dbpedia.org/resource/classes#>.
+@prefix dbpediaProp: <https://dbpedia.org/property/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+<#FootballTransfers2021Map>
+	a rr:TriplesMap ;
+	rr:logicalTable [
+		rr:tableName "APPEARANCES"
+	] ;
+	rr:subjectMap [
+		rr:template "http://ex.org/entity/{APPEARANCE_ID}" ;
+		rr:class dbpedia:SoccerPlayer;  
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:playerID ;
+		rr:objectMap [ 
+			rr:column "PLAYER_ID";
+			rr:class dbpedia:SoccerPlayer;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:playedInGame ;
+		rr:objectMap [ 
+			rr:column "GAME_ID";
+			rr:termType rr:Literal;
+			rr:class dbpediaClass:gameID;
+			rr:datatype xsd:double;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:playedInCompetition ;
+		rr:objectMap [ 
+			rr:column "COMPETITION_ID";
+			rr:termType rr:Literal;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:clubIDofPlayerAppearing ;
+		rr:objectMap [ 
+			rr:column "PLAYER_CLUB_ID";
+			rr:termType rr:Literal;
+			rr:class dbpedia:SoccerClub;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:goalsScored;
+		rr:objectMap [ 
+			rr:column "GOALS";
+			rr:termType rr:Literal;
+			rr:class dbpediaClass:SoccerPlayer;
+			rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:assistsMade ;
+		rr:objectMap [ 
+			rr:column "ASSISTS";
+			rr:termType rr:Literal;
+			rr:class dbpedia:SoccerPlayer;
+            rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:minutesPlayedInAppearence ;
+		rr:objectMap [ 
+			rr:column "MINUTES_PLAYED";
+			rr:termType rr:Literal;
+			rr:datatype xsd:int;
+			 ];
+	] ;
+	.
