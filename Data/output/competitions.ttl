@@ -1,433 +1,7 @@
-<https://dbpedia.org/page/europa-league>
+<http://ex.org/entity/sfa-cup>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "EL"^^<http://www.w3.org/2001/XMLSchema#int> , "europa_league"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/europa-league/startseite/pokalwettbewerb/EL> .
-
-<https://dbpedia.org/page/ligue-1>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "FR1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "France"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "FR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/ligue-1/startseite/wettbewerb/FR1> .
-
-<https://dbpedia.org/page/kypello-elladas>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "GRP"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Greece"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "GR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/kypello-elladas/startseite/wettbewerb/GRP> .
-
-<https://dbpedia.org/page/uefa-europa-conference-league-qualifikation>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "ECLQ"^^<http://www.w3.org/2001/XMLSchema#int> , "uefa_europa_conference_league_qualifiers"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/uefa-europa-conference-league-qualifikation/startseite/pokalwettbewerb/ECLQ> .
-
-<https://dbpedia.org/page/dfl-supercup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "DFL"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Germany"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "L1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/dfl-supercup/startseite/wettbewerb/DFL> .
-
-<https://dbpedia.org/page/super-lig>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "TR1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Turkey"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "174"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "TR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/super-lig/startseite/wettbewerb/TR1> .
-
-<https://dbpedia.org/page/bundesliga>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "L1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Germany"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "L1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/L1> .
-
-<https://dbpedia.org/page/supercoppa-italiana>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "SCI"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Italy"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "75"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "IT1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/supercoppa-italiana/startseite/wettbewerb/SCI> .
-
-<https://dbpedia.org/page/belgian-supercup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "BESC"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Belgium"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "BE1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/belgian-supercup/startseite/wettbewerb/BESC> .
-
-<https://dbpedia.org/page/toto-knvb-beker>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "NLP"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Netherlands"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "NL1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/toto-knvb-beker/startseite/wettbewerb/NLP> .
-
-<https://dbpedia.org/page/community-shield>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "GBCS"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "England"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "GB1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/community-shield/startseite/wettbewerb/GBCS> .
-
-<https://dbpedia.org/page/premier-league>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "GB1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "England"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "GB1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/premier-league/startseite/wettbewerb/GB1> .
-
-<https://dbpedia.org/page/europa-league-qualifikation>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "ELQ"^^<http://www.w3.org/2001/XMLSchema#int> , "europa_league_qualifying"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/europa-league-qualifikation/startseite/pokalwettbewerb/ELQ> .
-
-<https://dbpedia.org/page/super-league-1>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "GR1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Greece"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "GR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/super-league-1/startseite/wettbewerb/GR1> .
-
-<https://dbpedia.org/page/jupiler-pro-league>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "BE1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Belgium"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "BE1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/jupiler-pro-league/startseite/wettbewerb/BE1> .
-
-<https://dbpedia.org/page/allianz-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "POCP"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Portugal"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "136"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "PO1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/allianz-cup/startseite/wettbewerb/POCP> .
-
-<https://dbpedia.org/page/efl-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "CGB"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "England"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "GB1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/efl-cup/startseite/wettbewerb/CGB> .
-
-<https://dbpedia.org/page/fifa-klub-wm>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "KLUB"^^<http://www.w3.org/2001/XMLSchema#int> , "fifa_club_world_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/fifa-klub-wm/startseite/pokalwettbewerb/KLUB> .
-
-<https://dbpedia.org/page/sydbank-pokalen>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "DKP"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Denmark"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "DK1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/sydbank-pokalen/startseite/wettbewerb/DKP> .
-
-<https://dbpedia.org/page/superligaen>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "DK1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Denmark"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "DK1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/superligaen/startseite/wettbewerb/DK1> .
-
-<https://dbpedia.org/page/uefa-champions-league-qualifikation>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "CLQ"^^<http://www.w3.org/2001/XMLSchema#int> , "uefa_champions_league_qualifying"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/uefa-champions-league-qualifikation/startseite/pokalwettbewerb/CLQ> .
-
-<https://dbpedia.org/page/premier-liga>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "UKR1"^^<http://www.w3.org/2001/XMLSchema#int> , "RU1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Russia"^^<http://www.w3.org/2001/XMLSchema#int> , "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "177"^^<http://www.w3.org/2001/XMLSchema#int> , "141"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "RU1" , "UKR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/premier-liga/startseite/wettbewerb/RU1> , <https://www.transfermarkt.co.uk/premier-liga/startseite/wettbewerb/UKR1> .
-
-<https://dbpedia.org/page/russian-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "RUP"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Russia"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "141"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "RU1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/russian-cup/startseite/wettbewerb/RUP> .
-
-<https://dbpedia.org/page/russian-super-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "RUSS"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Russia"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "141"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "RU1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/russian-super-cup/startseite/wettbewerb/RUSS> .
-
-<https://dbpedia.org/page/copa-del-rey>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "CDR"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Spain"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "157"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "ES1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/copa-del-rey/startseite/wettbewerb/CDR> .
-
-<https://dbpedia.org/page/laliga>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "ES1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Spain"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "157"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "ES1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/laliga/startseite/wettbewerb/ES1> .
-
-<https://dbpedia.org/page/uefa-super-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "USC"^^<http://www.w3.org/2001/XMLSchema#int> , "uefa_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/uefa-super-cup/startseite/pokalwettbewerb/USC> .
-
-<https://dbpedia.org/page/ukrainian-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "UKRP"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "UKR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/ukrainian-cup/startseite/wettbewerb/UKRP> .
-
-<https://dbpedia.org/page/johan-cruijff-schaal>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "NLSC"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Netherlands"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "NL1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/johan-cruijff-schaal/startseite/wettbewerb/NLSC> .
-
-<https://dbpedia.org/page/supercopa>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "SUC"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Spain"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "157"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "ES1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/supercopa/startseite/wettbewerb/SUC> .
-
-<https://dbpedia.org/page/sfa-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "SFA"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "SFA"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Country>
@@ -439,85 +13,21 @@
         <https://dbpedia.org/property/URL>
                 <https://www.transfermarkt.co.uk/sfa-cup/startseite/wettbewerb/SFA> .
 
-<https://dbpedia.org/page/scottish-premiership>
+<http://ex.org/entity/uefa-champions-league-qualifikation>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "SC1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "uefa_champions_league_qualifying"^^<http://www.w3.org/2001/XMLSchema#int> , "CLQ"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Scotland"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/CountryId>
-                "190"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "SC1" ;
+                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/scottish-premiership/startseite/wettbewerb/SC1> .
+                <https://www.transfermarkt.co.uk/uefa-champions-league-qualifikation/startseite/pokalwettbewerb/CLQ> .
 
-<https://dbpedia.org/page/dfb-pokal>
+<http://ex.org/entity/trophee-des-champions>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "DFB"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Germany"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "L1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/dfb-pokal/startseite/wettbewerb/DFB> .
-
-<https://dbpedia.org/page/ukrainian-super-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "UKRS"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "UKR1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/ukrainian-super-cup/startseite/wettbewerb/UKRS> .
-
-<https://dbpedia.org/page/eredivisie>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "NL1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Netherlands"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "NL1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/eredivisie/startseite/wettbewerb/NL1> .
-
-<https://dbpedia.org/page/italy-cup>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "CIT"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Confederation>
-                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/Country>
-                "Italy"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/CountryId>
-                "75"^^<http://www.w3.org/2001/XMLSchema#int> ;
-        <https://dbpedia.org/property/DomesticLeagueCode>
-                "IT1" ;
-        <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/italy-cup/startseite/wettbewerb/CIT> .
-
-<https://dbpedia.org/page/trophee-des-champions>
-        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
-        <https://dbpedia.org/property/CompetitionId>
-                "FRCH"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "FRCH"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Country>
@@ -529,10 +39,201 @@
         <https://dbpedia.org/property/URL>
                 <https://www.transfermarkt.co.uk/trophee-des-champions/startseite/wettbewerb/FRCH> .
 
-<https://dbpedia.org/page/supertaca-candido-de-oliveira>
+<http://ex.org/entity/efl-cup>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "POSU"^^<http://www.w3.org/2001/XMLSchema#int> , "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "CGB"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "England"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "GB1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/efl-cup/startseite/wettbewerb/CGB> .
+
+<http://ex.org/entity/uefa-champions-league>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "uefa_champions_league"^^<http://www.w3.org/2001/XMLSchema#int> , "CL"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/uefa-champions-league/startseite/pokalwettbewerb/CL> .
+
+<http://ex.org/entity/copa-del-rey>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "CDR"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Spain"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "157"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "ES1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/copa-del-rey/startseite/wettbewerb/CDR> .
+
+<http://ex.org/entity/kypello-elladas>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "GRP"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Greece"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "GR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/kypello-elladas/startseite/wettbewerb/GRP> .
+
+<http://ex.org/entity/laliga>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "ES1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Spain"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "157"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "ES1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/laliga/startseite/wettbewerb/ES1> .
+
+<http://ex.org/entity/ukrainian-super-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "UKRS"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "UKR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/ukrainian-super-cup/startseite/wettbewerb/UKRS> .
+
+<http://ex.org/entity/superligaen>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "DK1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Denmark"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "DK1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/superligaen/startseite/wettbewerb/DK1> .
+
+<http://ex.org/entity/belgian-supercup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "BESC"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "BE1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/belgian-supercup/startseite/wettbewerb/BESC> .
+
+<http://ex.org/entity/supercopa>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "SUC"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Spain"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "157"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "ES1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/supercopa/startseite/wettbewerb/SUC> .
+
+<http://ex.org/entity/community-shield>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "GBCS"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "England"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "GB1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/community-shield/startseite/wettbewerb/GBCS> .
+
+<http://ex.org/entity/bundesliga>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "L1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "L1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/L1> .
+
+<http://ex.org/entity/dfl-supercup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "DFL"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "L1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/dfl-supercup/startseite/wettbewerb/DFL> .
+
+<http://ex.org/entity/jupiler-pro-league>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "BE1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "BE1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/jupiler-pro-league/startseite/wettbewerb/BE1> .
+
+<http://ex.org/entity/allianz-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "POCP"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Country>
@@ -542,23 +243,94 @@
         <https://dbpedia.org/property/DomesticLeagueCode>
                 "PO1" ;
         <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/supertaca-candido-de-oliveira/startseite/wettbewerb/POSU> .
+                <https://www.transfermarkt.co.uk/allianz-cup/startseite/wettbewerb/POCP> .
 
-<https://dbpedia.org/page/uefa-champions-league>
+<http://ex.org/entity/sydbank-pokalen>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "CL"^^<http://www.w3.org/2001/XMLSchema#int> , "uefa_champions_league"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "DKP"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Denmark"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "DK1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/sydbank-pokalen/startseite/wettbewerb/DKP> .
+
+<http://ex.org/entity/toto-knvb-beker>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "NLP"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Netherlands"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "NL1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/toto-knvb-beker/startseite/wettbewerb/NLP> .
+
+<http://ex.org/entity/uefa-europa-conference-league-qualifikation>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "uefa_europa_conference_league_qualifiers"^^<http://www.w3.org/2001/XMLSchema#int> , "ECLQ"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/CountryId>
                 "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/URL>
-                <https://www.transfermarkt.co.uk/uefa-champions-league/startseite/pokalwettbewerb/CL> .
+                <https://www.transfermarkt.co.uk/uefa-europa-conference-league-qualifikation/startseite/pokalwettbewerb/ECLQ> .
 
-<https://dbpedia.org/page/serie-a>
+<http://ex.org/entity/europa-league>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "IT1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "europa_league"^^<http://www.w3.org/2001/XMLSchema#int> , "EL"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/europa-league/startseite/pokalwettbewerb/EL> .
+
+<http://ex.org/entity/italy-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "CIT"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Italy"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "75"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "IT1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/italy-cup/startseite/wettbewerb/CIT> .
+
+<http://ex.org/entity/russian-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "RUP"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Russia"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "141"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "RU1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/russian-cup/startseite/wettbewerb/RUP> .
+
+<http://ex.org/entity/serie-a>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "IT1"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Country>
@@ -570,10 +342,182 @@
         <https://dbpedia.org/property/URL>
                 <https://www.transfermarkt.co.uk/serie-a/startseite/wettbewerb/IT1> .
 
-<https://dbpedia.org/page/liga-portugal-bwin>
+<http://ex.org/entity/europa-league-qualifikation>
         a       <https://dbpedia.org/ontology/FootballCompetiton> ;
         <https://dbpedia.org/property/CompetitionId>
-                "PO1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "europa_league_qualifying"^^<http://www.w3.org/2001/XMLSchema#int> , "ELQ"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/europa-league-qualifikation/startseite/pokalwettbewerb/ELQ> .
+
+<http://ex.org/entity/dfb-pokal>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "DFB"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "L1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/dfb-pokal/startseite/wettbewerb/DFB> .
+
+<http://ex.org/entity/johan-cruijff-schaal>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "NLSC"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Netherlands"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "NL1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/johan-cruijff-schaal/startseite/wettbewerb/NLSC> .
+
+<http://ex.org/entity/eredivisie>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "NL1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Netherlands"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "NL1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/eredivisie/startseite/wettbewerb/NL1> .
+
+<http://ex.org/entity/scottish-premiership>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "SC1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Scotland"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "190"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "SC1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/scottish-premiership/startseite/wettbewerb/SC1> .
+
+<http://ex.org/entity/ligue-1>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "FR1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "France"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "FR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/ligue-1/startseite/wettbewerb/FR1> .
+
+<http://ex.org/entity/premier-league>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "GB1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "England"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "GB1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/premier-league/startseite/wettbewerb/GB1> .
+
+<http://ex.org/entity/super-lig>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "TR1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Turkey"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "174"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "TR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/super-lig/startseite/wettbewerb/TR1> .
+
+<http://ex.org/entity/super-league-1>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "GR1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Greece"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "GR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/super-league-1/startseite/wettbewerb/GR1> .
+
+<http://ex.org/entity/supertaca-candido-de-oliveira>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "POSU"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Portugal"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "136"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "PO1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/supertaca-candido-de-oliveira/startseite/wettbewerb/POSU> .
+
+<http://ex.org/entity/fifa-klub-wm>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "fifa_club_world_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "KLUB"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/fifa-klub-wm/startseite/pokalwettbewerb/KLUB> .
+
+<http://ex.org/entity/ukrainian-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "UKRP"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "UKR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/ukrainian-cup/startseite/wettbewerb/UKRP> .
+
+<http://ex.org/entity/liga-portugal-bwin>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "PO1"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <https://dbpedia.org/property/Country>
@@ -584,3 +528,59 @@
                 "PO1" ;
         <https://dbpedia.org/property/URL>
                 <https://www.transfermarkt.co.uk/liga-portugal-bwin/startseite/wettbewerb/PO1> .
+
+<http://ex.org/entity/premier-liga>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "UKR1"^^<http://www.w3.org/2001/XMLSchema#int> , "first_tier"^^<http://www.w3.org/2001/XMLSchema#int> , "RU1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> , "Russia"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "141"^^<http://www.w3.org/2001/XMLSchema#int> , "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "RU1" , "UKR1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/premier-liga/startseite/wettbewerb/UKR1> , <https://www.transfermarkt.co.uk/premier-liga/startseite/wettbewerb/RU1> .
+
+<http://ex.org/entity/supercoppa-italiana>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "SCI"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Italy"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "75"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "IT1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/supercoppa-italiana/startseite/wettbewerb/SCI> .
+
+<http://ex.org/entity/uefa-super-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "uefa_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "USC"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "-1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/uefa-super-cup/startseite/pokalwettbewerb/USC> .
+
+<http://ex.org/entity/russian-super-cup>
+        a       <https://dbpedia.org/ontology/FootballCompetiton> ;
+        <https://dbpedia.org/property/CompetitionId>
+                "domestic_super_cup"^^<http://www.w3.org/2001/XMLSchema#int> , "RUSS"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Confederation>
+                "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/Country>
+                "Russia"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/CountryId>
+                "141"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <https://dbpedia.org/property/DomesticLeagueCode>
+                "RU1" ;
+        <https://dbpedia.org/property/URL>
+                <https://www.transfermarkt.co.uk/russian-super-cup/startseite/wettbewerb/RUSS> .

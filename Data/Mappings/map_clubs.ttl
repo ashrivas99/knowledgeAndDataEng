@@ -11,7 +11,7 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "https://dbpedia.org/page/{PRETTY_NAME}" ;
+        rr:template "http://ex.org/entity/{PRETTY_NAME}" ;
         rr:class dbpedia:FootballClub;
     ];
 
