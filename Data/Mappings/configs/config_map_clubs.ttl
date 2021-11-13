@@ -1,0 +1,4 @@
+mappingFile = Mappings/map_clubs.ttl
+CSVFiles = Datasets/clubs.csv
+outputFile = Output/clubs.ttl
+format = TURTLE
