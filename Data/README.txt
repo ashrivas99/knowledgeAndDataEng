@@ -1,0 +1,1 @@
+java -jar r2rml/r2rml.jar Mappings/configs/config_map_footballtransfers2021.properties

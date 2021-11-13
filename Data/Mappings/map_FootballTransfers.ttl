@@ -1,13 +1,14 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaClass: <http://dbpedia.org/resource/classes#>.
 @prefix dbpediaProp: <https://dbpedia.org/property/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
 <#FootballTransfers2021Map>
 	a rr:TriplesMap ;
 	rr:logicalTable [
-		rr:tableName "FOOTBALLTRANSFERS2021"
+		rr:tableName "FT2021"
 	] ;
 	rr:subjectMap [
 		rr:template "http://ex.org/entity/{PLAYER_NAME}" ;
@@ -17,7 +18,6 @@
 		rr:predicate dbpediaProp:currentClub ;
 		rr:objectMap [ 
 			rr:column "CLUB_NAME";
-			rr:termType rr:Literal;
 			rr:class dbpedia:SoccerClub;
 			 ];
 	] ;
@@ -47,11 +47,44 @@
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:transferFee ;
+		rr:predicate dbpediaProp:transferredFor;
 		rr:objectMap [ 
 			rr:column "FEE_CLEANED";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerClub;
+			rr:class dbpediaClass:transferPrice;
+			rr:datatype xsd:float;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:playsForLeague ;
+		rr:objectMap [ 
+			rr:column "LEAGUE_NAME";
+			rr:termType rr:Literal;
+			rr:class dbpedia:SoccerLeague;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:transferYear ;
+		rr:objectMap [ 
+			rr:column "YEAR";
+			rr:termType rr:Literal;
+			rr:class dbpedia:year;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:transferSeason ;
+		rr:objectMap [ 
+			rr:column "SEASON";
+			rr:termType rr:Literal;
+			rr:class dbpedia:SoccerLeagueSeason;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:transferedInCountry ;
+		rr:objectMap [ 
+			rr:column "COUNTRY";
+			rr:termType rr:Literal;
+			rr:class dbpedia:Country;
 			 ];
 	] ;
 	.
