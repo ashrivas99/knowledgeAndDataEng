@@ -17,17 +17,17 @@
 
     # CLUB_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:clubId ;
+        rr:predicate dbpediaProp:ClubId ;
         rr:objectMap [
             rr:column "CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-             ];
+            ];
     ];
 
     # DOMESTIC_COMPETITION_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:domesticClubId ;
+        rr:predicate dbpediaProp:DomesticCompetitionId ;
         rr:objectMap [
             rr:column "DOMESTIC_COMPETITION_ID";
             rr:termType rr:Literal;
@@ -36,7 +36,7 @@
 
     # TOTAL_MARKET_VALUE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:marketValue ;
+        rr:predicate dbpediaProp:MarketValue ;
         rr:objectMap [
             rr:column "TOTAL_MARKET_VALUE";
             rr:termType rr:Literal;
@@ -76,7 +76,7 @@
 
     # NET_TRANSFER_RECORD
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:TransferRecord ;
+        rr:predicate dbpediaProp:NetTransferRecord ;
         rr:objectMap [
             rr:column "NET_TRANSFER_RECORD";
             rr:termType rr:Literal;
@@ -99,7 +99,7 @@
         rr:predicate dbpediaProp:URI ;
         rr:objectMap [
             rr:column "URL";
-            rr:termType rr:Literal;
+            rr:termType rr:IRI;
             ];
     ];
     .

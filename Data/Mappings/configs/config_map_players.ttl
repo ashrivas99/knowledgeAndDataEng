@@ -1,4 +1,0 @@
-mappingFile = Mappings/map_players.ttl
-CSVFiles = Datasets/players.csv
-outputFile = Output/players.ttl
-format = TURTLE

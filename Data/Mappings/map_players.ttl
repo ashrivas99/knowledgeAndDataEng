@@ -3,7 +3,7 @@
 @prefix dbpedia: <https://dbpedia.org/ontology/>.
 @prefix dbpediaProp: <https://dbpedia.org/property/>
 
-<#ClubMap>
+<#PlayersMap>
     a rr:TriplesMap ;
     rr:logicalTable [
         rr:tableName "PLAYERS"
@@ -17,17 +17,17 @@
 
     # PLAYER_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:playerId ;
+        rr:predicate dbpediaProp:PlayerId ;
         rr:objectMap [
             rr:column "PLAYER_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-             ];
+            ];
     ];
 
     # CURRENT_CLUB_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:currentClubId ;
+        rr:predicate dbpediaProp:CurrentClubId ;
         rr:objectMap [
             rr:column "CURRENT_CLUB_ID";
             rr:termType rr:Literal;
@@ -70,7 +70,7 @@
         rr:predicate dbpediaProp:URI;
         rr:objectMap [
             rr:column "URL";
-            rr:termType rr:Literal;
+            rr:termType rr:IRI;
              ];
     ];
     .
