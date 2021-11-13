@@ -1,0 +1,46 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaProp: <https://dbpedia.org/property/>.
+
+<#GDPMap>
+	a rr:TriplesMap ;
+	rr:logicalTable [
+		rr:tableName "GDPDATA"
+	] ;
+	rr:subjectMap [
+		rr:template "http://ex.org/entity/{COUNTRY}" ;
+		rr:class dbpedia:Country;  
+	] ;
+    rr:predicateObjectMap [
+		rr:predicate dbpediaProp:hasCountryCode ;
+		rr:objectMap [ 
+			rr:column "COUNTRYCODE";
+			rr:termType rr:Literal;
+			rr:class dbpedia:Country;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate dbpediaProp:gdpIndicatorName ;
+		rr:objectMap [ 
+			rr:column "INDICATORNAME";
+			rr:termType rr:Literal;
+			 ];
+	] ;
+    rr:predicateObjectMap [
+		rr:predicate dbpediaProp:gdpIndicatorCode ;
+		rr:objectMap [ 
+			rr:column "INDICATORCODE";
+			rr:termType rr:Literal;
+			 ];
+	] ;
+    rr:predicateObjectMap [
+		rr:predicate dbpediaProp:hasGDP ;
+		rr:objectMap [ 
+			rr:column "2020";
+			rr:termType rr:Literal;
+			rr:class dbpedia:grossDomesticProduct;
+			rr:datatype xsd:float;
+			 ];
+	] ;
+	.
