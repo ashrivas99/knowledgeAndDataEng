@@ -1,0 +1,107 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <https://dbpedia.org/ontology/>.
+@prefix dbpediaProp: <https://dbpedia.org/property/>
+
+<#GamesMap>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:tableName "GAMES"
+    ];
+
+
+    # SUBJECT
+    rr:subjectMap [
+        rr:template "https://dbpedia.org/page/{GAME_ID}" ;
+        rr:class dbpedia:gameID;
+    ];
+
+    # STADIUM
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Stadium ;
+        rr:objectMap [
+            rr:column "STADIUM";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+            ];
+    ];
+    # COMPETITION_CODE
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:CompetitionCode;
+        rr:objectMap [
+            rr:column "COMPETITION_CODE";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+            ];
+    ];
+
+    # ROUND
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Round;
+        rr:objectMap [
+            rr:column "ROUND";
+            rr:termType rr:Literal;
+            rr:datatype xsd:string;
+            ];
+    ];
+
+    #DATE
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:Date;
+        rr:objectMap [
+            rr:column "DATE";
+            rr:termType rr:Literal;
+            rr:datatype xsd:date;
+            ];
+    ];
+
+    #HOME_CLUB_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:HomeClubID;
+        rr:objectMap [
+            rr:column "HOME_CLUB_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            ];
+    ];
+
+    #AWAY_CLUB_ID
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:AwayClubID;
+        rr:objectMap [
+            rr:column "AWAY_CLUB_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            ];
+    ];
+
+
+    #HOME_CLUB_GOALS
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:HomeClubGoals;
+        rr:objectMap [
+            rr:column "HOME_CLUB_GOALS";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            ];
+    ];
+
+    #AWAY_CLUB_GOALS
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:AwayClubGoals;
+        rr:objectMap [
+            rr:column "AWAY_CLUB_GOALS";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            ];
+    ];
+
+    # URL
+    rr:predicateObjectMap [
+        rr:predicate dbpediaProp:URI ;
+        rr:objectMap [
+            rr:column "URL";
+            rr:termType rr:IRI;
+            ];
+    ];
+    .
