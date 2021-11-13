@@ -12,7 +12,7 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "https://dbpedia.org/page/{GAME_ID}" ;
+        rr:template "https://ex.org/entity/{GAME_ID}" ;
         rr:class dbpedia:gameID;
     ];
 
