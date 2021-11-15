@@ -9,7 +9,7 @@
 	] ;
 	rr:subjectMap [
 		rr:template "http://ex.org/entity/{COUNTRY}" ;
-		rr:class football:Countries;
+		rr:class football:GDP;
 	] ;
     rr:predicateObjectMap [
 		rr:predicate football:CountryCode ;

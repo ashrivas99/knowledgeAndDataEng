@@ -242,7 +242,8 @@
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#club_url
 :club_url rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :clubsProperties .
+          rdfs:subPropertyOf :clubsProperties ;
+          owl:propertyDisjointWith <https://dbpedia.org/ontology/player_url> .
 
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties
@@ -283,7 +284,8 @@
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#competition_url
 :competition_url rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :competitionProperties .
+                 rdfs:subPropertyOf :competitionProperties ;
+                 owl:propertyDisjointWith <https://dbpedia.org/ontology/player_url> .
 
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#confederation
@@ -381,7 +383,8 @@
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#games_url
 :games_url rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf :gamesProperties .
+           rdfs:subPropertyOf :gamesProperties ;
+           owl:propertyDisjointWith <https://dbpedia.org/ontology/player_url> .
 
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties
@@ -532,6 +535,11 @@
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards
 :yellow_cards rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  https://dbpedia.org/ontology/player_url
+<https://dbpedia.org/ontology/player_url> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf :playerProperties .
 
 
 #################################################################

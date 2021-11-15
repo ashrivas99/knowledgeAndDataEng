@@ -103,6 +103,16 @@
             ];
     ];
 
+    rr:predicateObjectMap [
+        rr:predicate football:win_club_id;
+        rr:objectMap [
+            rr:column "WIN_CLUB_ID";
+            rr:termType rr:Literal;
+            rr:datatype xsd:int;
+            rr:class football:Games;
+            ];
+    ];
+
     # URL
     rr:predicateObjectMap [
         rr:predicate football:games_url ;

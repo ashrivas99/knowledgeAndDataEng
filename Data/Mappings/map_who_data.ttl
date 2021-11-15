@@ -1,7 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#WHODATA>
     a rr:TriplesMap ;
@@ -12,87 +11,96 @@
     # SUBJECT
     rr:subjectMap [
         rr:template "https://ex.org/entity/{COUNTRIES}" ;
-        rr:class dbpedia:Country;
+        rr:class football:WHO;
 
     ];
 
     #TOTAL_POPULATION
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:populationTotal ;
+        rr:predicate football:Totalpopulation ;
         rr:objectMap [
             rr:column "TOTALPOPULATION" ;
-            rr:datatype xsd:integer
+            rr:datatype xsd:integer;
+            rr:class football:WHO;
         ]
     ];
    
     #LIFE_EXPECTANCY_AT_BIRTH_(YEARS)
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:lifeExpectancy ;
+        rr:predicate football:LifeExpectancy ;
         rr:objectMap [
             rr:column "LIFEEXPECTANCY" ;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
 
     #PROPORTION_OF_BIRTHS_ATTENDED_BY_SKILLED_HEALTH_PERSONNEL
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:proportionOfBirthsAttendedBySkilledHealthPersonnel ;
+        rr:predicate football:Births_Attended_By_Skilled_Professionals ;
         rr:objectMap [
             rr:column "BIRTHS_ATTENDED_BY_SKILLED_PROFESSIONALS" ;
-            rr:datatype xsd:int
+            rr:datatype xsd:int;
+            rr:class football:WHO;
         ]
     ];
 
     #TOTAL_ALCOHOL_PER_CAPITA
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:totalAlcoholPerCapita ;
+        rr:predicate football:Total_alcohol_consumption ;
         rr:objectMap [
             rr:column "TOTAL_ALCOHOL_CONSUMPTION" ;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
 
     #POPULATION_WITH_HOUSEHOLD_EXPENDITURES_ON_HEALTH_>_10%
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:populationWithHouseholdExpendituresOnHealthGreaterThan10Percent ;
+        rr:predicate football:POPULATIONHOUSEHOLDGT10;
         rr:objectMap [
             rr:column "POPULATIONHOUSEHOLDGT10" ;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
 
     #POPULATION_WITH_HOUSEHOLD_EXPENDITURES_ON_HEALTH_>_25%
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:populationWithHouseholdExpendituresOnHealthGreaterThan25Percent ;
+        rr:predicate football:POPULATIONHOUSEHOLDGT25 ;
         rr:objectMap [
             rr:column "POPULATIONHOUSEHOLDGT25" ;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
 
     #Total net development assistance to medical research per capita
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:MedcicalResearchDevelopment ;
+        rr:predicate football:ASSISTANCE_TO_MEDICAL_RESEARCH ;
         rr:objectMap [
             rr:column "ASSISTANCE_TO_MEDICAL_RESEARCH" ;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
 
     #Density of medical doctors (per 10000 population) 
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:densityMedicalDoctors ;
+        rr:predicate football:Density_of_medical_doctors ;
         rr:objectMap [
             rr:column "DENSITY_OF_MEDICAL_DOCTORS" ;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
 
     #Prevalence of obesity among children
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:ObesityInChildren ;
+        rr:predicate football:Prevalence_of_obesity_among_children ;
         rr:objectMap [
             rr:column "PREVALENCE_OF_OBESITY_AMONG_CHILDREN";
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:WHO;
         ]
     ];
