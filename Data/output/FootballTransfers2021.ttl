@@ -28674,7 +28674,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name>
                 "AC Milan" , "Chelsea FC" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned>
-                "1.8"^^<http://www.w3.org/2001/XMLSchema#float> , "0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+                "0"^^<http://www.w3.org/2001/XMLSchema#float> , "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#league_name>
                 "Premier League" , "Serie A" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#position>

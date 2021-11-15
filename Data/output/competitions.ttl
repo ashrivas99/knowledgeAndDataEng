@@ -612,7 +612,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
                 "europa"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#country_id>
-                "141"^^<http://www.w3.org/2001/XMLSchema#int> , "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                "177"^^<http://www.w3.org/2001/XMLSchema#int> , "141"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#country_name>
                 "Russia"^^<http://www.w3.org/2001/XMLSchema#int> , "Ukraine"^^<http://www.w3.org/2001/XMLSchema#int> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code>
