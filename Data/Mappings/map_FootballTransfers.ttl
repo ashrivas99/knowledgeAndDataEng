@@ -1,9 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaClass: <http://dbpedia.org/resource/classes#>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#FootballTransfers2021Map>
 	a rr:TriplesMap ;
@@ -12,79 +9,78 @@
 	] ;
 	rr:subjectMap [
 		rr:template "http://ex.org/entity/{PLAYER_NAME}" ;
-		rr:class dbpedia:SoccerPlayer;  
+		rr:class football:Football_Transfers;
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:currentClub ;
+		rr:predicate football:club_transferrred_to_name ;
 		rr:objectMap [ 
 			rr:column "CLUB_NAME";
-			rr:class dbpedia:SoccerClub;
+			rr:class football:Football_Transfers;;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate foaf:age ;
+		rr:predicate football:age ;
 		rr:objectMap [ 
 			rr:column "AGE";
 			rr:termType rr:Literal;
-			rr:class foaf:Person;
 			rr:datatype xsd:int;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:playsAtPosition ;
+		rr:predicate football:position ;
 		rr:objectMap [ 
 			rr:column "POSITION";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerPlayer;
+			rr:class football:Football_Transfers;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:transferedFrom ;
+		rr:predicate football:club_transferred_from_name ;
 		rr:objectMap [ 
 			rr:column "CLUB_INVOLVED_NAME";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerClub;
+			rr:class football:Football_Transfers;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:transferredFor;
+		rr:predicate football:fee_cleaned;
 		rr:objectMap [ 
 			rr:column "FEE_CLEANED";
 			rr:termType rr:Literal;
-			rr:class dbpediaClass:transferPrice;
+			rr:class football:Football_Transfers;
 			rr:datatype xsd:float;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:playsForLeague ;
+		rr:predicate football:league_name ;
 		rr:objectMap [ 
 			rr:column "LEAGUE_NAME";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerLeague;
+			rr:class football:SoccerLeague;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:transferYear ;
+		rr:predicate football:year ;
 		rr:objectMap [ 
 			rr:column "YEAR";
 			rr:termType rr:Literal;
-			rr:class dbpedia:year;
+			rr:class football:Football_Transfers;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:transferSeason ;
+		rr:predicate football:season ;
 		rr:objectMap [ 
 			rr:column "SEASON";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerLeagueSeason;
+			rr:class football:Football_Transfers;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:transferedInCountry ;
+		rr:predicate football:C ;
 		rr:objectMap [ 
 			rr:column "COUNTRY";
 			rr:termType rr:Literal;
-			rr:class dbpedia:Country;
+			rr:class football:Countries;
 			 ];
 	] ;
 	.
