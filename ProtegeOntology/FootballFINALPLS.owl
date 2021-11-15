@@ -1,0 +1,598 @@
+@prefix : <http://www.cs7is1.org/ontologies/football-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.cs7is1.org/ontologies/football-ontology-3> .
+
+<http://www.cs7is1.org/ontologies/football-ontology-3> rdf:type owl:Ontology ;
+                                                        owl:versionIRI <http://www.cs7is1.org/ontologies/football-ontology-3/1.0.0> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween
+:conductedBetween rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Football_Transfers ;
+                  rdfs:range :Clubs .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#generateGames
+:generateGames rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Competition ;
+               rdfs:range :Games .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared
+:hasAppeared rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Players ;
+             rdfs:range :Appearances .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition
+:hasCompetition rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Football ;
+                rdfs:range :Competition .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats
+:hasHealthStats rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Countries ;
+                rdfs:range :WHO .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue
+:hasMonetaryValue rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Countries ;
+                  rdfs:range :GDP .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers
+:hasTransfers rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Football ;
+              rdfs:range :Football_Transfers .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers
+:havePlayers rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Clubs ;
+             rdfs:range :Players .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport
+:hostsSport rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Countries ;
+            rdfs:range :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition
+:participateInCompetition rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain :Clubs ;
+                          rdfs:range :Competition .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#playInGames
+:playInGames rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Clubs ;
+             rdfs:range :Games .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance
+:resultInAppearance rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :Games ;
+                    rdfs:range :Appearances .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH
+:ASSISTANCE_TO_MEDICAL_RESEARCH rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals
+:Births_Attended_By_Skilled_Professionals rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Countries
+:Countries rdf:type owl:DatatypeProperty ;
+           owl:equivalentProperty :Country ;
+           rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Country
+:Country rdf:type owl:DatatypeProperty ;
+         owl:equivalentProperty :country_name ,
+                                :country_of_birth ,
+                                :country_of_citizenship ;
+         rdfs:subPropertyOf :footballTransfersProperties ,
+                            :gdpProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode
+:CountryCode rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :gdpProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors
+:Density_of_medical_doctors rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode
+:IndicatorCode rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :gdpProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName
+:IndicatorName rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :gdpProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy
+:LifeExpectancy rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10
+:POPULATIONHOUSEHOLDGT10 rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25
+:POPULATIONHOUSEHOLDGT25 rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children
+:Prevalence_of_obesity_among_children rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption
+:Total_alcohol_consumption rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation
+:Totalpopulation rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :whoProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#age
+:age rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id
+:appearance_id rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :appearancesPropertes ;
+               rdfs:domain :Appearances ;
+               rdfs:range xsd:int .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes
+:appearancesPropertes rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Appearances .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#assists
+:assists rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players
+:average_age_of_players rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals
+:away_club_goals rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id
+:away_club_id rdf:type owl:DatatypeProperty ;
+              owl:equivalentProperty :club_id ;
+              rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#club_id
+:club_id rdf:type owl:DatatypeProperty ;
+         owl:equivalentProperty :current_club_id ,
+                                :player_club_id ,
+                                :win_club_id ;
+         rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name
+:club_pretty_name rdf:type owl:DatatypeProperty ;
+                  owl:equivalentProperty :club_transferred_from_name ,
+                                         :club_transferrred_to_name ;
+                  rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name
+:club_transferred_from_name rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name
+:club_transferrred_to_name rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#club_url
+:club_url rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :clubsProperties ;
+          owl:propertyDisjointWith <https://dbpedia.org/ontology/player_url> .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties
+:clubsProperties rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Clubs .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#coach_name
+:coach_name rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties
+:competitionProperties rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :Competition .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#competition_code
+:competition_code rdf:type owl:DatatypeProperty ;
+                  owl:equivalentProperty :competition_id ;
+                  rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#competition_id
+:competition_id rdf:type owl:DatatypeProperty ;
+                owl:equivalentProperty :domestic_competition_id ;
+                rdfs:subPropertyOf :appearancesPropertes ,
+                                   :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#competition_name
+:competition_name rdf:type owl:DatatypeProperty ;
+                  owl:equivalentProperty :league_name ;
+                  rdfs:subPropertyOf :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#competition_url
+:competition_url rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :competitionProperties ;
+                 owl:propertyDisjointWith <https://dbpedia.org/ontology/player_url> .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#confederation
+:confederation rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#country_id
+:country_id rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#country_name
+:country_name rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth
+:country_of_birth rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf :playerProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship
+:country_of_citizenship rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf :playerProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id
+:current_club_id rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :playerProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth
+:date_of_birth rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :playerProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id
+:domestic_competition_id rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code
+:domestic_league_code rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#fee
+:fee rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned
+:fee_cleaned rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties
+:footballTransfersProperties rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf owl:topDataProperty ;
+                             rdfs:domain :Football_Transfers .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number
+:foreigners_number rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage
+:foreigners_percentage rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason
+:gamePlayedSeason rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#game_id
+:game_id rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :appearancesPropertes ,
+                            :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties
+:gamesProperties rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Games .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#games_url
+:games_url rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :gamesProperties ;
+           owl:propertyDisjointWith <https://dbpedia.org/ontology/player_url> .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties
+:gdpProperties rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :GDP .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue
+:gdpValue rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :gdpProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference
+:goal_difference rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#goals
+:goals rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals
+:home_club_goals rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id
+:home_club_id rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#league_name
+:league_name rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played
+:minutes_played rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players
+:national_team_players rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record
+:net_transfer_record rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties
+:playerProperties rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Players .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id
+:player_club_id rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#player_id
+:player_id rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :appearancesPropertes ,
+                              :playerProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#player_name
+:player_name rdf:type owl:DatatypeProperty ;
+             owl:equivalentProperty :players_pretty_name ;
+             rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name
+:players_pretty_name rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf :playerProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#position
+:position rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#red_cards
+:red_cards rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#round
+:round rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#season
+:season rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#squad_size
+:squad_size rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#stadium
+:stadium rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name
+:stadium_name rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats
+:stadium_seats rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value
+:total_market_value rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :clubsProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#type
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf :competitionProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties
+:whoProperties rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :WHO .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id
+:win_club_id rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :gamesProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#year
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf :footballTransfersProperties .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards
+:yellow_cards rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :appearancesPropertes .
+
+
+###  https://dbpedia.org/ontology/player_url
+<https://dbpedia.org/ontology/player_url> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf :playerProperties .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Appearances
+:Appearances rdf:type owl:Class ;
+             rdfs:subClassOf :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Clubs
+:Clubs rdf:type owl:Class ;
+       rdfs:subClassOf :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Competition
+:Competition rdf:type owl:Class ;
+             rdfs:subClassOf :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Countries
+:Countries rdf:type owl:Class .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Football
+:Football rdf:type owl:Class ;
+          rdfs:subClassOf :Countries .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers
+:Football_Transfers rdf:type owl:Class ;
+                    rdfs:subClassOf :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#GDP
+:GDP rdf:type owl:Class ;
+     rdfs:subClassOf :Countries .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Games
+:Games rdf:type owl:Class ;
+       rdfs:subClassOf :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#Players
+:Players rdf:type owl:Class ;
+         rdfs:subClassOf :Football .
+
+
+###  http://www.cs7is1.org/ontologies/football-ontology-3#WHO
+:WHO rdf:type owl:Class ;
+     rdfs:subClassOf :Countries .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

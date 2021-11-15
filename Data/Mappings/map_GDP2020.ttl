@@ -1,7 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>.
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#GDPMap>
 	a rr:TriplesMap ;
@@ -9,38 +8,40 @@
 		rr:tableName "GDPDATA"
 	] ;
 	rr:subjectMap [
-		rr:template "http://ex.org/entity/{COUNTRY}" ;
-		rr:class dbpedia:Country;  
+		rr:template "http://ex.org/entity/gdpdata/{COUNTRY}" ;
+		rr:class football:GDP;
 	] ;
     rr:predicateObjectMap [
-		rr:predicate dbpediaProp:hasCountryCode ;
+		rr:predicate football:CountryCode ;
 		rr:objectMap [ 
 			rr:column "COUNTRYCODE";
 			rr:termType rr:Literal;
-			rr:class dbpedia:Country;
+			rr:class football:GDP
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:gdpIndicatorName ;
+		rr:predicate football:IndicatorName ;
 		rr:objectMap [ 
 			rr:column "INDICATORNAME";
 			rr:termType rr:Literal;
+			rr:class football:GDP
 			 ];
 	] ;
     rr:predicateObjectMap [
-		rr:predicate dbpediaProp:gdpIndicatorCode ;
+		rr:predicate football:IndicatorCode ;
 		rr:objectMap [ 
 			rr:column "INDICATORCODE";
 			rr:termType rr:Literal;
+			rr:class football:GDP
 			 ];
 	] ;
     rr:predicateObjectMap [
-		rr:predicate dbpediaProp:hasGDP ;
+		rr:predicate football:gdpValue ;
 		rr:objectMap [ 
 			rr:column "2020";
 			rr:termType rr:Literal;
-			rr:class dbpedia:grossDomesticProduct;
 			rr:datatype xsd:float;
+			rr:class football:GDP
 			 ];
 	] ;
 	.

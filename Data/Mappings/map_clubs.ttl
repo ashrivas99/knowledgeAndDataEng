@@ -1,7 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#ClubMap>
     a rr:TriplesMap ;
@@ -11,95 +10,104 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "http://ex.org/entity/{PRETTY_NAME}" ;
-        rr:class dbpedia:FootballClub;
+        rr:template "http://ex.org/entity/clubs/{PRETTY_NAME}" ;
+        rr:class football:Clubs;
     ];
 
     # CLUB_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:ClubId ;
+        rr:predicate football:club_id ;
         rr:objectMap [
             rr:column "CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Clubs;
             ];
     ];
 
     # DOMESTIC_COMPETITION_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:DomesticCompetitionId ;
+        rr:predicate football:domestic_competition_id ;
         rr:objectMap [
             rr:column "DOMESTIC_COMPETITION_ID";
             rr:termType rr:Literal;
+            rr:class football:Clubs;
             ];
     ];
 
     # TOTAL_MARKET_VALUE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:MarketValue ;
+        rr:predicate football:total_market_value ;
         rr:objectMap [
             rr:column "TOTAL_MARKET_VALUE";
             rr:termType rr:Literal;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:Clubs;
             ];
     ];
 
     # SQUAD_SIZE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:SquadSize ;
+        rr:predicate football:squad_size ;
         rr:objectMap [
             rr:column "SQUAD_SIZE";
             rr:termType rr:Literal;
-            rr:datatype xsd:int
+            rr:datatype xsd:int;
+            rr:class football:Clubs;
             ];
     ];
 
     # STADIUM_NAME
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:StadiumName ;
+        rr:predicate football:stadium_name ;
         rr:objectMap [
             rr:column "STADIUM_NAME";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
+            rr:class football:Clubs;
             ];
     ];
 
     # STADIUM_SEATS
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:StadiumSeats ;
+        rr:predicate football:stadium_seats ;
         rr:objectMap [
             rr:column "STADIUM_SEATS";
             rr:termType rr:Literal;
-            rr:datatype xsd:int
+            rr:datatype xsd:int;
+            rr:class football:Clubs;
             ];
     ];
 
     # NET_TRANSFER_RECORD
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:NetTransferRecord ;
+        rr:predicate football:net_transfer_record ;
         rr:objectMap [
             rr:column "NET_TRANSFER_RECORD";
             rr:termType rr:Literal;
-            rr:datatype xsd:float
+            rr:datatype xsd:float;
+            rr:class football:Clubs;
             ];
     ];
 
     # COACH_NAME
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:Coach ;
+        rr:predicate football:coach_name ;
         rr:objectMap [
             rr:column "COACH_NAME";
             rr:termType rr:Literal;
-            rr:datatype xsd:string
+            rr:datatype xsd:string;
+            rr:class football:Clubs;
             ];
     ];
 
     # URL
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:URI ;
+        rr:predicate football:club_url ;
         rr:objectMap [
             rr:column "URL";
             rr:termType rr:IRI;
+            rr:class football:Clubs;
             ];
     ];
     .

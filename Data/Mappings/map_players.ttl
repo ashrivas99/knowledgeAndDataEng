@@ -1,7 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#PlayersMap>
     a rr:TriplesMap ;
@@ -11,67 +10,64 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "http://ex.org/entity/{PRETTY_NAME}" ;
-        rr:class dbpedia:FootballPlayer;
+        rr:template "http://ex.org/entity/players/{PRETTY_NAME}" ;
+        rr:class football:Players;
     ];
 
     # PLAYER_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:PlayerId ;
+        rr:predicate football:player_id ;
         rr:objectMap [
             rr:column "PLAYER_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Players;
             ];
     ];
 
     # CURRENT_CLUB_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:CurrentClubId ;
+        rr:predicate football:current_club_id ;
         rr:objectMap [
             rr:column "CURRENT_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-             ];
-    ];
-
-    # PLAYER_ID
-    rr:predicateObjectMap [
-        rr:predicate dbpediaProp:playerId ;
-        rr:objectMap [
-            rr:column "PLAYER_ID";
-            rr:termType rr:Literal;
-            rr:datatype xsd:int;
+            rr:class football:Players;
              ];
     ];
 
     # COUNTRY_OF_BIRTH
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:country ;
+        rr:predicate football:country_of_birth ;
         rr:objectMap [
             rr:column "COUNTRY_OF_BIRTH";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
+            rr:class football:Players;
              ];
     ];
 
     # COUNTRY_OF_CITIZENSHIP
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:country ;
+        rr:predicate football:country_of_citizenship ;
         rr:objectMap [
             rr:column "COUNTRY_OF_CITIZENSHIP";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
+            rr:class football:Players;
              ];
     ];
 
     #URL
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:URI;
+        rr:predicate football:player_url;
         rr:objectMap [
             rr:column "URL";
             rr:termType rr:IRI;
+            rr:class football:Players;
              ];
     ];
     .
+
+
 

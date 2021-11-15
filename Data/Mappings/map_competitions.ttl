@@ -1,7 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <CompetitonMap>
     a rr:TriplesMap ;
@@ -11,78 +10,84 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "http://ex.org/entity/{NAME}" ;
-        rr:class dbpedia:FootballCompetiton;
+        rr:template "http://ex.org/entity/competitions/{NAME}" ;
+        rr:class football:Competition;
     ];
 
     # COMPETITON_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:CompetitionId ;
+        rr:predicate football:competition_id ;
         rr:objectMap [
             rr:column "COMPETITION_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Competition;
              ];
     ];
 
     # TYPE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:CompetitionId ;
+        rr:predicate football:type ;
         rr:objectMap [
             rr:column "TYPE";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Competition;
             ];
     ];
 
     # CountryId
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:CountryId ;
+        rr:predicate football:country_id ;
         rr:objectMap [
             rr:column "COUNTRY_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Competition;
              ];
     ];
 
     # CountryName
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:Country ;
+        rr:predicate football:country_name ;
         rr:objectMap [
             rr:column "COUNTRY_NAME";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-            rr:class dbpedia:country;
+            rr:class football:Countries;
              ];
     ];
 
 
     #DOMESTIC_LEAGUE_CODE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:DomesticLeagueCode ;
+        rr:predicate football:domestic_league_code ;
         rr:objectMap [
             rr:column "DOMESTIC_LEAGUE_CODE";
             rr:termType rr:Literal;
+            rr:class football:Competition;
              ];
     ];
 
 
     #CONFEDERATION
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:Confederation ;
+        rr:predicate football:confederation ;
         rr:objectMap [
             rr:column "CONFEDERATION";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Competition;
              ];
     ];
 
     #URL
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:URL;
+        rr:predicate football:competition_url;
         rr:objectMap [
             rr:column "URL";
             rr:termType rr:IRI;
+            rr:class football:Competition;
              ];
     ];
     .
