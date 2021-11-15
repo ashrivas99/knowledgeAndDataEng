@@ -2,6 +2,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "FR1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "ligue-1" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/ligue-1/startseite/wettbewerb/FR1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -19,6 +21,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "CL" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "uefa-champions-league" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/uefa-champions-league/startseite/pokalwettbewerb/CL> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -32,6 +36,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "NL1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "eredivisie" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/eredivisie/startseite/wettbewerb/NL1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -49,6 +55,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "RUSS" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "russian-super-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/russian-super-cup/startseite/wettbewerb/RUSS> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -66,6 +74,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "DFL" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "dfl-supercup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/dfl-supercup/startseite/wettbewerb/DFL> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -83,6 +93,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "GRP" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "kypello-elladas" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/kypello-elladas/startseite/wettbewerb/GRP> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -100,6 +112,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "EL" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "europa-league" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/europa-league/startseite/pokalwettbewerb/EL> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -113,6 +127,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "SCI" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "supercoppa-italiana" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/supercoppa-italiana/startseite/wettbewerb/SCI> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -130,6 +146,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "GBCS" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "community-shield" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/community-shield/startseite/wettbewerb/GBCS> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -147,6 +165,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "PO1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "liga-portugal-bwin" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/liga-portugal-bwin/startseite/wettbewerb/PO1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -164,6 +184,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "ECLQ" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "uefa-europa-conference-league-qualifikation" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/uefa-europa-conference-league-qualifikation/startseite/pokalwettbewerb/ECLQ> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -177,6 +199,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "NLP" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "toto-knvb-beker" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/toto-knvb-beker/startseite/wettbewerb/NLP> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -194,6 +218,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "POSU" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "supertaca-candido-de-oliveira" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/supertaca-candido-de-oliveira/startseite/wettbewerb/POSU> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -211,6 +237,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "CGB" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "efl-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/efl-cup/startseite/wettbewerb/CGB> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -228,6 +256,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "NLSC" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "johan-cruijff-schaal" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/johan-cruijff-schaal/startseite/wettbewerb/NLSC> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -245,6 +275,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "BESC" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "belgian-supercup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/belgian-supercup/startseite/wettbewerb/BESC> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -262,6 +294,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "DK1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "superligaen" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/superligaen/startseite/wettbewerb/DK1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -279,6 +313,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "SUC" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "supercopa" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/supercopa/startseite/wettbewerb/SUC> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -296,6 +332,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "L1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "bundesliga" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/L1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -313,6 +351,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "ES1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "laliga" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/laliga/startseite/wettbewerb/ES1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -330,6 +370,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "SC1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "scottish-premiership" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/scottish-premiership/startseite/wettbewerb/SC1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -347,6 +389,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "UKRS" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "ukrainian-super-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/ukrainian-super-cup/startseite/wettbewerb/UKRS> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -364,6 +408,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "KLUB" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "fifa-klub-wm" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/fifa-klub-wm/startseite/pokalwettbewerb/KLUB> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -377,6 +423,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "UKR1" , "RU1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "premier-liga" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/premier-liga/startseite/wettbewerb/RU1> , <https://www.transfermarkt.co.uk/premier-liga/startseite/wettbewerb/UKR1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -394,6 +442,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "DKP" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "sydbank-pokalen" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/sydbank-pokalen/startseite/wettbewerb/DKP> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -411,6 +461,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "POCP" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "allianz-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/allianz-cup/startseite/wettbewerb/POCP> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -428,6 +480,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "SFA" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "sfa-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/sfa-cup/startseite/wettbewerb/SFA> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -445,6 +499,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "ELQ" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "europa-league-qualifikation" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/europa-league-qualifikation/startseite/pokalwettbewerb/ELQ> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -458,6 +514,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "FRCH" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "trophee-des-champions" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/trophee-des-champions/startseite/wettbewerb/FRCH> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -475,6 +533,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "RUP" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "russian-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/russian-cup/startseite/wettbewerb/RUP> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -492,6 +552,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "GB1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "premier-league" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/premier-league/startseite/wettbewerb/GB1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -509,6 +571,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "DFB" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "dfb-pokal" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/dfb-pokal/startseite/wettbewerb/DFB> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -526,6 +590,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "IT1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "serie-a" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/serie-a/startseite/wettbewerb/IT1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -543,6 +609,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "GR1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "super-league-1" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/super-league-1/startseite/wettbewerb/GR1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -560,6 +628,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "CLQ" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "uefa-champions-league-qualifikation" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/uefa-champions-league-qualifikation/startseite/pokalwettbewerb/CLQ> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -573,6 +643,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "USC" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "uefa-super-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/uefa-super-cup/startseite/pokalwettbewerb/USC> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -586,6 +658,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "BE1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "jupiler-pro-league" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/jupiler-pro-league/startseite/wettbewerb/BE1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -603,6 +677,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "UKRP" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "ukrainian-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/ukrainian-cup/startseite/wettbewerb/UKRP> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -620,6 +696,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "CDR" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "copa-del-rey" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/copa-del-rey/startseite/wettbewerb/CDR> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -637,6 +715,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "CIT" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "italy-cup" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/italy-cup/startseite/wettbewerb/CIT> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
@@ -654,6 +734,8 @@
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id>
                 "TR1" ;
+        <http://www.cs7is1.org/ontologies/football-ontology-3#competition_name>
+                "super-lig" ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url>
                 <https://www.transfermarkt.co.uk/super-lig/startseite/wettbewerb/TR1> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#confederation>
