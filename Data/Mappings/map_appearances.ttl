@@ -1,9 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaClass: <http://dbpedia.org/resource/classes#>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#FootballTransfers2021Map>
 	a rr:TriplesMap ;
@@ -12,63 +9,65 @@
 	] ;
 	rr:subjectMap [
 		rr:template "http://ex.org/entity/{APPEARANCE_ID}" ;
-		rr:class dbpedia:SoccerPlayer;  
+		rr:class football:Appearances;
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:playerID ;
+		rr:predicate football:player_id ;
 		rr:objectMap [ 
 			rr:column "PLAYER_ID";
-			rr:class dbpedia:SoccerPlayer;
+			rr:class football:Appearances;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:playedInGame ;
+		rr:predicate football:game_id ;
 		rr:objectMap [ 
 			rr:column "GAME_ID";
 			rr:termType rr:Literal;
-			rr:class dbpediaClass:gameID;
+			rr:class football:Appearances;
 			rr:datatype xsd:double;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:playedInCompetition ;
+		rr:predicate football:competition_id ;
 		rr:objectMap [ 
 			rr:column "COMPETITION_ID";
 			rr:termType rr:Literal;
+			rr:class football:Appearances;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:clubIDofPlayerAppearing ;
+		rr:predicate football:player_club_id ;
 		rr:objectMap [ 
 			rr:column "PLAYER_CLUB_ID";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerClub;
+			rr:class football:Appearances;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:goalsScored;
+		rr:predicate football:goals;
 		rr:objectMap [ 
 			rr:column "GOALS";
 			rr:termType rr:Literal;
-			rr:class dbpediaClass:SoccerPlayer;
+			rr:class football:Appearances;
 			rr:datatype xsd:int;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:assistsMade ;
+		rr:predicate football:assists ;
 		rr:objectMap [ 
 			rr:column "ASSISTS";
 			rr:termType rr:Literal;
-			rr:class dbpedia:SoccerPlayer;
+			rr:class football:Appearances;
             rr:datatype xsd:int;
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate dbpediaProp:minutesPlayedInAppearence ;
+		rr:predicate football:minutes_played ;
 		rr:objectMap [ 
 			rr:column "MINUTES_PLAYED";
 			rr:termType rr:Literal;
 			rr:datatype xsd:int;
+			rr:class football:Appearances;
 			 ];
 	] ;
 	.
