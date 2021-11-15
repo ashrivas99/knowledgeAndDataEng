@@ -15,6 +15,15 @@
 
     ];
 
+    rr:predicateObjectMap [
+        rr:predicate football:countries ;
+        rr:objectMap [
+            rr:column "COUNTRIES" ;
+            rr:termType rr:Literal;
+            rr:class football:WHO;
+        ]
+    ];
+
     #TOTAL_POPULATION
     rr:predicateObjectMap [
         rr:predicate football:Totalpopulation ;

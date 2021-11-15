@@ -15,6 +15,15 @@
         rr:class football:Games;
     ];
 
+     rr:predicateObjectMap [
+        rr:predicate football:game_id ;
+        rr:objectMap [
+            rr:column "GAME_ID";
+            rr:termType rr:Literal;
+            rr:class football:Games;
+            ];
+    ];
+
     # STADIUM
     rr:predicateObjectMap [
         rr:predicate football:stadium ;

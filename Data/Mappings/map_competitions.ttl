@@ -14,6 +14,16 @@
         rr:class football:Competition;
     ];
 
+    rr:predicateObjectMap [
+        rr:predicate football:competition_name ;
+        rr:objectMap [
+            rr:column "NAME";
+            rr:termType rr:Literal;
+            rr:class football:Competition;
+             ];
+    ];
+
+
     # COMPETITON_ID
     rr:predicateObjectMap [
         rr:predicate football:competition_id ;

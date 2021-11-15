@@ -12,6 +12,14 @@
 		rr:class football:Football_Transfers;
 	] ;
 	rr:predicateObjectMap [
+		rr:predicate football:player_name ;
+		rr:objectMap [ 
+			rr:column "PLAYER_NAME";
+			rr:termType rr:Literal;
+			rr:class football:Football_Transfers;;
+			 ];
+	] ;
+	rr:predicateObjectMap [
 		rr:predicate football:club_transferrred_to_name ;
 		rr:objectMap [ 
 			rr:column "CLUB_NAME";

@@ -14,6 +14,14 @@
         rr:class football:Clubs;
     ];
 
+    rr:predicateObjectMap [
+            rr:predicate football:club_pretty_name ;
+            rr:objectMap [
+                rr:column "PRETTY_NAME";
+                rr:termType rr:Literal;
+                rr:class football:Clubs;
+                ];
+        ];
     # CLUB_ID
     rr:predicateObjectMap [
         rr:predicate football:club_id ;

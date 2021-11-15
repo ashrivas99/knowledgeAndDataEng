@@ -11,6 +11,14 @@
 		rr:template "http://ex.org/entity/gdpdata/{COUNTRY}" ;
 		rr:class football:GDP;
 	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:country ;
+		rr:objectMap [ 
+			rr:column "COUNTRY";
+			rr:termType rr:Literal;
+			rr:class football:GDP
+			 ];
+	] ;
     rr:predicateObjectMap [
 		rr:predicate football:CountryCode ;
 		rr:objectMap [ 

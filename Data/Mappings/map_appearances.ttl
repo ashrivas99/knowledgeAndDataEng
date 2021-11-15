@@ -12,6 +12,14 @@
 		rr:class football:Appearances;
 	] ;
 	rr:predicateObjectMap [
+		rr:predicate football:appearance_id ;
+		rr:objectMap [ 
+			rr:column "APPEARANCE_ID";
+			rr:termType rr:Literal;
+			rr:class football:Appearances;
+			 ];
+	] ;
+	rr:predicateObjectMap [
 		rr:predicate football:player_id ;
 		rr:objectMap [ 
 			rr:column "PLAYER_ID";
