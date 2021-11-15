@@ -17,7 +17,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "100 388"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "100 388"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Sudan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -38,7 +38,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "-"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "42 813"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "42 813"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Burkina%20Faso>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -59,7 +59,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "20 321"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "20 321"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Monaco>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -80,7 +80,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "-"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                39 .
+                "39"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Singapore>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -101,7 +101,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 804"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 804"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Cuba>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -122,7 +122,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 333"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 333"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Uzbekistan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -143,7 +143,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "32 982"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "32 982"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Somalia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -164,7 +164,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "15 443"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "15 443"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Samoa>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -185,7 +185,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                197 .
+                "197"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Algeria>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -206,7 +206,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "43 053"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "43 053"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Panama>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -227,7 +227,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 246"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 246"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Tajikistan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -248,7 +248,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "9 321"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "9 321"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bosnia%20and%20Herzegovina>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -269,7 +269,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "3 301"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "3 301"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Region%20of%20the%20Americas>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -290,7 +290,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 009 950"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 009 950"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Qatar>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -311,7 +311,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 832"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 832"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Nicaragua>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -332,7 +332,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "6 546"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "6 546"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Chad>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -353,7 +353,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "15 947"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "15 947"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/South%20Africa>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -374,7 +374,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "58 558"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "58 558"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Lesotho>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -395,7 +395,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 125"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 125"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Kuwait>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -416,7 +416,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 207"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 207"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Gambia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -437,7 +437,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 348"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 348"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Grenada>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -458,7 +458,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                112 .
+                "112"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Uruguay>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -479,7 +479,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "3 462"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "3 462"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Trinidad%20and%20Tobago>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -500,7 +500,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 395"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 395"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Cook%20Islands>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -521,7 +521,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                18 .
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Kyrgyzstan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -542,7 +542,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "6 416"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "6 416"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Rwanda>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -563,7 +563,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "12 627"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "12 627"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Peru>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -584,7 +584,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "32 510"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "32 510"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Madagascar>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -605,7 +605,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "26 969"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "26 969"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Eswatini>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -626,7 +626,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 148"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 148"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Iraq>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -647,7 +647,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "39 310"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "39 310"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Slovakia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -668,7 +668,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 457"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 457"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Comoros>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -689,7 +689,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                851 .
+                "851"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Russian%20Federation>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -710,7 +710,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "145 872"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "145 872"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Israel>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -731,7 +731,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "8 519"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "8 519"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Germany>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -752,7 +752,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "83 517"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "83 517"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Central%20African%20Republic>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -773,7 +773,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 745"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 745"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Argentina>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -794,7 +794,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "44 781"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "44 781"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Hungary>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -815,7 +815,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "9 685"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "9 685"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Fiji>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -836,7 +836,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                890 .
+                "890"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Republic%20of%20Moldova>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -857,7 +857,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 043"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 043"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/United%20Republic%20of%20Tanzania>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -878,7 +878,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "58 005"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "58 005"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Republic%20of%20Korea>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -899,7 +899,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "51 225"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "51 225"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Italy>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -920,7 +920,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "60 550"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "60 550"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Ukraine>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -941,7 +941,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "43 994"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "43 994"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Turkey>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -962,7 +962,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "83 430"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "83 430"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Niger>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -983,7 +983,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "23 311"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "23 311"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Niue>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1004,7 +1004,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                2 .
+                "2"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bhutan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1025,7 +1025,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                763 .
+                "763"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Barbados>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1046,7 +1046,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                287 .
+                "287"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Cyprus>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1067,7 +1067,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 199"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 199"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Mongolia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1088,7 +1088,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "3 225"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "3 225"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Oman>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1109,7 +1109,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 975"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 975"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Philippines>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1130,7 +1130,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "108 117"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "108 117"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/United%20Arab%20Emirates>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1151,7 +1151,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "9 771"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "9 771"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Morocco>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1172,7 +1172,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "36 472"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "36 472"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Norway>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1193,7 +1193,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 379"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 379"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Malawi>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1214,7 +1214,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "18 629"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "18 629"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Marshall%20Islands>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1235,7 +1235,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "-"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                59 .
+                "59"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Nepal>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1256,7 +1256,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "28 609"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "28 609"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Saudi%20Arabia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1277,7 +1277,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "34 269"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "34 269"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Romania>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1298,7 +1298,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "19 365"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "19 365"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Japan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1319,7 +1319,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "126 860"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "126 860"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/United%20States%20of%20America>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1340,7 +1340,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "329 065"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "329 065"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/European%20Region>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1361,7 +1361,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "930 167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "930 167"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Dominican%20Republic>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1382,7 +1382,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 739"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 739"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Gabon>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1403,7 +1403,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 173"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 173"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Sao%20Tome%20and%20Principe>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1424,7 +1424,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                215 .
+                "215"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Iran%20%28Islamic%20Republic%20of%29>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1445,7 +1445,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "82 914"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "82 914"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/San%20Marino>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1466,7 +1466,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "-"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                34 .
+                "34"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/El%20Salvador>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1487,7 +1487,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "6 454"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "6 454"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/India>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1508,7 +1508,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1366 418"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1366 418"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bulgaria>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1529,7 +1529,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "7 000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "7 000"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Montenegro>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1550,7 +1550,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                628 .
+                "628"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Global>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1571,7 +1571,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "7 676 965"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "7 676 965"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Venezuela%20%28Bolivarian%20Republic%20of%29>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1592,7 +1592,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "28 516"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "28 516"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Greece>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1613,7 +1613,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 473"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 473"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bahrain>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1634,7 +1634,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 641"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 641"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Belgium>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1655,7 +1655,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 539"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 539"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Mauritania>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1676,7 +1676,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 526"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 526"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Iceland>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1697,7 +1697,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                339 .
+                "339"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Mauritius>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1718,7 +1718,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 270"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 270"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Jamaica>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1739,7 +1739,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 948"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 948"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Georgia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1760,7 +1760,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "3 997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "3 997"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Cameroon>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1781,7 +1781,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "25 876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "25 876"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Angola>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1802,7 +1802,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "31 825"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "31 825"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Equatorial%20Guinea>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1823,7 +1823,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 356"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 356"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Saint%20Kitts%20and%20Nevis>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1844,7 +1844,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                53 .
+                "53"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Botswana>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1865,7 +1865,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 304"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 304"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Democratic%20People%27s%20Republic%20of%20Korea>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1886,7 +1886,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "25 666"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "25 666"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Cambodia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1907,7 +1907,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "16 487"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "16 487"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Belize>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1928,7 +1928,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                390 .
+                "390"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Kenya>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1949,7 +1949,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "52 574"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "52 574"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Armenia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1970,7 +1970,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 958"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 958"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Thailand>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -1991,7 +1991,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "69 626"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "69 626"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Western%20Pacific%20Region>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2012,7 +2012,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 930 867"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 930 867"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Ireland>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2033,7 +2033,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 882"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 882"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/South-East%20Asia%20Region>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2054,7 +2054,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 001 946"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 001 946"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Switzerland>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2075,7 +2075,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "8 591"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "8 591"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/New%20Zealand>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2096,7 +2096,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 783"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 783"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Yemen>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2117,7 +2117,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "<0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "29 162"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "29 162"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Zimbabwe>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2138,7 +2138,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "14 645"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "14 645"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Albania>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2159,7 +2159,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 881"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 881"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Colombia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2180,7 +2180,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "50 339"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "50 339"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Chile>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2201,7 +2201,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "18 952"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "18 952"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Benin>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2222,7 +2222,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 801"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 801"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Nigeria>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2243,7 +2243,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "200 964"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "200 964"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bahamas>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2264,7 +2264,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                389 .
+                "389"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/African%20Region>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2285,7 +2285,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 091 759"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 091 759"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Ecuador>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2306,7 +2306,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "17 374"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "17 374"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Estonia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2327,7 +2327,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 326"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 326"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Vanuatu>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2348,7 +2348,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                300 .
+                "300"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Syrian%20Arab%20Republic>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2369,7 +2369,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "17 070"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "17 070"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Kazakhstan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2390,7 +2390,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "18 551"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "18 551"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bolivia%20%28Plurinational%20State%20of%29>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2411,7 +2411,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 513"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 513"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Serbia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2432,7 +2432,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "8 772"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "8 772"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Mozambique>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2453,7 +2453,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "30 366"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "30 366"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Ghana>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2474,7 +2474,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "30 418"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "30 418"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Mexico>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2495,7 +2495,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "127 576"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "127 576"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Paraguay>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2516,7 +2516,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "7 045"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "7 045"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Latvia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2537,7 +2537,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "13.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 907"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 907"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Uganda>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2558,7 +2558,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "44 270"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "44 270"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Malta>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2579,7 +2579,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                440 .
+                "440"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Guyana>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2600,7 +2600,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                783 .
+                "783"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/China>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2621,7 +2621,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1441 860"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1441 860"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Djibouti>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2642,7 +2642,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                974 .
+                "974"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Saint%20Lucia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2663,7 +2663,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                183 .
+                "183"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Bangladesh>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2684,7 +2684,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "163 046"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "163 046"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Azerbaijan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2705,7 +2705,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 048"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 048"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Malaysia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2726,7 +2726,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "31 950"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "31 950"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Canada>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2747,7 +2747,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "37 411"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "37 411"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Seychelles>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2768,7 +2768,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                98 .
+                "98"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Micronesia%20%28Federated%20States%20of%29>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2789,7 +2789,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                114 .
+                "114"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Brazil>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2810,7 +2810,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "211 050"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "211 050"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Antigua%20and%20Barbuda>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2831,7 +2831,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                97 .
+                "97"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Honduras>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2852,7 +2852,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "9 746"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "9 746"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Spain>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2873,7 +2873,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "46 737"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "46 737"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Mali>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2894,7 +2894,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "19 658"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "19 658"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Côte%20d%27Ivoire>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2915,7 +2915,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "25 717"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "25 717"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Jordan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2936,7 +2936,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 102"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 102"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Finland>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2957,7 +2957,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 532"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 532"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Cabo%20Verde>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2978,7 +2978,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                550 .
+                "550"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Netherlands>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -2999,7 +2999,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "17 097"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "17 097"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Myanmar>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3020,7 +3020,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "54 045"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "54 045"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Guinea>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3041,7 +3041,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "12 771"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "12 771"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Suriname>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3062,7 +3062,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                581 .
+                "581"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Denmark>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3083,7 +3083,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 772"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 772"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Namibia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3104,7 +3104,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 495"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 495"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Czechia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3125,7 +3125,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "14.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 689"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 689"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Zambia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3146,7 +3146,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "17 861"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "17 861"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Croatia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3167,7 +3167,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "8.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 130"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 130"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/United%20Kingdom>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3188,7 +3188,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "67 530"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "67 530"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/North%20Macedonia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3209,7 +3209,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "6.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 083"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 083"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Sierra%20Leone>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3230,7 +3230,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "7 813"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "7 813"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Luxembourg>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3251,7 +3251,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                616 .
+                "616"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Haiti>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3272,7 +3272,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 263"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 263"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Austria>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3293,7 +3293,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "8 955"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "8 955"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Tuvalu>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3314,7 +3314,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                12 .
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Sri%20Lanka>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3335,7 +3335,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "21 324"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "21 324"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Sweden>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3356,7 +3356,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 036"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 036"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Liberia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3377,7 +3377,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "4 937"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "4 937"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Dominica>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3398,7 +3398,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                72 .
+                "72"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Democratic%20Republic%20of%20the%20Congo>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3419,7 +3419,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "86 791"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "86 791"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Guinea-Bissau>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3440,7 +3440,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "5.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 921"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 921"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Andorra>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3461,7 +3461,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                77 .
+                "77"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Togo>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3482,7 +3482,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "8 082"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "8 082"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Tunisia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3503,7 +3503,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 695"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 695"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Lithuania>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3524,7 +3524,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 760"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 760"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Portugal>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3545,7 +3545,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "10 226"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "10 226"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Afghanistan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3566,7 +3566,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "<0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "38 042"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "38 042"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Senegal>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3587,7 +3587,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "16 296"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "16 296"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Slovenia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3608,7 +3608,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "2 079"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "2 079"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Eritrea>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3629,7 +3629,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "3 497"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "3 497"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Kiribati>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3650,7 +3650,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                118 .
+                "118"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Timor-Leste>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3671,7 +3671,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "1 293"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "1 293"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/South%20Sudan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3692,7 +3692,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "-"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 062"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 062"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Lebanon>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3713,7 +3713,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "6 856"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "6 856"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Viet%20Nam>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3734,7 +3734,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "96 462"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "96 462"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Papua%20New%20Guinea>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3755,7 +3755,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "8 776"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "8 776"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Solomon%20Islands>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3776,7 +3776,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                670 .
+                "670"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Ethiopia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3797,7 +3797,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "112 079"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "112 079"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Tonga>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3818,7 +3818,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                104 .
+                "104"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Palau>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3839,7 +3839,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "-"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                18 .
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Maldives>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3860,7 +3860,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "2.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                531 .
+                "531"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Australia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3881,7 +3881,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "10.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "25 203"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "25 203"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Brunei%20Darussalam>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3902,7 +3902,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                433 .
+                "433"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Guatemala>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3923,7 +3923,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "17 581"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "17 581"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Pakistan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3944,7 +3944,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "216 565"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "216 565"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Poland>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3965,7 +3965,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "37 888"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "37 888"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Burundi>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -3986,7 +3986,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "11 531"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "11 531"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/France>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4007,7 +4007,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "65 130"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "65 130"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Turkmenistan>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4028,7 +4028,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "3.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 942"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 942"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Indonesia>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4049,7 +4049,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "270 626"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "270 626"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Costa%20Rica>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4070,7 +4070,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 048"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 048"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Nauru>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4091,7 +4091,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "4.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                11 .
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Lao%20People%27s%20Democratic%20Republic>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4112,7 +4112,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "12.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "7 169"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "7 169"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Belarus>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4133,7 +4133,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "11"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "9 452"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "9 452"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Eastern%20Mediterranean%20Region>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4154,7 +4154,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "712 276"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "712 276"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Libya>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4175,7 +4175,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "<0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "6 777"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "6 777"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Saint%20Vincent%20and%20the%20Grenadines>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4196,7 +4196,7 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "7.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                111 .
+                "111"^^<http://www.w3.org/2001/XMLSchema#int> .
 
 <https://ex.org/entity/whodata/Congo>
         a       <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> ;
@@ -4217,4 +4217,4 @@
         <http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption>
                 "9.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation>
-                "5 381"^^<http://www.w3.org/2001/XMLSchema#integer> .
+                "5 381"^^<http://www.w3.org/2001/XMLSchema#int> .

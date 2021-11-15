@@ -20,7 +20,6 @@
         rr:objectMap [
             rr:column "COMPETITION_ID";
             rr:termType rr:Literal;
-            rr:datatype xsd:int;
             rr:class football:Competition;
              ];
     ];
@@ -31,7 +30,6 @@
         rr:objectMap [
             rr:column "TYPE";
             rr:termType rr:Literal;
-            rr:datatype xsd:int;
             rr:class football:Competition;
             ];
     ];
@@ -42,7 +40,6 @@
         rr:objectMap [
             rr:column "COUNTRY_ID";
             rr:termType rr:Literal;
-            rr:datatype xsd:int;
             rr:class football:Competition;
              ];
     ];
@@ -53,7 +50,6 @@
         rr:objectMap [
             rr:column "COUNTRY_NAME";
             rr:termType rr:Literal;
-            rr:datatype xsd:int;
             rr:class football:Countries;
              ];
     ];
@@ -76,7 +72,6 @@
         rr:objectMap [
             rr:column "CONFEDERATION";
             rr:termType rr:Literal;
-            rr:datatype xsd:int;
             rr:class football:Competition;
              ];
     ];

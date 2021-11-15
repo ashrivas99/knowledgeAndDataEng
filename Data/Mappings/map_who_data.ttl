@@ -20,7 +20,7 @@
         rr:predicate football:Totalpopulation ;
         rr:objectMap [
             rr:column "TOTALPOPULATION" ;
-            rr:datatype xsd:integer;
+            rr:datatype xsd:int;
             rr:class football:WHO;
         ]
     ];
