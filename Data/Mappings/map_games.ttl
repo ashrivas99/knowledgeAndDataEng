@@ -1,107 +1,115 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbpedia: <https://dbpedia.org/ontology/>.
-@prefix dbpediaProp: <https://dbpedia.org/property/>
+@prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
 <#GamesMap>
     a rr:TriplesMap ;
     rr:logicalTable [
-        rr:tableName "GAMES"
+        rr:tableName "GAMES";
     ];
 
 
     # SUBJECT
     rr:subjectMap [
         rr:template "https://ex.org/entity/{GAME_ID}" ;
-        rr:class dbpedia:gameID;
+        rr:class football:Games;
     ];
 
     # STADIUM
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:Stadium ;
+        rr:predicate football:stadium ;
         rr:objectMap [
             rr:column "STADIUM";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
+            rr:class football:Games;
             ];
     ];
     # COMPETITION_CODE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:CompetitionCode;
+        rr:predicate football:competition_code;
         rr:objectMap [
             rr:column "COMPETITION_CODE";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
+            rr:class football:Games;
             ];
     ];
 
     # ROUND
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:Round;
+        rr:predicate football:round;
         rr:objectMap [
             rr:column "ROUND";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
+            rr:class football:Games;
             ];
     ];
 
     #DATE
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:Date;
+        rr:predicate football:date;
         rr:objectMap [
             rr:column "DATE";
             rr:termType rr:Literal;
             rr:datatype xsd:date;
+            rr:class football:Games;
             ];
     ];
 
     #HOME_CLUB_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:HomeClubID;
+        rr:predicate football:home_club_id;
         rr:objectMap [
             rr:column "HOME_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Games;
             ];
     ];
 
     #AWAY_CLUB_ID
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:AwayClubID;
+        rr:predicate football:away_club_id;
         rr:objectMap [
             rr:column "AWAY_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Games;
             ];
     ];
 
 
     #HOME_CLUB_GOALS
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:HomeClubGoals;
+        rr:predicate football:home_club_goals;
         rr:objectMap [
             rr:column "HOME_CLUB_GOALS";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Games;
             ];
     ];
 
     #AWAY_CLUB_GOALS
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:AwayClubGoals;
+        rr:predicate football:away_club_goals;
         rr:objectMap [
             rr:column "AWAY_CLUB_GOALS";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
+            rr:class football:Games;
             ];
     ];
 
     # URL
     rr:predicateObjectMap [
-        rr:predicate dbpediaProp:URI ;
+        rr:predicate football:games_url ;
         rr:objectMap [
             rr:column "URL";
             rr:termType rr:IRI;
+            rr:class football:Games;
             ];
     ];
     .
