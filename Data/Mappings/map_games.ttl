@@ -11,7 +11,7 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "https://ex.org/entity/{GAME_ID}" ;
+        rr:template "https://ex.org/entity/games/{GAME_ID}" ;
         rr:class football:Games;
     ];
 

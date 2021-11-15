@@ -8,7 +8,7 @@
 		rr:tableName "GDPDATA"
 	] ;
 	rr:subjectMap [
-		rr:template "http://ex.org/entity/{COUNTRY}" ;
+		rr:template "http://ex.org/entity/gdpdata/{COUNTRY}" ;
 		rr:class football:GDP;
 	] ;
     rr:predicateObjectMap [

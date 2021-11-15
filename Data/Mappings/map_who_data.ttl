@@ -10,7 +10,7 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "https://ex.org/entity/{COUNTRIES}" ;
+        rr:template "https://ex.org/entity/whodata/{COUNTRIES}" ;
         rr:class football:WHO;
 
     ];

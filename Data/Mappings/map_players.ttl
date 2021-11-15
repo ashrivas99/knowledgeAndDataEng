@@ -10,7 +10,7 @@
 
     # SUBJECT
     rr:subjectMap [
-        rr:template "http://ex.org/entity/{PRETTY_NAME}" ;
+        rr:template "http://ex.org/entity/players/{PRETTY_NAME}" ;
         rr:class football:Players;
     ];
 

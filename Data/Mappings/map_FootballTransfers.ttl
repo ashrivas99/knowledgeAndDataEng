@@ -8,7 +8,7 @@
 		rr:tableName "FT2021"
 	] ;
 	rr:subjectMap [
-		rr:template "http://ex.org/entity/{PLAYER_NAME}" ;
+		rr:template "http://ex.org/entity/ft2021/{PLAYER_NAME}" ;
 		rr:class football:Football_Transfers;
 	] ;
 	rr:predicateObjectMap [

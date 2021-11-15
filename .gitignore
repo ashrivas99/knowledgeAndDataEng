@@ -1,6 +1,6 @@
 .DS_Store
 Data/Output/appearances.ttl
-
+.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

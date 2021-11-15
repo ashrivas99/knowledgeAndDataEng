@@ -8,7 +8,7 @@
 		rr:tableName "APPEARANCES"
 	] ;
 	rr:subjectMap [
-		rr:template "http://ex.org/entity/{APPEARANCE_ID}" ;
+		rr:template "http://ex.org/entity/appearances/{APPEARANCE_ID}" ;
 		rr:class football:Appearances;
 	] ;
 	rr:predicateObjectMap [
