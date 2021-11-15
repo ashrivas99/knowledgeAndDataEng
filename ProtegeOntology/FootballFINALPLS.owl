@@ -183,7 +183,9 @@
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id
 :appearance_id rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf :appearancesPropertes .
+               rdfs:subPropertyOf :appearancesPropertes ;
+               rdfs:domain :Appearances ;
+               rdfs:range xsd:int .
 
 
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes
@@ -388,6 +390,11 @@
                rdfs:domain :GDP .
 
 
+###  http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue
+:gdpValue rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :gdpProperties .
+
+
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference
 :goal_difference rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf :gamesProperties .
@@ -525,11 +532,6 @@
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards
 :yellow_cards rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf :appearancesPropertes .
-
-
-###  http://www.cs7is1.org/ontologies/football-ontology-3#2020
-<http://www.cs7is1.org/ontologies/football-ontology-3#2020> rdf:type owl:DatatypeProperty ;
-                                                            rdfs:subPropertyOf :gdpProperties .
 
 
 #################################################################
