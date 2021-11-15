@@ -1,0 +1,24 @@
+Query 1
+
+PREFIX : <http://www.cs7is1.org/ontologies/football-ontology-3#>
+prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#>
+
+select ?players ?country ?country_entity ?gdpValue
+where {
+    ?s football:type ?tier.
+    ?s football:competition_id ?competition_id .
+    ?club football:domestic_competition_id ?competition_id .
+    ?club football:club_id ?club_id .
+   	?players football:current_club_id ?club_id .
+    ?players a football:Players .
+    ?players football:country_of_birth ?country.
+    ?country_entity football:country ?country.
+    ?country_entity football:gdpValue ?gdpValue
+    FILTER(?tier = "first_tier") .
+} 
+LIMIT 20
+
+
+
+
+
