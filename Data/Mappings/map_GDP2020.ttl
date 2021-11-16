@@ -16,7 +16,8 @@
 		rr:objectMap [ 
 			rr:column "COUNTRY";
 			rr:termType rr:Literal;
-			rr:class football:GDP
+			rr:class football:Countries
+			rr:datatype xsd:string;
 			 ];
 	] ;
     rr:predicateObjectMap [
@@ -25,6 +26,7 @@
 			rr:column "COUNTRYCODE";
 			rr:termType rr:Literal;
 			rr:class football:GDP
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -33,6 +35,7 @@
 			rr:column "INDICATORNAME";
 			rr:termType rr:Literal;
 			rr:class football:GDP
+			rr:datatype xsd:string;
 			 ];
 	] ;
     rr:predicateObjectMap [
@@ -41,6 +44,7 @@
 			rr:column "INDICATORCODE";
 			rr:termType rr:Literal;
 			rr:class football:GDP
+			rr:datatype xsd:string;
 			 ];
 	] ;
     rr:predicateObjectMap [

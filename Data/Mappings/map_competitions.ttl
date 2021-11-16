@@ -20,6 +20,7 @@
             rr:column "NAME";
             rr:termType rr:Literal;
             rr:class football:Competition;
+             rr:datatype xsd:string;
              ];
     ];
 
@@ -31,6 +32,7 @@
             rr:column "COMPETITION_ID";
             rr:termType rr:Literal;
             rr:class football:Competition;
+            rr:datatype xsd:string;
              ];
     ];
 
@@ -41,6 +43,7 @@
             rr:column "TYPE";
             rr:termType rr:Literal;
             rr:class football:Competition;
+            rr:datatype xsd:string;
             ];
     ];
 
@@ -51,6 +54,7 @@
             rr:column "COUNTRY_ID";
             rr:termType rr:Literal;
             rr:class football:Competition;
+            rr:datatype xsd:int;
              ];
     ];
 
@@ -61,6 +65,7 @@
             rr:column "COUNTRY_NAME";
             rr:termType rr:Literal;
             rr:class football:Countries;
+            rr:datatype xsd:string;
              ];
     ];
 
@@ -72,6 +77,7 @@
             rr:column "DOMESTIC_LEAGUE_CODE";
             rr:termType rr:Literal;
             rr:class football:Competition;
+            rr:datatype xsd:string;
              ];
     ];
 
@@ -83,6 +89,7 @@
             rr:column "CONFEDERATION";
             rr:termType rr:Literal;
             rr:class football:Competition;
+            rr:datatype xsd:string;
              ];
     ];
 
@@ -93,6 +100,7 @@
             rr:column "URL";
             rr:termType rr:IRI;
             rr:class football:Competition;
+            rr:datatype xsd:anyURI;
              ];
     ];
     .

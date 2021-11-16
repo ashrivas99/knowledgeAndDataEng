@@ -16,14 +16,17 @@
 		rr:objectMap [ 
 			rr:column "PLAYER_NAME";
 			rr:termType rr:Literal;
-			rr:class football:Football_Transfers;;
+			rr:class football:Players;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
 		rr:predicate football:club_transferrred_to_name ;
 		rr:objectMap [ 
 			rr:column "CLUB_NAME";
-			rr:class football:Football_Transfers;;
+			rr:termType rr:Literal;
+			rr:class football:Clubs;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -31,6 +34,7 @@
 		rr:objectMap [ 
 			rr:column "AGE";
 			rr:termType rr:Literal;
+			rr:class football:Players;
 			rr:datatype xsd:int;
 			 ];
 	] ;
@@ -40,6 +44,7 @@
 			rr:column "POSITION";
 			rr:termType rr:Literal;
 			rr:class football:Football_Transfers;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -47,7 +52,8 @@
 		rr:objectMap [ 
 			rr:column "CLUB_INVOLVED_NAME";
 			rr:termType rr:Literal;
-			rr:class football:Football_Transfers;
+			rr:class football:Clubs;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -56,7 +62,7 @@
 			rr:column "FEE_CLEANED";
 			rr:termType rr:Literal;
 			rr:class football:Football_Transfers;
-			rr:datatype xsd:float;
+			rr:datatype xsd:double;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -64,7 +70,8 @@
 		rr:objectMap [ 
 			rr:column "LEAGUE_NAME";
 			rr:termType rr:Literal;
-			rr:class football:SoccerLeague;
+			rr:class football:Competition;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -73,6 +80,7 @@
 			rr:column "YEAR";
 			rr:termType rr:Literal;
 			rr:class football:Football_Transfers;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -81,6 +89,7 @@
 			rr:column "SEASON";
 			rr:termType rr:Literal;
 			rr:class football:Football_Transfers;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -89,6 +98,7 @@
 			rr:column "COUNTRY";
 			rr:termType rr:Literal;
 			rr:class football:Countries;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	.

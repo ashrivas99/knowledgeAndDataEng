@@ -20,6 +20,7 @@
             rr:column "PRETTY_NAME";
             rr:termType rr:Literal;
             rr:class football:Players;
+            rr:datatype xsd:string;
             ];
     ];
 
@@ -41,7 +42,7 @@
             rr:column "CURRENT_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-            rr:class football:Players;
+            rr:class football:Clubs;
              ];
     ];
 
@@ -52,7 +53,7 @@
             rr:column "COUNTRY_OF_BIRTH";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
-            rr:class football:Players;
+            rr:class football:Countries;
              ];
     ];
 
@@ -63,7 +64,7 @@
             rr:column "COUNTRY_OF_CITIZENSHIP";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
-            rr:class football:Players;
+            rr:class football:Countries;
              ];
     ];
 
@@ -74,6 +75,7 @@
             rr:column "URL";
             rr:termType rr:IRI;
             rr:class football:Players;
+            rr:datatype xsd:anyURI;
              ];
     ];
     .
