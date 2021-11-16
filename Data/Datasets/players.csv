@@ -1,4 +1,4 @@
-player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizenship,date_of_birth,url
+﻿player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizenship,date_of_birth,url
 257767,4795,aloy-ihenacho,Aloy Ihenacho,Nigeria,Nigeria,21/07/1995,https://www.transfermarkt.co.uk/aloy-ihenacho/profil/spieler/257767
 320889,4795,thomas-blomeyer,Thomas Blomeyer,Germany,Germany,24/04/1996,https://www.transfermarkt.co.uk/thomas-blomeyer/profil/spieler/320889
 42318,4795,konstantin-engel,Konstantin Engel,USSR,Kazakhstan,27/07/1988,https://www.transfermarkt.co.uk/konstantin-engel/profil/spieler/42318
@@ -217,7 +217,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 38592,276,juanito-gomez,Juanito Gomez,Argentina,Argentina,20/05/1985,https://www.transfermarkt.co.uk/juanito-gomez/profil/spieler/38592
 209048,276,luca-checchin,Luca Checchin,Italy,Italy,03/05/1997,https://www.transfermarkt.co.uk/luca-checchin/profil/spieler/209048
 136039,126,nika-dzalamidze,Nika Dzalamidze,Georgia,Georgia,06/01/1992,https://www.transfermarkt.co.uk/nika-dzalamidze/profil/spieler/136039
-19708,276,bo-scaron-ko-janković,Bo Scaron Ko Janković,Jugoslawien (SFR),Serbia,01/03/1984,https://www.transfermarkt.co.uk/bo-scaron-ko-jankovi%C4%87/profil/spieler/19708
+19708,276,bo-scaron-ko-jankoviƒá,Bo Scaron Ko Jankoviƒá,Jugoslawien (SFR),Serbia,01/03/1984,https://www.transfermarkt.co.uk/bo-scaron-ko-jankovi%C4%87/profil/spieler/19708
 2904,276,rafael-marquez,Rafael Marquez,Mexico,Mexico,13/02/1979,https://www.transfermarkt.co.uk/rafael-marquez/profil/spieler/2904
 341087,276,alberto-tronco,Alberto Tronco,Italy,Italy,22/05/1997,https://www.transfermarkt.co.uk/alberto-tronco/profil/spieler/341087
 373359,276,andrea-badan,Andrea Badan,Italy,Italy,21/03/1998,https://www.transfermarkt.co.uk/andrea-badan/profil/spieler/373359
@@ -833,7 +833,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 120975,1519,marc-mccallum,Marc Mccallum,Scotland,Scotland,27/03/1993,https://www.transfermarkt.co.uk/marc-mccallum/profil/spieler/120975
 335547,1519,scott-lochhead,Scott Lochhead,Scotland,Scotland,23/01/1997,https://www.transfermarkt.co.uk/scott-lochhead/profil/spieler/335547
 171721,1519,adam-taggart,Adam Taggart,Australia,Australia,02/06/1993,https://www.transfermarkt.co.uk/adam-taggart/profil/spieler/171721
-4216,1519,florent-sinama-pongolle,Florent Sinama Pongolle,Réunion,France,20/10/1984,https://www.transfermarkt.co.uk/florent-sinama-pongolle/profil/spieler/4216
+4216,1519,florent-sinama-pongolle,Florent Sinama Pongolle,R√©union,France,20/10/1984,https://www.transfermarkt.co.uk/florent-sinama-pongolle/profil/spieler/4216
 48020,1519,riku-riski,Riku Riski,Finland,Finland,16/08/1989,https://www.transfermarkt.co.uk/riku-riski/profil/spieler/48020
 249884,1519,aaron-kuhl,Aaron Kuhl,England,England,30/01/1996,https://www.transfermarkt.co.uk/aaron-kuhl/profil/spieler/249884
 193306,1519,joe-mcgovern,Joe Mcgovern,Northern Ireland,Northern Ireland,02/03/1994,https://www.transfermarkt.co.uk/joe-mcgovern/profil/spieler/193306
@@ -1024,7 +1024,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 51030,855,maxime-baca,Maxime Baca,France,France,02/06/1983,https://www.transfermarkt.co.uk/maxime-baca/profil/spieler/51030
 63226,3558,jules-goda,Jules Goda,Cameroon,Cameroon,30/05/1989,https://www.transfermarkt.co.uk/jules-goda/profil/spieler/63226
 274571,855,laurent-dos-santos,Laurent Dos Santos,France,France,21/03/1993,https://www.transfermarkt.co.uk/laurent-dos-santos/profil/spieler/274571
-301841,855,julien-begue,Julien Begue,Réunion,France,08/08/1993,https://www.transfermarkt.co.uk/julien-begue/profil/spieler/301841
+301841,855,julien-begue,Julien Begue,R√©union,France,08/08/1993,https://www.transfermarkt.co.uk/julien-begue/profil/spieler/301841
 6980,855,julien-cardy,Julien Cardy,France,France,29/09/1981,https://www.transfermarkt.co.uk/julien-cardy/profil/spieler/6980
 205560,855,brian-landini,Brian Landini,France,France,01/01/1995,https://www.transfermarkt.co.uk/brian-landini/profil/spieler/205560
 1423,855,lars-christian-jacobsen,Lars Christian Jacobsen,Denmark,Denmark,20/09/1979,https://www.transfermarkt.co.uk/lars-christian-jacobsen/profil/spieler/1423
@@ -2392,7 +2392,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 102779,1158,yoann-wachter,Yoann Wachter,France,Gabon,07/04/1992,https://www.transfermarkt.co.uk/yoann-wachter/profil/spieler/102779
 236414,1158,valentin-lavigne,Valentin Lavigne,France,France,04/06/1994,https://www.transfermarkt.co.uk/valentin-lavigne/profil/spieler/236414
 3266,1158,jeremie-aliadiere,Jeremie Aliadiere,France,France,30/03/1983,https://www.transfermarkt.co.uk/jeremie-aliadiere/profil/spieler/3266
-358506,1158,anthony-lamonge,Anthony Lamonge,Réunion,France,04/04/1996,https://www.transfermarkt.co.uk/anthony-lamonge/profil/spieler/358506
+358506,1158,anthony-lamonge,Anthony Lamonge,R√©union,France,04/04/1996,https://www.transfermarkt.co.uk/anthony-lamonge/profil/spieler/358506
 103563,415,tongo-doumbia,Tongo Doumbia,France,Mali,06/08/1989,https://www.transfermarkt.co.uk/tongo-doumbia/profil/spieler/103563
 28705,415,dusan-veskovac,Dusan Veskovac,Jugoslawien (SFR),Serbia,16/03/1986,https://www.transfermarkt.co.uk/dusan-veskovac/profil/spieler/28705
 36039,415,pavle-ninkov,Pavle Ninkov,Jugoslawien (SFR),Serbia,20/04/1985,https://www.transfermarkt.co.uk/pavle-ninkov/profil/spieler/36039
@@ -2810,7 +2810,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 335016,1435,joey-groenbast,Joey Groenbast,Netherlands,Netherlands,04/05/1995,https://www.transfermarkt.co.uk/joey-groenbast/profil/spieler/335016
 61666,1435,henrik-ojamaa,Henrik Ojamaa,UdSSR,Estonia,20/05/1991,https://www.transfermarkt.co.uk/henrik-ojamaa/profil/spieler/61666
 199380,1435,kenny-teijsse,Kenny Teijsse,Netherlands,Netherlands,19/07/1992,https://www.transfermarkt.co.uk/kenny-teijsse/profil/spieler/199380
-355685,1435,orhan-džepar,Orhan Džepar,Netherlands,Netherlands,13/06/1996,https://www.transfermarkt.co.uk/orhan-d%C5%BEepar/profil/spieler/355685
+355685,1435,orhan-d≈æepar,Orhan D≈æepar,Netherlands,Netherlands,13/06/1996,https://www.transfermarkt.co.uk/orhan-d%C5%BEepar/profil/spieler/355685
 422768,1435,thijs-dekker,Thijs Dekker,Netherlands,Netherlands,31/01/1997,https://www.transfermarkt.co.uk/thijs-dekker/profil/spieler/422768
 224001,1435,teije-ten-den,Teije Ten Den,Netherlands,Netherlands,29/04/1993,https://www.transfermarkt.co.uk/teije-ten-den/profil/spieler/224001
 21482,1435,tom-daemen,Tom Daemen,Netherlands,Netherlands,17/06/1985,https://www.transfermarkt.co.uk/tom-daemen/profil/spieler/21482
@@ -2925,7 +2925,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 168741,60,lucas-hufnagel,Lucas Hufnagel,Germany,Georgia,29/01/1994,https://www.transfermarkt.co.uk/lucas-hufnagel/profil/spieler/168741
 124507,60,fabian-menig,Fabian Menig,Germany,Germany,26/02/1994,https://www.transfermarkt.co.uk/fabian-menig/profil/spieler/124507
 38266,60,marc-torrejon,Marc Torrejon,Spain,Spain,18/02/1986,https://www.transfermarkt.co.uk/marc-torrejon/profil/spieler/38266
-93698,60,amir-falahen,Amir Falahen,Germany,Palästina,15/03/1993,https://www.transfermarkt.co.uk/amir-falahen/profil/spieler/93698
+93698,60,amir-falahen,Amir Falahen,Germany,Pal√§stina,15/03/1993,https://www.transfermarkt.co.uk/amir-falahen/profil/spieler/93698
 216452,306,joris-voest,Joris Voest,Netherlands,Netherlands,08/01/1995,https://www.transfermarkt.co.uk/joris-voest/profil/spieler/216452
 241402,306,rewan-amin,Rewan Amin,Iraq,Netherlands,08/01/1996,https://www.transfermarkt.co.uk/rewan-amin/profil/spieler/241402
 169362,306,luka-zahovic,Luka Zahovic,Portugal,Slovenia,15/11/1995,https://www.transfermarkt.co.uk/luka-zahovic/profil/spieler/169362
@@ -5004,7 +5004,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 73083,276,franco-zuculini,Franco Zuculini,Argentina,Argentina,05/09/1990,https://www.transfermarkt.co.uk/franco-zuculini/profil/spieler/73083
 5986,276,ferdinando-coppola,Ferdinando Coppola,Italy,Italy,10/06/1978,https://www.transfermarkt.co.uk/ferdinando-coppola/profil/spieler/5986
 89034,276,riccardo-brosco,Riccardo Brosco,Italy,Italy,03/02/1991,https://www.transfermarkt.co.uk/riccardo-brosco/profil/spieler/89034
-60599,276,samuel-souprayen,Samuel Souprayen,Réunion,France,02/02/1989,https://www.transfermarkt.co.uk/samuel-souprayen/profil/spieler/60599
+60599,276,samuel-souprayen,Samuel Souprayen,R√©union,France,02/02/1989,https://www.transfermarkt.co.uk/samuel-souprayen/profil/spieler/60599
 256358,276,bruno-petkovic,Bruno Petkovic,Croatia,Croatia,16/09/1994,https://www.transfermarkt.co.uk/bruno-petkovic/profil/spieler/256358
 96853,4083,adrian-stoian,Adrian Stoian,Romania,Romania,11/02/1991,https://www.transfermarkt.co.uk/adrian-stoian/profil/spieler/96853
 30853,4083,mariano-izco,Mariano Izco,Argentina,Argentina,13/03/1983,https://www.transfermarkt.co.uk/mariano-izco/profil/spieler/30853
@@ -5029,7 +5029,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 458548,128,konstantinos-kostas,Konstantinos Kostas,Greece,Greece,29/05/1997,https://www.transfermarkt.co.uk/konstantinos-kostas/profil/spieler/458548
 207194,21957,antonis-kokkalas,Antonis Kokkalas,Greece,Greece,16/02/1992,https://www.transfermarkt.co.uk/antonis-kokkalas/profil/spieler/207194
 62552,3999,macauley-chrisantus,Macauley Chrisantus,Nigeria,Nigeria,20/08/1990,https://www.transfermarkt.co.uk/macauley-chrisantus/profil/spieler/62552
-504593,21957,saado-abdel-salam-fouflia,Saado Abdel Salam Fouflia,Greece,Palästina,23/11/1997,https://www.transfermarkt.co.uk/saado-abdel-salam-fouflia/profil/spieler/504593
+504593,21957,saado-abdel-salam-fouflia,Saado Abdel Salam Fouflia,Greece,Pal√§stina,23/11/1997,https://www.transfermarkt.co.uk/saado-abdel-salam-fouflia/profil/spieler/504593
 199204,5219,lorenzo-menicagli,Lorenzo Menicagli,Italy,Italy,13/10/1994,https://www.transfermarkt.co.uk/lorenzo-menicagli/profil/spieler/199204
 206683,5219,spyros-spinoulas,Spyros Spinoulas,Greece,Greece,08/04/1986,https://www.transfermarkt.co.uk/spyros-spinoulas/profil/spieler/206683
 533733,5219,markeljan-misku,Markeljan Misku,,Greece,21/03/1997,https://www.transfermarkt.co.uk/markeljan-misku/profil/spieler/533733
@@ -5680,7 +5680,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 186064,2778,lasse-petry,Lasse Petry,Denmark,Denmark,19/09/1992,https://www.transfermarkt.co.uk/lasse-petry/profil/spieler/186064
 422939,2778,frederik-christensen,Frederik Christensen,,Denmark,19/01/2000,https://www.transfermarkt.co.uk/frederik-christensen/profil/spieler/422939
 189989,5817,simon-kroon,Simon Kroon,,Sweden,16/06/1993,https://www.transfermarkt.co.uk/simon-kroon/profil/spieler/189989
-129557,5817,marko-mitrović,Marko Mitrović,Sweden,Sweden,27/06/1992,https://www.transfermarkt.co.uk/marko-mitrovi%C4%87/profil/spieler/129557
+129557,5817,marko-mitroviƒá,Marko Mitroviƒá,Sweden,Sweden,27/06/1992,https://www.transfermarkt.co.uk/marko-mitrovi%C4%87/profil/spieler/129557
 155617,5817,emil-scheel,Emil Scheel,Denmark,Denmark,18/03/1990,https://www.transfermarkt.co.uk/emil-scheel/profil/spieler/155617
 268174,5817,casper-olesen,Casper Olesen,,Denmark,10/05/1996,https://www.transfermarkt.co.uk/casper-olesen/profil/spieler/268174
 89197,5817,nicolaj-ritter,Nicolaj Ritter,Denmark,Denmark,08/05/1992,https://www.transfermarkt.co.uk/nicolaj-ritter/profil/spieler/89197
@@ -5863,7 +5863,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 357073,667,leon-valentin,Leon Valentin,France,France,30/07/1998,https://www.transfermarkt.co.uk/leon-valentin/profil/spieler/357073
 410238,1420,elhadji-pape-diaw,Elhadji Pape Diaw,Senegal,Senegal,31/12/1994,https://www.transfermarkt.co.uk/elhadji-pape-diaw/profil/spieler/410238
 282058,1420,cheikh-ndoye,Cheikh Ndoye,Senegal,Senegal,29/03/1986,https://www.transfermarkt.co.uk/cheikh-ndoye/profil/spieler/282058
-352464,1420,dorian-bertrand,Dorian Bertrand,Réunion,France,21/05/1993,https://www.transfermarkt.co.uk/dorian-bertrand/profil/spieler/352464
+352464,1420,dorian-bertrand,Dorian Bertrand,R√©union,France,21/05/1993,https://www.transfermarkt.co.uk/dorian-bertrand/profil/spieler/352464
 139286,1420,ferebory-dore,Ferebory Dore,People's republic of the Congo,Congo,21/01/1989,https://www.transfermarkt.co.uk/ferebory-dore/profil/spieler/139286
 193142,1420,mathieu-michel,Mathieu Michel,France,France,04/09/1991,https://www.transfermarkt.co.uk/mathieu-michel/profil/spieler/193142
 170916,1420,loic-puyo,Loic Puyo,France,France,19/12/1988,https://www.transfermarkt.co.uk/loic-puyo/profil/spieler/170916
@@ -5878,9 +5878,9 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 230066,1162,adama-mbengue,Adama Mbengue,Senegal,Senegal,01/12/1993,https://www.transfermarkt.co.uk/adama-mbengue/profil/spieler/230066
 170979,1162,paul-reulet,Paul Reulet,France,France,14/01/1994,https://www.transfermarkt.co.uk/paul-reulet/profil/spieler/170979
 171557,1162,baissama-sankoh,Baissama Sankoh,France,Guinea,20/03/1992,https://www.transfermarkt.co.uk/baissama-sankoh/profil/spieler/171557
-76055,1162,ronny-rodelin,Ronny Rodelin,Réunion,France,18/11/1989,https://www.transfermarkt.co.uk/ronny-rodelin/profil/spieler/76055
+76055,1162,ronny-rodelin,Ronny Rodelin,R√©union,France,18/11/1989,https://www.transfermarkt.co.uk/ronny-rodelin/profil/spieler/76055
 416168,1162,durel-avounou,Durel Avounou,Congo,Congo,25/09/1997,https://www.transfermarkt.co.uk/durel-avounou/profil/spieler/416168
-548716,1162,yoel-armougom,Yoel Armougom,Réunion,France,05/06/1998,https://www.transfermarkt.co.uk/yoel-armougom/profil/spieler/548716
+548716,1162,yoel-armougom,Yoel Armougom,R√©union,France,05/06/1998,https://www.transfermarkt.co.uk/yoel-armougom/profil/spieler/548716
 191056,1162,brice-samba,Brice Samba,Congo,Congo,25/04/1994,https://www.transfermarkt.co.uk/brice-samba/profil/spieler/191056
 593320,1162,evens-joseph,Evens Joseph,France,France,16/07/1999,https://www.transfermarkt.co.uk/evens-joseph/profil/spieler/593320
 58818,1162,claudio-beauvue,Claudio Beauvue,Guadeloupe,Guadeloupe,16/04/1988,https://www.transfermarkt.co.uk/claudio-beauvue/profil/spieler/58818
@@ -7429,7 +7429,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 88688,1038,federico-furlan,Federico Furlan,Italy,Italy,25/11/1990,https://www.transfermarkt.co.uk/federico-furlan/profil/spieler/88688
 103916,1038,rafael,Rafael,Brazil,Brazil,20/05/1990,https://www.transfermarkt.co.uk/rafael/profil/spieler/103916
 347656,1038,antonio-di-nardo,Antonio Di Nardo,Italy,Italy,30/09/1998,https://www.transfermarkt.co.uk/antonio-di-nardo/profil/spieler/347656
-343950,1038,cristian-hadžiosmanović,Cristian Hadžiosmanović,Italy,Montenegro,09/07/1998,https://www.transfermarkt.co.uk/cristian-had%C5%BEiosmanovi%C4%87/profil/spieler/343950
+343950,1038,cristian-had≈æiosmanoviƒá,Cristian Had≈æiosmanoviƒá,Italy,Montenegro,09/07/1998,https://www.transfermarkt.co.uk/cristian-had%C5%BEiosmanovi%C4%87/profil/spieler/343950
 398058,1038,carlo-romei,Carlo Romei,Italy,Italy,04/09/1999,https://www.transfermarkt.co.uk/carlo-romei/profil/spieler/398058
 238654,430,jaime-baez,Jaime Baez,Uruguay,Uruguay,25/04/1995,https://www.transfermarkt.co.uk/jaime-baez/profil/spieler/238654
 319176,430,martin-graiciar,Martin Graiciar,Czech Republic,Czech Republic,11/04/1999,https://www.transfermarkt.co.uk/martin-graiciar/profil/spieler/319176
@@ -7480,7 +7480,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 285754,6574,pietro-cianci,Pietro Cianci,Italy,Italy,02/02/1996,https://www.transfermarkt.co.uk/pietro-cianci/profil/spieler/285754
 372720,6574,nicholas-pierini,Nicholas Pierini,Italy,Italy,06/08/1998,https://www.transfermarkt.co.uk/nicholas-pierini/profil/spieler/372720
 390725,6574,andrea-masetti,Andrea Masetti,Italy,Italy,20/03/1998,https://www.transfermarkt.co.uk/andrea-masetti/profil/spieler/390725
-398945,410,milo-scaron-bočić,Milo Scaron Bočić,Yugoslavia (Republic),Serbia,26/01/2000,https://www.transfermarkt.co.uk/milo-scaron-bo%C4%8Di%C4%87/profil/spieler/398945
+398945,410,milo-scaron-boƒçiƒá,Milo Scaron Boƒçiƒá,Yugoslavia (Republic),Serbia,26/01/2000,https://www.transfermarkt.co.uk/milo-scaron-bo%C4%8Di%C4%87/profil/spieler/398945
 292422,410,simone-pontisso,Simone Pontisso,Italy,Italy,20/03/1997,https://www.transfermarkt.co.uk/simone-pontisso/profil/spieler/292422
 412629,410,filip-vasko,Filip Vasko,Slovakia,Slovakia,11/08/1999,https://www.transfermarkt.co.uk/filip-vasko/profil/spieler/412629
 537171,410,semuel-pizzignacco,Semuel Pizzignacco,Italy,Italy,01/09/2001,https://www.transfermarkt.co.uk/semuel-pizzignacco/profil/spieler/537171
@@ -8563,7 +8563,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 60607,1160,pierrick-valdivia,Pierrick Valdivia,France,France,18/04/1988,https://www.transfermarkt.co.uk/pierrick-valdivia/profil/spieler/60607
 729818,1160,luca-valls,Luca Valls,France,France,25/09/1998,https://www.transfermarkt.co.uk/luca-valls/profil/spieler/729818
 413038,1160,amine-karraoui,Amine Karraoui,France,France,09/06/1999,https://www.transfermarkt.co.uk/amine-karraoui/profil/spieler/413038
-252755,350,richairo-Živković,Richairo Živković,Netherlands,Netherlands,05/09/1996,https://www.transfermarkt.co.uk/richairo-%C5%BDivkovi%C4%87/profil/spieler/252755
+252755,350,richairo-≈Ωivkoviƒá,Richairo ≈Ωivkoviƒá,Netherlands,Netherlands,05/09/1996,https://www.transfermarkt.co.uk/richairo-%C5%BDivkovi%C4%87/profil/spieler/252755
 271256,2969,jhonder-cadiz,Jhonder Cadiz,Venezuela,Venezuela,29/07/1995,https://www.transfermarkt.co.uk/jhonder-cadiz/profil/spieler/271256
 644563,2969,bryan-soumare,Bryan Soumare,France,France,11/02/1999,https://www.transfermarkt.co.uk/bryan-soumare/profil/spieler/644563
 323934,2969,matheus-pereira,Matheus Pereira,Brazil,Brazil,25/02/1998,https://www.transfermarkt.co.uk/matheus-pereira/profil/spieler/323934
@@ -9386,7 +9386,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 623340,14589,david-bidlovskiy,David Bidlovskiy,Ukraine,Russia,22/01/1999,https://www.transfermarkt.co.uk/david-bidlovskiy/profil/spieler/623340
 711907,14589,rim-egofarov,Rim Egofarov,,Russia,27/06/2003,https://www.transfermarkt.co.uk/rim-egofarov/profil/spieler/711907
 790273,14589,nikita-shtyrlov,Nikita Shtyrlov,,Russia,19/08/2003,https://www.transfermarkt.co.uk/nikita-shtyrlov/profil/spieler/790273
-140540,14589,fedor-Černych,Fedor Černych,UdSSR,Lithuania,21/05/1991,https://www.transfermarkt.co.uk/fedor-%C4%8Cernych/profil/spieler/140540
+140540,14589,fedor-ƒåernych,Fedor ƒåernych,UdSSR,Lithuania,21/05/1991,https://www.transfermarkt.co.uk/fedor-%C4%8Cernych/profil/spieler/140540
 36364,14589,mikhail-sivakov,Mikhail Sivakov,UdSSR,Belarus,16/01/1988,https://www.transfermarkt.co.uk/mikhail-sivakov/profil/spieler/36364
 217069,14589,filip-rogic,Filip Rogic,Sweden,Sweden,14/06/1993,https://www.transfermarkt.co.uk/filip-rogic/profil/spieler/217069
 615378,41201,evgeniy-ragulkin,Evgeniy Ragulkin,Russia,Russia,25/11/1999,https://www.transfermarkt.co.uk/evgeniy-ragulkin/profil/spieler/615378
@@ -10151,7 +10151,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 18547,2293,ali-turan,Ali Turan,Turkey,Turkey,06/09/1983,https://www.transfermarkt.co.uk/ali-turan/profil/spieler/18547
 82389,2293,fallou-diagne,Fallou Diagne,Senegal,Senegal,14/08/1989,https://www.transfermarkt.co.uk/fallou-diagne/profil/spieler/82389
 37839,2293,ferhat-oztorun,Ferhat Oztorun,Turkey,Turkey,08/05/1987,https://www.transfermarkt.co.uk/ferhat-oztorun/profil/spieler/37839
-263267,2293,riad-bajić,Riad Bajić,Bosnia-Herzegovina,Bosnia-Herzegovina,06/05/1994,https://www.transfermarkt.co.uk/riad-baji%C4%87/profil/spieler/263267
+263267,2293,riad-bajiƒá,Riad Bajiƒá,Bosnia-Herzegovina,Bosnia-Herzegovina,06/05/1994,https://www.transfermarkt.co.uk/riad-baji%C4%87/profil/spieler/263267
 85922,2293,petar-filipovic,Petar Filipovic,Germany,Croatia,14/09/1990,https://www.transfermarkt.co.uk/petar-filipovic/profil/spieler/85922
 144723,2832,gokhan-alsan,Gokhan Alsan,Turkey,Turkey,01/04/1990,https://www.transfermarkt.co.uk/gokhan-alsan/profil/spieler/144723
 601029,2832,ali-ates,Ali Ates,Turkey,Turkey,10/01/1999,https://www.transfermarkt.co.uk/ali-ates/profil/spieler/601029
@@ -10400,7 +10400,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 396906,141,ferhan-evren,Ferhan Evren,Turkey,Turkey,01/10/2000,https://www.transfermarkt.co.uk/ferhan-evren/profil/spieler/396906
 618898,141,erencan-yardimci,Erencan Yardimci,Turkey,Turkey,04/02/2002,https://www.transfermarkt.co.uk/erencan-yardimci/profil/spieler/618898
 240158,2722,francesco-vicari,Francesco Vicari,Italy,Italy,03/08/1994,https://www.transfermarkt.co.uk/francesco-vicari/profil/spieler/240158
-47085,2722,nenad-tomović,Nenad Tomović,Jugoslawien (SFR),Serbia,30/08/1987,https://www.transfermarkt.co.uk/nenad-tomovi%C4%87/profil/spieler/47085
+47085,2722,nenad-tomoviƒá,Nenad Tomoviƒá,Jugoslawien (SFR),Serbia,30/08/1987,https://www.transfermarkt.co.uk/nenad-tomovi%C4%87/profil/spieler/47085
 35747,2722,simone-missiroli,Simone Missiroli,Italy,Italy,23/05/1986,https://www.transfermarkt.co.uk/simone-missiroli/profil/spieler/35747
 416479,683,alexandros-voilis,Alexandros Voilis,Greece,Greece,26/05/2000,https://www.transfermarkt.co.uk/alexandros-voilis/profil/spieler/416479
 84903,2722,mirko-valdifiori,Mirko Valdifiori,Italy,Italy,21/04/1986,https://www.transfermarkt.co.uk/mirko-valdifiori/profil/spieler/84903
@@ -11659,7 +11659,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 666545,29228,capita,Capita,,Angola,10/01/2002,https://www.transfermarkt.co.uk/capita/profil/spieler/666545
 536519,29228,virgiliu-postolachi,Virgiliu Postolachi,Moldova,Moldova,17/03/2000,https://www.transfermarkt.co.uk/virgiliu-postolachi/profil/spieler/536519
 434226,29228,darly-nlandu,Darly Nlandu,France,France,14/07/2000,https://www.transfermarkt.co.uk/darly-nlandu/profil/spieler/434226
-227534,29228,deni-hočko,Deni Hočko,Yugoslavia (Republic),Montenegro,22/04/1994,https://www.transfermarkt.co.uk/deni-ho%C4%8Dko/profil/spieler/227534
+227534,29228,deni-hoƒçko,Deni Hoƒçko,Yugoslavia (Republic),Montenegro,22/04/1994,https://www.transfermarkt.co.uk/deni-ho%C4%8Dko/profil/spieler/227534
 306166,29228,nuno-da-costa,Nuno Da Costa,Cape Verde,Cape Verde,10/02/1991,https://www.transfermarkt.co.uk/nuno-da-costa/profil/spieler/306166
 556865,29228,saad-agouzoul,Saad Agouzoul,Morocco,Morocco,10/08/1997,https://www.transfermarkt.co.uk/saad-agouzoul/profil/spieler/556865
 68030,29228,vaso-vasic,Vaso Vasic,Switzerland,Serbia,26/04/1990,https://www.transfermarkt.co.uk/vaso-vasic/profil/spieler/68030
@@ -11673,7 +11673,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 120306,29228,enes-saglik,Enes Saglik,Belgium,Belgium,08/07/1991,https://www.transfermarkt.co.uk/enes-saglik/profil/spieler/120306
 238291,29228,fabrice-olinga,Fabrice Olinga,Cameroon,Cameroon,12/05/1996,https://www.transfermarkt.co.uk/fabrice-olinga/profil/spieler/238291
 49841,29228,hamdi-harbaoui,Hamdi Harbaoui,Tunisia,Tunisia,05/01/1985,https://www.transfermarkt.co.uk/hamdi-harbaoui/profil/spieler/49841
-840907,28643,nikola-pejčić,Nikola Pejčić,,Belgium,30/10/2000,https://www.transfermarkt.co.uk/nikola-pej%C4%8Di%C4%87/profil/spieler/840907
+840907,28643,nikola-pejƒçiƒá,Nikola Pejƒçiƒá,,Belgium,30/10/2000,https://www.transfermarkt.co.uk/nikola-pej%C4%8Di%C4%87/profil/spieler/840907
 502893,28643,denzel-jubitana,Denzel Jubitana,,Belgium,06/05/1999,https://www.transfermarkt.co.uk/denzel-jubitana/profil/spieler/502893
 358907,28643,din-sula,Din Sula,Belgium,Albania,02/03/1998,https://www.transfermarkt.co.uk/din-sula/profil/spieler/358907
 250574,28643,jur-schryvers,Jur Schryvers,,Belgium,11/03/1997,https://www.transfermarkt.co.uk/jur-schryvers/profil/spieler/250574
@@ -12147,7 +12147,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 435775,1096,dragan-lausberg,Dragan Lausberg,Belgium,Belgium,29/04/2002,https://www.transfermarkt.co.uk/dragan-lausberg/profil/spieler/435775
 877417,1096,jules-anthony-vilsaint,Jules Anthony Vilsaint,,Canada,06/01/2003,https://www.transfermarkt.co.uk/jules-anthony-vilsaint/profil/spieler/877417
 738774,1096,zeno-van-den-bosch,Zeno Van Den Bosch,,Belgium,06/07/2003,https://www.transfermarkt.co.uk/zeno-van-den-bosch/profil/spieler/738774
-719383,1096,ivan-pavlić,Ivan Pavlić,,Belgium,10/11/2001,https://www.transfermarkt.co.uk/ivan-pavli%C4%87/profil/spieler/719383
+719383,1096,ivan-pavliƒá,Ivan Pavliƒá,,Belgium,10/11/2001,https://www.transfermarkt.co.uk/ivan-pavli%C4%87/profil/spieler/719383
 412688,1096,matheus,Matheus,Brazil,Brazil,22/01/1992,https://www.transfermarkt.co.uk/matheus/profil/spieler/412688
 541021,172,levi-malungu,Levi Malungu,,Belgium,12/06/2002,https://www.transfermarkt.co.uk/levi-malungu/profil/spieler/541021
 202831,172,david-henen,David Henen,Belgium,Togo,19/04/1996,https://www.transfermarkt.co.uk/david-henen/profil/spieler/202831
@@ -12195,7 +12195,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 277607,1268,martin-fraisl,Martin Fraisl,Austria,Austria,10/05/1993,https://www.transfermarkt.co.uk/martin-fraisl/profil/spieler/277607
 548934,1268,hugo-wentges,Hugo Wentges,,Netherlands,11/02/2002,https://www.transfermarkt.co.uk/hugo-wentges/profil/spieler/548934
 83946,1268,youness-mokhtar,Youness Mokhtar,Netherlands,Morocco,29/08/1991,https://www.transfermarkt.co.uk/youness-mokhtar/profil/spieler/83946
-59594,1268,marko-vejinović,Marko Vejinović,Netherlands,Netherlands,03/02/1990,https://www.transfermarkt.co.uk/marko-vejinovi%C4%87/profil/spieler/59594
+59594,1268,marko-vejinoviƒá,Marko Vejinoviƒá,Netherlands,Netherlands,03/02/1990,https://www.transfermarkt.co.uk/marko-vejinovi%C4%87/profil/spieler/59594
 27304,1268,gianni-zuiverloon,Gianni Zuiverloon,Netherlands,Netherlands,30/12/1986,https://www.transfermarkt.co.uk/gianni-zuiverloon/profil/spieler/27304
 594277,1268,jonathan-mulder,Jonathan Mulder,Netherlands,Netherlands,02/01/2002,https://www.transfermarkt.co.uk/jonathan-mulder/profil/spieler/594277
 349567,1268,juan-familia-castillo,Juan Familia Castillo,Netherlands,Netherlands,13/01/2000,https://www.transfermarkt.co.uk/juan-familia-castillo/profil/spieler/349567
@@ -12924,7 +12924,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 538063,276,lucas-felippe,Lucas Felippe,Brazil,Brazil,03/05/2000,https://www.transfermarkt.co.uk/lucas-felippe/profil/spieler/538063
 169179,276,alan-empereur,Alan Empereur,Brazil,Brazil,10/03/1994,https://www.transfermarkt.co.uk/alan-empereur/profil/spieler/169179
 210363,276,mariusz-stepinski,Mariusz Stepinski,Poland,Poland,12/05/1995,https://www.transfermarkt.co.uk/mariusz-stepinski/profil/spieler/210363
-290698,4171,dejan-vokić,Dejan Vokić,Slovenia,Slovenia,12/06/1996,https://www.transfermarkt.co.uk/dejan-voki%C4%87/profil/spieler/290698
+290698,4171,dejan-vokiƒá,Dejan Vokiƒá,Slovenia,Slovenia,12/06/1996,https://www.transfermarkt.co.uk/dejan-voki%C4%87/profil/spieler/290698
 539612,4171,siriki-sanogo,Siriki Sanogo,Cote d'Ivoire,Cote d'Ivoire,13/12/2001,https://www.transfermarkt.co.uk/siriki-sanogo/profil/spieler/539612
 37295,4171,perparim-hetemaj,Perparim Hetemaj,Jugoslawien (SFR),Finland,12/12/1986,https://www.transfermarkt.co.uk/perparim-hetemaj/profil/spieler/37295
 550443,4171,davide-masella,Davide Masella,Italy,Italy,12/05/2002,https://www.transfermarkt.co.uk/davide-masella/profil/spieler/550443
@@ -13266,7 +13266,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 128931,605,giannis-fetfatzidis,Giannis Fetfatzidis,Greece,Greece,21/12/1990,https://www.transfermarkt.co.uk/giannis-fetfatzidis/profil/spieler/128931
 227015,605,toni-datkovic,Toni Datkovic,Croatia,Croatia,06/11/1993,https://www.transfermarkt.co.uk/toni-datkovic/profil/spieler/227015
 173405,605,ergys-kace,Ergys Kace,Albania,Albania,08/07/1993,https://www.transfermarkt.co.uk/ergys-kace/profil/spieler/173405
-111041,605,zacharie-boucher,Zacharie Boucher,Réunion,France,07/03/1992,https://www.transfermarkt.co.uk/zacharie-boucher/profil/spieler/111041
+111041,605,zacharie-boucher,Zacharie Boucher,R√©union,France,07/03/1992,https://www.transfermarkt.co.uk/zacharie-boucher/profil/spieler/111041
 481677,605,apostolos-martinis,Apostolos Martinis,,Greece,08/01/2001,https://www.transfermarkt.co.uk/apostolos-martinis/profil/spieler/481677
 265033,605,nikolas-ioannou,Nikolas Ioannou,Cyprus,Cyprus,10/11/1995,https://www.transfermarkt.co.uk/nikolas-ioannou/profil/spieler/265033
 367255,605,bruno,Bruno,Brazil,Brazil,26/05/1994,https://www.transfermarkt.co.uk/bruno/profil/spieler/367255
@@ -14970,7 +14970,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 264116,1390,gaston-pereiro,Gaston Pereiro,Uruguay,Uruguay,11/06/1995,https://www.transfermarkt.co.uk/gaston-pereiro/profil/spieler/264116
 460898,1390,damir-ceter,Damir Ceter,Colombia,Colombia,02/11/1997,https://www.transfermarkt.co.uk/damir-ceter/profil/spieler/460898
 238752,1390,keita-balde,Keita Balde,Spain,Senegal,08/03/1995,https://www.transfermarkt.co.uk/keita-balde/profil/spieler/238752
-258482,1390,boris-radunović,Boris Radunović,Yugoslavia (Republic),Serbia,26/05/1996,https://www.transfermarkt.co.uk/boris-radunovi%C4%87/profil/spieler/258482
+258482,1390,boris-radunoviƒá,Boris Radunoviƒá,Yugoslavia (Republic),Serbia,26/05/1996,https://www.transfermarkt.co.uk/boris-radunovi%C4%87/profil/spieler/258482
 64793,1390,leonardo-pavoletti,Leonardo Pavoletti,Italy,Italy,26/11/1988,https://www.transfermarkt.co.uk/leonardo-pavoletti/profil/spieler/64793
 459452,1390,riccardo-ladinetti,Riccardo Ladinetti,Italy,Italy,20/12/2000,https://www.transfermarkt.co.uk/riccardo-ladinetti/profil/spieler/459452
 568333,1390,adam-obert,Adam Obert,Slovakia,Slovakia,23/08/2002,https://www.transfermarkt.co.uk/adam-obert/profil/spieler/568333
@@ -15087,7 +15087,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 486031,430,nicolas-gonzalez,Nicolas Gonzalez,Argentina,Argentina,06/04/1998,https://www.transfermarkt.co.uk/nicolas-gonzalez/profil/spieler/486031
 308279,416,rolando-mandragora,Rolando Mandragora,Italy,Italy,29/06/1997,https://www.transfermarkt.co.uk/rolando-mandragora/profil/spieler/308279
 392538,416,tommaso-pobega,Tommaso Pobega,Italy,Italy,15/07/1999,https://www.transfermarkt.co.uk/tommaso-pobega/profil/spieler/392538
-257474,416,vanja-milinković-savić,Vanja Milinković Savić,Spain,Serbia,20/02/1997,https://www.transfermarkt.co.uk/vanja-milinkovi%C4%87-savi%C4%87/profil/spieler/257474
+257474,416,vanja-milinkoviƒá-saviƒá,Vanja Milinkoviƒá Saviƒá,Spain,Serbia,20/02/1997,https://www.transfermarkt.co.uk/vanja-milinkovi%C4%87-savi%C4%87/profil/spieler/257474
 648779,416,wilfried-singo,Wilfried Singo,Cote d'Ivoire,Cote d'Ivoire,25/12/2000,https://www.transfermarkt.co.uk/wilfried-singo/profil/spieler/648779
 236490,416,ola-aina,Ola Aina,England,Nigeria,08/10/1996,https://www.transfermarkt.co.uk/ola-aina/profil/spieler/236490
 134883,416,daniele-baselli,Daniele Baselli,Italy,Italy,12/03/1992,https://www.transfermarkt.co.uk/daniele-baselli/profil/spieler/134883
@@ -15475,7 +15475,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 355501,12,amadou-diawara,Amadou Diawara,Guinea,Guinea,17/07/1997,https://www.transfermarkt.co.uk/amadou-diawara/profil/spieler/355501
 140804,398,jordan-lukaku,Jordan Lukaku,Belgium,Belgium,25/07/1994,https://www.transfermarkt.co.uk/jordan-lukaku/profil/spieler/140804
 769063,398,luka-romero,Luka Romero,Mexico,Argentina,18/11/2004,https://www.transfermarkt.co.uk/luka-romero/profil/spieler/769063
-266302,398,sergej-milinković-savić,Sergej Milinković Savić,Spain,Serbia,27/02/1995,https://www.transfermarkt.co.uk/sergej-milinkovi%C4%87-savi%C4%87/profil/spieler/266302
+266302,398,sergej-milinkoviƒá-saviƒá,Sergej Milinkoviƒá Saviƒá,Spain,Serbia,27/02/1995,https://www.transfermarkt.co.uk/sergej-milinkovi%C4%87-savi%C4%87/profil/spieler/266302
 105521,398,ciro-immobile,Ciro Immobile,Italy,Italy,20/02/1990,https://www.transfermarkt.co.uk/ciro-immobile/profil/spieler/105521
 128220,398,luis-alberto,Luis Alberto,Spain,Spain,28/09/1992,https://www.transfermarkt.co.uk/luis-alberto/profil/spieler/128220
 601577,398,andre-anderson,Andre Anderson,Brazil,Italy,23/09/1999,https://www.transfermarkt.co.uk/andre-anderson/profil/spieler/601577
@@ -17145,7 +17145,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 688673,987,darragh-oconnor,Darragh Oconnor,England,Ireland,05/08/1999,https://www.transfermarkt.co.uk/darragh-oconnor/profil/spieler/688673
 380026,987,justin-amaluzor,Justin Amaluzor,England,England,17/10/1996,https://www.transfermarkt.co.uk/justin-amaluzor/profil/spieler/380026
 332342,987,callum-slattery,Callum Slattery,England,England,08/02/1999,https://www.transfermarkt.co.uk/callum-slattery/profil/spieler/332342
-283994,667,ludovic-ajorque,Ludovic Ajorque,Réunion,France,25/02/1994,https://www.transfermarkt.co.uk/ludovic-ajorque/profil/spieler/283994
+283994,667,ludovic-ajorque,Ludovic Ajorque,R√©union,France,25/02/1994,https://www.transfermarkt.co.uk/ludovic-ajorque/profil/spieler/283994
 891379,667,nordine-kandil,Nordine Kandil,France,France,30/10/2001,https://www.transfermarkt.co.uk/nordine-kandil/profil/spieler/891379
 352392,667,lucas-perrin,Lucas Perrin,France,France,19/11/1998,https://www.transfermarkt.co.uk/lucas-perrin/profil/spieler/352392
 880330,667,moise-sahi-dion,Moise Sahi Dion,Cote d'Ivoire,Cote d'Ivoire,20/12/2001,https://www.transfermarkt.co.uk/moise-sahi-dion/profil/spieler/880330
@@ -17204,7 +17204,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 185342,903,joe-newell,Joe Newell,England,England,15/03/1993,https://www.transfermarkt.co.uk/joe-newell/profil/spieler/185342
 579930,1158,armand-lauriente,Armand Lauriente,France,France,04/12/1998,https://www.transfermarkt.co.uk/armand-lauriente/profil/spieler/579930
 442552,1158,houboulang-mendes,Houboulang Mendes,France,France,04/05/1998,https://www.transfermarkt.co.uk/houboulang-mendes/profil/spieler/442552
-80036,1158,thomas-fontaine,Thomas Fontaine,Réunion,Madagascar,08/05/1991,https://www.transfermarkt.co.uk/thomas-fontaine/profil/spieler/80036
+80036,1158,thomas-fontaine,Thomas Fontaine,R√©union,Madagascar,08/05/1991,https://www.transfermarkt.co.uk/thomas-fontaine/profil/spieler/80036
 120651,1158,vincent-le-goff,Vincent Le Goff,France,France,15/10/1989,https://www.transfermarkt.co.uk/vincent-le-goff/profil/spieler/120651
 648886,1158,samuel-loric,Samuel Loric,France,France,05/07/2000,https://www.transfermarkt.co.uk/samuel-loric/profil/spieler/648886
 395234,1420,batista-mendy,Batista Mendy,France,France,12/01/2000,https://www.transfermarkt.co.uk/batista-mendy/profil/spieler/395234
@@ -17415,7 +17415,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 466809,244,konrad-de-la-fuente,Konrad De La Fuente,United States,United States,16/07/2001,https://www.transfermarkt.co.uk/konrad-de-la-fuente/profil/spieler/466809
 465830,244,matteo-guendouzi,Matteo Guendouzi,France,France,14/04/1999,https://www.transfermarkt.co.uk/matteo-guendouzi/profil/spieler/465830
 569598,162,youssouf-fofana,Youssouf Fofana,France,France,10/01/1999,https://www.transfermarkt.co.uk/youssouf-fofana/profil/spieler/569598
-475412,162,jean-marcelin,Jean Marcelin,Réunion,France,12/02/2000,https://www.transfermarkt.co.uk/jean-marcelin/profil/spieler/475412
+475412,162,jean-marcelin,Jean Marcelin,R√©union,France,12/02/2000,https://www.transfermarkt.co.uk/jean-marcelin/profil/spieler/475412
 375137,162,ismail-jakobs,Ismail Jakobs,Germany,Germany,17/08/1999,https://www.transfermarkt.co.uk/ismail-jakobs/profil/spieler/375137
 578872,162,jean-lucas,Jean Lucas,Brazil,Brazil,22/06/1998,https://www.transfermarkt.co.uk/jean-lucas/profil/spieler/578872
 341647,244,cengiz-under,Cengiz Under,Turkey,Turkey,14/07/1997,https://www.transfermarkt.co.uk/cengiz-under/profil/spieler/341647
@@ -17506,7 +17506,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 286415,244,pau-lopez,Pau Lopez,Spain,Spain,13/12/1994,https://www.transfermarkt.co.uk/pau-lopez/profil/spieler/286415
 347913,244,luan-peres,Luan Peres,Brazil,Brazil,19/07/1994,https://www.transfermarkt.co.uk/luan-peres/profil/spieler/347913
 394327,244,boubacar-kamara,Boubacar Kamara,France,France,23/11/1999,https://www.transfermarkt.co.uk/boubacar-kamara/profil/spieler/394327
-37647,244,dimitri-payet,Dimitri Payet,Réunion,France,29/03/1987,https://www.transfermarkt.co.uk/dimitri-payet/profil/spieler/37647
+37647,244,dimitri-payet,Dimitri Payet,R√©union,France,29/03/1987,https://www.transfermarkt.co.uk/dimitri-payet/profil/spieler/37647
 298975,244,pol-lirola,Pol Lirola,Spain,Spain,13/08/1997,https://www.transfermarkt.co.uk/pol-lirola/profil/spieler/298975
 822458,244,bamba-dieng,Bamba Dieng,Senegal,Senegal,23/03/2000,https://www.transfermarkt.co.uk/bamba-dieng/profil/spieler/822458
 696600,244,simon-ngapandouetnbu,Simon Ngapandouetnbu,Cameroon,Cameroon,12/04/2003,https://www.transfermarkt.co.uk/simon-ngapandouetnbu/profil/spieler/696600
@@ -17762,7 +17762,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 365692,6993,dmytro-topalov,Dmytro Topalov,Ukraine,Ukraine,12/03/1998,https://www.transfermarkt.co.uk/dmytro-topalov/profil/spieler/365692
 289507,1304,ismail-azzaoui,Ismail Azzaoui,Belgium,Belgium,06/01/1998,https://www.transfermarkt.co.uk/ismail-azzaoui/profil/spieler/289507
 134631,1304,sinan-bakis,Sinan Bakis,Germany,Turkey,22/04/1994,https://www.transfermarkt.co.uk/sinan-bakis/profil/spieler/134631
-404705,1304,adrian-szőke,Adrian Szőke,Yugoslavia (Republic),Hungary,01/07/1998,https://www.transfermarkt.co.uk/adrian-sz%C5%91ke/profil/spieler/404705
+404705,1304,adrian-sz≈ëke,Adrian Sz≈ëke,Yugoslavia (Republic),Hungary,01/07/1998,https://www.transfermarkt.co.uk/adrian-sz%C5%91ke/profil/spieler/404705
 321327,1304,alessandro-damen,Alessandro Damen,Netherlands,Netherlands,17/05/1990,https://www.transfermarkt.co.uk/alessandro-damen/profil/spieler/321327
 335027,1304,koen-bucker,Koen Bucker,Netherlands,Netherlands,18/06/1996,https://www.transfermarkt.co.uk/koen-bucker/profil/spieler/335027
 127610,40,mexer,Mexer,Mozambique,Mozambique,08/09/1988,https://www.transfermarkt.co.uk/mexer/profil/spieler/127610
@@ -19273,7 +19273,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 33549,8024,marco-soares,Marco Soares,Portugal,Cape Verde,16/06/1984,https://www.transfermarkt.co.uk/marco-soares/profil/spieler/33549
 255238,8024,joel,Joel,Portugal,Portugal,10/01/1992,https://www.transfermarkt.co.uk/joel/profil/spieler/255238
 455945,8024,adilio-santos,Adilio Santos,Brazil,Brazil,05/07/1993,https://www.transfermarkt.co.uk/adilio-santos/profil/spieler/455945
-561217,8024,oday-dabbagh,Oday Dabbagh,Palästina,Palästina,03/12/1998,https://www.transfermarkt.co.uk/oday-dabbagh/profil/spieler/561217
+561217,8024,oday-dabbagh,Oday Dabbagh,Pal√§stina,Pal√§stina,03/12/1998,https://www.transfermarkt.co.uk/oday-dabbagh/profil/spieler/561217
 175600,8024,arsenio,Arsenio,Portugal,Portugal,30/08/1989,https://www.transfermarkt.co.uk/arsenio/profil/spieler/175600
 829949,8024,norbert-haymamba,Norbert Haymamba,,Cameroon,30/03/1999,https://www.transfermarkt.co.uk/norbert-haymamba/profil/spieler/829949
 520463,8024,brunao,Brunao,Brazil,Brazil,24/02/1997,https://www.transfermarkt.co.uk/brunao/profil/spieler/520463
@@ -20126,7 +20126,7 @@ player_id,current_club_id,name,pretty_name,country_of_birth,country_of_citizensh
 249568,2727,thibault-vlietinck,Thibault Vlietinck,Belgium,Belgium,19/08/1997,https://www.transfermarkt.co.uk/thibault-vlietinck/profil/spieler/249568
 615350,2727,cenk-ozkacar,Cenk Ozkacar,Turkey,Turkey,06/10/2000,https://www.transfermarkt.co.uk/cenk-ozkacar/profil/spieler/615350
 42735,157,sven-kums,Sven Kums,Belgium,Belgium,26/02/1988,https://www.transfermarkt.co.uk/sven-kums/profil/spieler/42735
-531338,2727,scotty-sadzoute,Scotty Sadzoute,Réunion,France,29/04/1998,https://www.transfermarkt.co.uk/scotty-sadzoute/profil/spieler/531338
+531338,2727,scotty-sadzoute,Scotty Sadzoute,R√©union,France,29/04/1998,https://www.transfermarkt.co.uk/scotty-sadzoute/profil/spieler/531338
 190146,2727,xavier-mercier,Xavier Mercier,France,France,25/07/1989,https://www.transfermarkt.co.uk/xavier-mercier/profil/spieler/190146
 292806,2727,casper-de-norre,Casper De Norre,Belgium,Belgium,07/02/1997,https://www.transfermarkt.co.uk/casper-de-norre/profil/spieler/292806
 707844,2727,mandela-keita,Mandela Keita,Belgium,Belgium,10/05/2002,https://www.transfermarkt.co.uk/mandela-keita/profil/spieler/707844

@@ -1,4 +1,4 @@
-competition_id,name,type,country_id,country_name,domestic_league_code,confederation,url
+﻿competition_id,name,type,country_id,country_name,domestic_league_code,confederation,url
 L1,bundesliga,first_tier,40,Germany,L1,europa,https://www.transfermarkt.co.uk/bundesliga/startseite/wettbewerb/L1
 DFB,dfb-pokal,domestic_cup,40,Germany,L1,europa,https://www.transfermarkt.co.uk/dfb-pokal/startseite/wettbewerb/DFB
 DFL,dfl-supercup,domestic_super_cup,40,Germany,L1,europa,https://www.transfermarkt.co.uk/dfl-supercup/startseite/wettbewerb/DFL

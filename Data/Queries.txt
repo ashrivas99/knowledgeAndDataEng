@@ -1,4 +1,8 @@
+###########################################################
+
 Query 1
+Do professional footballers from first class leagues come from high or low GDP countries?
+
 
 PREFIX : <http://www.cs7is1.org/ontologies/football-ontology-3#>
 prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#>
@@ -18,6 +22,37 @@ where {
 } 
 LIMIT 20
 
+
+###########################################################
+
+
+Query2
+Correlation between GDP/obesity rate of high performance football countries
+
+
+prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#>
+
+select ?players_entity ?country_entity_gdp ?country_entity_who ?obesity ?gdpValue
+
+where {
+    ?competiton_entity football:type ?tier;
+                    football:competition_id ?competition_id .
+    ?club_entity football:domestic_competition_id ?competition_id;
+                    football:club_id ?club_id .
+    ?players_entity football:current_club_id ?club_id;
+                    a football:Players;
+                    football:country_of_birth ?country.
+    ?country_entity_gdp football:country ?country;
+                    football:gdpValue ?gdpValue.
+    ?country_entity_who football:who_country ?country;
+                        football:Prevalence_of_obesity_among_children ?obesity.
+    FILTER(?tier = "first_tier") .
+}
+
+
+###########################################################
+
+Query3
 
 
 
