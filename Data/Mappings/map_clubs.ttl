@@ -118,7 +118,6 @@
             rr:column "URL";
             rr:termType rr:IRI;
             rr:class football:Clubs;
-            rr:datatype xsd:anyURI;
             ];
     ];
     .

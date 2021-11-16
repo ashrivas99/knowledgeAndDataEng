@@ -75,7 +75,6 @@
             rr:column "URL";
             rr:termType rr:IRI;
             rr:class football:Players;
-            rr:datatype xsd:anyURI;
              ];
     ];
     .

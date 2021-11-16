@@ -130,7 +130,6 @@
             rr:column "URL";
             rr:termType rr:IRI;
             rr:class football:Games;
-            rr:datatype xsd:anyURI;
             ];
     ];
     .

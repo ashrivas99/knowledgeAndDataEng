@@ -4,6 +4,7 @@
 
 <CompetitonMap>
     a rr:TriplesMap ;
+
         rr:logicalTable [
             rr:tableName "COMPETITIONS"
         ];
@@ -100,7 +101,6 @@
             rr:column "URL";
             rr:termType rr:IRI;
             rr:class football:Competition;
-            rr:datatype xsd:anyURI;
              ];
     ];
     .
