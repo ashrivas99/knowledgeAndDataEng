@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs7is1.org/ontologies/football-ontology-3#"
+     xml:base="http://www.cs7is1.org/ontologies/football-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3">
+        <owl:versionIRI rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#generateGames -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#generateGames">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#GDP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#playInGames -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#playInGames">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Country">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#country_name"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#who_country"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#GDP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#GDP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#GDP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#age">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#assists -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#assists">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#club_id"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#club_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#club_id">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name"/>
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#club_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#club_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competition_url"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#games_url"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#player_url"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#coach_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#coach_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#competition_code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#competition_code">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competition_id"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#competition_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#competition_id">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#competition_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#competition_name">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#league_name"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#competition_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#competition_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#games_url"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#player_url"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#confederation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#confederation">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#country_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#country_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#country_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#country_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#date">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#fee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#fee">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#game_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#game_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#games_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#games_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#player_url"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#GDP"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#GDP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#goals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#goals">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#league_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#league_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#player_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#player_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#player_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#player_name">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#player_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#player_url">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Players"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#position -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#position">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#red_cards -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#red_cards">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#round -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#round">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Games"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#season -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#season">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#squad_size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#squad_size">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#stadium -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#stadium">
+        <owl:equivalentProperty rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Competition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#WHO"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#who_country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#who_country">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#year">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards">
+        <rdfs:subPropertyOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"/>
+        <rdfs:domain rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Appearances -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Appearances">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Clubs -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Clubs">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Competition -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Competition">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Countries -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Football -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Football">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#GDP -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#GDP">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Games -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Games">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#Players -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#Players">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs7is1.org/ontologies/football-ontology-3#WHO -->
+
+    <owl:Class rdf:about="http://www.cs7is1.org/ontologies/football-ontology-3#WHO">
+        <rdfs:subClassOf rdf:resource="http://www.cs7is1.org/ontologies/football-ontology-3#Countries"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
