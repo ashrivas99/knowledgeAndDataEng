@@ -21,6 +21,7 @@
             rr:column "GAME_ID";
             rr:termType rr:Literal;
             rr:class football:Games;
+            rr:datatype xsd:int;
             ];
     ];
 
@@ -31,7 +32,7 @@
             rr:column "STADIUM";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
-            rr:class football:Games;
+            rr:class football:Clubs;
             ];
     ];
     # COMPETITION_CODE
@@ -41,7 +42,7 @@
             rr:column "COMPETITION_CODE";
             rr:termType rr:Literal;
             rr:datatype xsd:string;
-            rr:class football:Games;
+            rr:class football:Competition;
             ];
     ];
 
@@ -62,7 +63,7 @@
         rr:objectMap [
             rr:column "DATE";
             rr:termType rr:Literal;
-            rr:datatype xsd:date;
+            rr:datatype xsd:dateTime;
             rr:class football:Games;
             ];
     ];
@@ -74,7 +75,7 @@
             rr:column "HOME_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-            rr:class football:Games;
+            rr:class football:Clubs;
             ];
     ];
 
@@ -85,7 +86,7 @@
             rr:column "AWAY_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-            rr:class football:Games;
+            rr:class football:Clubs;
             ];
     ];
 
@@ -118,13 +119,13 @@
             rr:column "WIN_CLUB_ID";
             rr:termType rr:Literal;
             rr:datatype xsd:int;
-            rr:class football:Games;
+            rr:class football:Clubs;
             ];
     ];
 
     # URL
     rr:predicateObjectMap [
-        rr:predicate football:games_url ;
+        rr:predicate football:games_url;
         rr:objectMap [
             rr:column "URL";
             rr:termType rr:IRI;

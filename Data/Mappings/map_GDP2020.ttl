@@ -4,52 +4,64 @@
 
 <#GDPMap>
 	a rr:TriplesMap ;
+
 	rr:logicalTable [
 		rr:tableName "GDPDATA"
 	] ;
+
 	rr:subjectMap [
 		rr:template "http://ex.org/entity/gdpdata/{COUNTRY}" ;
 		rr:class football:GDP;
 	] ;
+
 	rr:predicateObjectMap [
 		rr:predicate football:country ;
 		rr:objectMap [ 
 			rr:column "COUNTRY";
 			rr:termType rr:Literal;
-			rr:class football:GDP
+			rr:class football:Countries;
+			rr:datatype xsd:string;
 			 ];
 	] ;
+
     rr:predicateObjectMap [
 		rr:predicate football:CountryCode ;
 		rr:objectMap [ 
 			rr:column "COUNTRYCODE";
 			rr:termType rr:Literal;
-			rr:class football:GDP
+			rr:class football:GDP;
+			rr:datatype xsd:string;
 			 ];
 	] ;
+
 	rr:predicateObjectMap [
 		rr:predicate football:IndicatorName ;
 		rr:objectMap [ 
 			rr:column "INDICATORNAME";
 			rr:termType rr:Literal;
-			rr:class football:GDP
+			rr:class football:GDP;
+			rr:datatype xsd:string;
 			 ];
 	] ;
+
     rr:predicateObjectMap [
 		rr:predicate football:IndicatorCode ;
 		rr:objectMap [ 
 			rr:column "INDICATORCODE";
 			rr:termType rr:Literal;
-			rr:class football:GDP
+			rr:class football:GDP;
+			rr:datatype xsd:string;
 			 ];
 	] ;
+
     rr:predicateObjectMap [
 		rr:predicate football:gdpValue ;
 		rr:objectMap [ 
 			rr:column "2020";
 			rr:termType rr:Literal;
 			rr:datatype xsd:float;
-			rr:class football:GDP
+			rr:class football:GDP;
 			 ];
 	] ;
+
 	.

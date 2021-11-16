@@ -16,11 +16,12 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate football:countries ;
+        rr:predicate football:who_country ;
         rr:objectMap [
             rr:column "COUNTRIES" ;
             rr:termType rr:Literal;
-            rr:class football:WHO;
+            rr:class football:Countries;
+            rr:datatype xsd:string;
         ]
     ];
 
@@ -29,7 +30,8 @@
         rr:predicate football:Totalpopulation ;
         rr:objectMap [
             rr:column "TOTALPOPULATION" ;
-            rr:datatype xsd:int;
+            rr:termType rr:Literal;
+            rr:datatype xsd:float;
             rr:class football:WHO;
         ]
     ];
@@ -39,6 +41,7 @@
         rr:predicate football:LifeExpectancy ;
         rr:objectMap [
             rr:column "LIFEEXPECTANCY" ;
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]
@@ -59,6 +62,7 @@
         rr:predicate football:Total_alcohol_consumption ;
         rr:objectMap [
             rr:column "TOTAL_ALCOHOL_CONSUMPTION" ;
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]
@@ -69,6 +73,7 @@
         rr:predicate football:POPULATIONHOUSEHOLDGT10;
         rr:objectMap [
             rr:column "POPULATIONHOUSEHOLDGT10" ;
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]
@@ -79,6 +84,7 @@
         rr:predicate football:POPULATIONHOUSEHOLDGT25 ;
         rr:objectMap [
             rr:column "POPULATIONHOUSEHOLDGT25" ;
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]
@@ -89,6 +95,7 @@
         rr:predicate football:ASSISTANCE_TO_MEDICAL_RESEARCH ;
         rr:objectMap [
             rr:column "ASSISTANCE_TO_MEDICAL_RESEARCH" ;
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]
@@ -99,6 +106,7 @@
         rr:predicate football:Density_of_medical_doctors ;
         rr:objectMap [
             rr:column "DENSITY_OF_MEDICAL_DOCTORS" ;
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]
@@ -109,6 +117,7 @@
         rr:predicate football:Prevalence_of_obesity_among_children ;
         rr:objectMap [
             rr:column "PREVALENCE_OF_OBESITY_AMONG_CHILDREN";
+            rr:termType rr:Literal;
             rr:datatype xsd:float;
             rr:class football:WHO;
         ]

@@ -20,6 +20,7 @@
                 rr:column "PRETTY_NAME";
                 rr:termType rr:Literal;
                 rr:class football:Clubs;
+                rr:datatype xsd:string
                 ];
         ];
     # CLUB_ID
@@ -39,7 +40,8 @@
         rr:objectMap [
             rr:column "DOMESTIC_COMPETITION_ID";
             rr:termType rr:Literal;
-            rr:class football:Clubs;
+            rr:class football:Competition;
+            rr:datatype xsd:string
             ];
     ];
 

@@ -17,13 +17,15 @@
 			rr:column "APPEARANCE_ID";
 			rr:termType rr:Literal;
 			rr:class football:Appearances;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
 		rr:predicate football:player_id ;
 		rr:objectMap [ 
 			rr:column "PLAYER_ID";
-			rr:class football:Appearances;
+			rr:class football:Players;
+			rr:datatype xsd:int;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -31,7 +33,7 @@
 		rr:objectMap [ 
 			rr:column "GAME_ID";
 			rr:termType rr:Literal;
-			rr:class football:Appearances;
+			rr:class football:Games;
 			rr:datatype xsd:double;
 			 ];
 	] ;
@@ -40,7 +42,8 @@
 		rr:objectMap [ 
 			rr:column "COMPETITION_ID";
 			rr:termType rr:Literal;
-			rr:class football:Appearances;
+			rr:class football:Competition;
+			rr:datatype xsd:string;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -48,7 +51,8 @@
 		rr:objectMap [ 
 			rr:column "PLAYER_CLUB_ID";
 			rr:termType rr:Literal;
-			rr:class football:Appearances;
+			rr:class football:Clubs;
+			rr:datatype xsd:int;
 			 ];
 	] ;
 	rr:predicateObjectMap [
@@ -74,7 +78,7 @@
 		rr:objectMap [ 
 			rr:column "MINUTES_PLAYED";
 			rr:termType rr:Literal;
-			rr:datatype xsd:int;
+			rr:datatype xsd:float;
 			rr:class football:Appearances;
 			 ];
 	] ;
