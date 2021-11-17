@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#> .
 
-<#FootballTransfers2021Map>
+<#AppearancesMap>
 	a rr:TriplesMap ;
 	rr:logicalTable [
 		rr:tableName "APPEARANCES"

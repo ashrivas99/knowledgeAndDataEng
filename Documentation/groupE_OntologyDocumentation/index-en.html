@@ -748,7 +748,9 @@ This ontology has the following classes and properties.</span>
          <span>yellow cards</span>
       </a>
    </li>
+  
 </ul><iframe align="center" width="100%" height ="500px" src="ontologyVisualized1.png"></iframe> 
+ <iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe>
 </div>
   
 
@@ -5057,12 +5059,1239 @@ This section provides details for each class and property defined by  The Footba
 </div>
     
 
+<!--R2RML Documentation-->
+<div id="R2RML Documentation">
+   <h2 id="ref" class="list">R2RML Mapping Documentation <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+   <span class="markdown">
+   This section contains information on the R2RML mappings used to uplift the data for the Football Ontology.</span>
+   
+   <div id="R2RML Documentation Subsection 1">
+      <h3 id="gdp-mapping" class="list">Mapping the GDP Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>GDP Data</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="GDPmapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;##GDPMap&gt;
+   a rr:TriplesMap ;
+
+      rr:logicalTable [
+         rr:tableName "GDPDATA"
+      ] ;
+
+      rr:subjectMap [
+         rr:template "http://ex.org/entity/gdpdata/{COUNTRY}" ;
+         rr:class football:GDP;
+      ] ;
+
+      rr:predicateObjectMap [
+         rr:predicate football:country ;
+         rr:objectMap [ 
+            rr:column "COUNTRY";
+            rr:termType rr:Literal;
+            rr:class football:Countries;
+            rr:datatype xsd:string;
+            ];
+      ] ;
+
+      rr:predicateObjectMap [
+         rr:predicate football:CountryCode ;
+         rr:objectMap [ 
+            rr:column "COUNTRYCODE";
+            rr:termType rr:Literal;
+            rr:class football:GDP;
+            rr:datatype xsd:string;
+            ];
+      ] ;
+
+      rr:predicateObjectMap [
+         rr:predicate football:IndicatorName ;
+         rr:objectMap [ 
+            rr:column "INDICATORNAME";
+            rr:termType rr:Literal;
+            rr:class football:GDP;
+            rr:datatype xsd:string;
+            ];
+      ] ;
+
+      rr:predicateObjectMap [
+         rr:predicate football:IndicatorCode ;
+         rr:objectMap [ 
+            rr:column "INDICATORCODE";
+            rr:termType rr:Literal;
+            rr:class football:GDP;
+            rr:datatype xsd:string;
+            ];
+      ] ;
+
+      rr:predicateObjectMap [
+         rr:predicate football:gdpValue ;
+         rr:objectMap [ 
+            rr:column "2020";
+            rr:termType rr:Literal;
+            rr:datatype xsd:float;
+            rr:class football:GDP;
+            ];
+      ] ;
+
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;http://ex.org/entity/gdpdata/Sub-Saharan%20Africa%20%28excluding%20high%20income%29&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#GDP&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode&gt;
+              "SSA" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode&gt;
+              "NY.GDP.MKTP.CD" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName&gt;
+              "GDP (current US$)" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#country&gt;
+              "Sub-Saharan Africa (excluding high income)" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue&gt;
+              "1.69E+12"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; .</pre>
+   </div>
+
+   <div id="R2RML Documentation Subsection 2">
+      <h3 id="who-mapping" class="list">Mapping the WHO Health Statistics Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>WHO Health Statistics</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="WHOmapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;##WHODATA&gt;
+   a rr:TriplesMap ;
+   rr:logicalTable [
+       rr:tableName "WHODATA"
+   ];
+
+   # SUBJECT
+   rr:subjectMap [
+       rr:template "https://ex.org/entity/whodata/{COUNTRIES}" ;
+       rr:class football:WHO;
+
+   ];
+
+   rr:predicateObjectMap [
+       rr:predicate football:who_country ;
+       rr:objectMap [
+           rr:column "COUNTRIES" ;
+           rr:termType rr:Literal;
+           rr:class football:Countries;
+           rr:datatype xsd:string;
+       ]
+   ];
+
+   #TOTAL_POPULATION
+   rr:predicateObjectMap [
+       rr:predicate football:Totalpopulation ;
+       rr:objectMap [
+           rr:column "TOTALPOPULATION" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+  
+   #LIFE_EXPECTANCY_AT_BIRTH_(YEARS)
+   rr:predicateObjectMap [
+       rr:predicate football:LifeExpectancy ;
+       rr:objectMap [
+           rr:column "LIFEEXPECTANCY" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #PROPORTION_OF_BIRTHS_ATTENDED_BY_SKILLED_HEALTH_PERSONNEL
+   rr:predicateObjectMap [
+       rr:predicate football:Births_Attended_By_Skilled_Professionals ;
+       rr:objectMap [
+           rr:column "BIRTHS_ATTENDED_BY_SKILLED_PROFESSIONALS" ;
+           rr:datatype xsd:int;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #TOTAL_ALCOHOL_PER_CAPITA
+   rr:predicateObjectMap [
+       rr:predicate football:Total_alcohol_consumption ;
+       rr:objectMap [
+           rr:column "TOTAL_ALCOHOL_CONSUMPTION" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #POPULATION_WITH_HOUSEHOLD_EXPENDITURES_ON_HEALTH_>_10%
+   rr:predicateObjectMap [
+       rr:predicate football:POPULATIONHOUSEHOLDGT10;
+       rr:objectMap [
+           rr:column "POPULATIONHOUSEHOLDGT10" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #POPULATION_WITH_HOUSEHOLD_EXPENDITURES_ON_HEALTH_>_25%
+   rr:predicateObjectMap [
+       rr:predicate football:POPULATIONHOUSEHOLDGT25 ;
+       rr:objectMap [
+           rr:column "POPULATIONHOUSEHOLDGT25" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #Total net development assistance to medical research per capita
+   rr:predicateObjectMap [
+       rr:predicate football:ASSISTANCE_TO_MEDICAL_RESEARCH ;
+       rr:objectMap [
+           rr:column "ASSISTANCE_TO_MEDICAL_RESEARCH" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #Density of medical doctors (per 10000 population) 
+   rr:predicateObjectMap [
+       rr:predicate football:Density_of_medical_doctors ;
+       rr:objectMap [
+           rr:column "DENSITY_OF_MEDICAL_DOCTORS" ;
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+   #Prevalence of obesity among children
+   rr:predicateObjectMap [
+       rr:predicate football:Prevalence_of_obesity_among_children ;
+       rr:objectMap [
+           rr:column "PREVALENCE_OF_OBESITY_AMONG_CHILDREN";
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:WHO;
+       ]
+   ];
+
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&&lt;https://ex.org/entity/whodata/Egypt&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#WHO&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH&gt;
+              "0.1"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals&gt;
+              "92"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors&gt;
+              "7.5"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy&gt;
+              "71.8"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10&gt;
+              "26.2"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25&gt;
+              "3.9"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children&gt;
+              "17.6"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption&gt;
+              "0.1"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation&gt;
+              "100 388"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#who_country&gt;
+              "Egypt" . .</pre>
+   </div>
+
+   <div id="R2RML Documentation Subsection 3">
+      <h3 id="clubs-mapping" class="list">Mapping the Football Clubs Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>Clubs</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="clubs-mapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;#ClubMap&gt;
+   a rr:TriplesMap ;
+   rr:logicalTable [
+       rr:tableName "CLUBS"
+   ];
+
+   # SUBJECT
+   rr:subjectMap [
+       rr:template "http://ex.org/entity/clubs/{PRETTY_NAME}" ;
+       rr:class football:Clubs;
+   ];
+
+   rr:predicateObjectMap [
+           rr:predicate football:club_pretty_name ;
+           rr:objectMap [
+               rr:column "PRETTY_NAME";
+               rr:termType rr:Literal;
+               rr:class football:Clubs;
+               rr:datatype xsd:string
+               ];
+       ];
+   # CLUB_ID
+   rr:predicateObjectMap [
+       rr:predicate football:club_id ;
+       rr:objectMap [
+           rr:column "CLUB_ID";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # DOMESTIC_COMPETITION_ID
+   rr:predicateObjectMap [
+       rr:predicate football:domestic_competition_id ;
+       rr:objectMap [
+           rr:column "DOMESTIC_COMPETITION_ID";
+           rr:termType rr:Literal;
+           rr:class football:Competition;
+           rr:datatype xsd:string
+           ];
+   ];
+
+   # TOTAL_MARKET_VALUE
+   rr:predicateObjectMap [
+       rr:predicate football:total_market_value ;
+       rr:objectMap [
+           rr:column "TOTAL_MARKET_VALUE";
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # SQUAD_SIZE
+   rr:predicateObjectMap [
+       rr:predicate football:squad_size ;
+       rr:objectMap [
+           rr:column "SQUAD_SIZE";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # STADIUM_NAME
+   rr:predicateObjectMap [
+       rr:predicate football:stadium_name ;
+       rr:objectMap [
+           rr:column "STADIUM_NAME";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # STADIUM_SEATS
+   rr:predicateObjectMap [
+       rr:predicate football:stadium_seats ;
+       rr:objectMap [
+           rr:column "STADIUM_SEATS";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # NET_TRANSFER_RECORD
+   rr:predicateObjectMap [
+       rr:predicate football:net_transfer_record ;
+       rr:objectMap [
+           rr:column "NET_TRANSFER_RECORD";
+           rr:termType rr:Literal;
+           rr:datatype xsd:float;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # COACH_NAME
+   rr:predicateObjectMap [
+       rr:predicate football:coach_name ;
+       rr:objectMap [
+           rr:column "COACH_NAME";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # URL
+   rr:predicateObjectMap [
+       rr:predicate football:club_url ;
+       rr:objectMap [
+           rr:column "URL";
+           rr:termType rr:IRI;
+           rr:class football:Clubs;
+           ];
+   ];
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;http://ex.org/entity/clubs/Asteras%20Tripolis&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Clubs&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#club_id&gt;
+              "6676"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name&gt;
+              "Asteras Tripolis" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#club_url&gt;
+              &lt;https://www.transfermarkt.co.uk/asteras-tripolis/startseite/verein/6676&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#coach_name&gt;
+              "Milan Rastavac" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id&gt;
+              "GR1" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record&gt;
+              "+¬£990Th."^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#squad_size&gt;
+              "35"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name&gt;
+              "Gipedo Theodoros Kolokotronis" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats&gt;
+              "7423"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value&gt;
+              "7.83"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; .</pre>
+   </div>
+   <div id="R2RML Documentation Subsection 4">
+      <h3 id="appearances-mapping" class="list">Mapping the Football Appearances Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>Appearances</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="appearance-mapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;#AppearancesMap&gt;
+   a rr:TriplesMap ;
+	rr:logicalTable [
+		rr:tableName "APPEARANCES"
+	] ;
+	rr:subjectMap [
+		rr:template "http://ex.org/entity/appearances/{APPEARANCE_ID}" ;
+		rr:class football:Appearances;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:appearance_id ;
+		rr:objectMap [ 
+			rr:column "APPEARANCE_ID";
+			rr:termType rr:Literal;
+			rr:class football:Appearances;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:player_id ;
+		rr:objectMap [ 
+			rr:column "PLAYER_ID";
+			rr:class football:Players;
+			rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:game_id ;
+		rr:objectMap [ 
+			rr:column "GAME_ID";
+			rr:termType rr:Literal;
+			rr:class football:Games;
+			rr:datatype xsd:double;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:competition_id ;
+		rr:objectMap [ 
+			rr:column "COMPETITION_ID";
+			rr:termType rr:Literal;
+			rr:class football:Competition;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:player_club_id ;
+		rr:objectMap [ 
+			rr:column "PLAYER_CLUB_ID";
+			rr:termType rr:Literal;
+			rr:class football:Clubs;
+			rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:goals;
+		rr:objectMap [ 
+			rr:column "GOALS";
+			rr:termType rr:Literal;
+			rr:class football:Appearances;
+			rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:assists ;
+		rr:objectMap [ 
+			rr:column "ASSISTS";
+			rr:termType rr:Literal;
+			rr:class football:Appearances;
+            rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:minutes_played ;
+		rr:objectMap [ 
+			rr:column "MINUTES_PLAYED";
+			rr:termType rr:Literal;
+			rr:datatype xsd:float;
+			rr:class football:Appearances;
+			 ];
+	] ;
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;http://ex.org/entity/appearances/3450520_376675&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Appearances&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id&gt;
+              "3450520_376675" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#assists&gt;
+              "0"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#competition_id&gt;
+              "NL1" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#game_id&gt;
+              "3450520"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#goals&gt;
+              "0"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played&gt;
+              "90"^^&lt;http://www.w3.org/2001/XMLSchema#float&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id&gt;
+              "235"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#player_id&gt;
+              "376675"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; .</pre>
+   </div>
+   <div id="R2RML Documentation Subsection 5">
+      <h3 id="competitions-mapping" class="list">Mapping the Football Competitions Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>Competitions</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="competition-mapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;#CompetitionMap&gt;
+   a rr:TriplesMap ;
+
+   rr:logicalTable [
+       rr:tableName "COMPETITIONS"
+   ];
+
+# SUBJECT
+rr:subjectMap [
+   rr:template "http://ex.org/entity/competitions/{NAME}" ;
+   rr:class football:Competition;
+];
+
+rr:predicateObjectMap [
+   rr:predicate football:competition_name ;
+   rr:objectMap [
+       rr:column "NAME";
+       rr:termType rr:Literal;
+       rr:class football:Competition;
+        rr:datatype xsd:string;
+        ];
+];
+
+
+# COMPETITON_ID
+rr:predicateObjectMap [
+   rr:predicate football:competition_id ;
+   rr:objectMap [
+       rr:column "COMPETITION_ID";
+       rr:termType rr:Literal;
+       rr:class football:Competition;
+       rr:datatype xsd:string;
+        ];
+];
+
+# TYPE
+rr:predicateObjectMap [
+   rr:predicate football:type ;
+   rr:objectMap [
+       rr:column "TYPE";
+       rr:termType rr:Literal;
+       rr:class football:Competition;
+       rr:datatype xsd:string;
+       ];
+];
+
+# CountryId
+rr:predicateObjectMap [
+   rr:predicate football:country_id ;
+   rr:objectMap [
+       rr:column "COUNTRY_ID";
+       rr:termType rr:Literal;
+       rr:class football:Competition;
+       rr:datatype xsd:int;
+        ];
+];
+
+# CountryName
+rr:predicateObjectMap [
+   rr:predicate football:country_name ;
+   rr:objectMap [
+       rr:column "COUNTRY_NAME";
+       rr:termType rr:Literal;
+       rr:class football:Countries;
+       rr:datatype xsd:string;
+        ];
+];
+
+
+#DOMESTIC_LEAGUE_CODE
+rr:predicateObjectMap [
+   rr:predicate football:domestic_league_code ;
+   rr:objectMap [
+       rr:column "DOMESTIC_LEAGUE_CODE";
+       rr:termType rr:Literal;
+       rr:class football:Competition;
+       rr:datatype xsd:string;
+        ];
+];
+
+
+#CONFEDERATION
+rr:predicateObjectMap [
+   rr:predicate football:confederation ;
+   rr:objectMap [
+       rr:column "CONFEDERATION";
+       rr:termType rr:Literal;
+       rr:class football:Competition;
+       rr:datatype xsd:string;
+        ];
+];
+
+#URL
+rr:predicateObjectMap [
+   rr:predicate football:competition_url;
+   rr:objectMap [
+       rr:column "URL";
+       rr:termType rr:IRI;
+       rr:class football:Competition;
+        ];
+];
+.
+</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;http://ex.org/entity/competitions/ligue-1&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Competition&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#competition_id&gt;
+              "FR1" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#competition_name&gt;
+              "ligue-1" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#competition_url&gt;
+              &lt;https://www.transfermarkt.co.uk/ligue-1/startseite/wettbewerb/FR1&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#confederation&gt;
+              "europa" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#country_id&gt;
+              "50"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#country_name&gt;
+              "France" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code&gt;
+              "FR1" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#type&gt;
+              "first_tier" .</pre>
+   </div>
+   <div id="R2RML Documentation Subsection 6">
+      <h3 id="football-transfers-2021-mapping" class="list">Mapping the Football Transfers 2021 Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>Football Transfers 2021 Data</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="ft2021-mapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;#FootballTransfers2021Map&gt;
+   a rr:TriplesMap ;
+	rr:logicalTable [
+		rr:tableName "FT2021"
+	] ;
+	rr:subjectMap [
+		rr:template "http://ex.org/entity/ft2021/{PLAYER_NAME}" ;
+		rr:class football:Football_Transfers;
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:player_name ;
+		rr:objectMap [ 
+			rr:column "PLAYER_NAME";
+			rr:termType rr:Literal;
+			rr:class football:Players;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:club_transferrred_to_name ;
+		rr:objectMap [ 
+			rr:column "CLUB_NAME";
+			rr:termType rr:Literal;
+			rr:class football:Clubs;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:age ;
+		rr:objectMap [ 
+			rr:column "AGE";
+			rr:termType rr:Literal;
+			rr:class football:Players;
+			rr:datatype xsd:int;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:position ;
+		rr:objectMap [ 
+			rr:column "POSITION";
+			rr:termType rr:Literal;
+			rr:class football:Football_Transfers;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:club_transferred_from_name ;
+		rr:objectMap [ 
+			rr:column "CLUB_INVOLVED_NAME";
+			rr:termType rr:Literal;
+			rr:class football:Clubs;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:fee_cleaned;
+		rr:objectMap [ 
+			rr:column "FEE_CLEANED";
+			rr:termType rr:Literal;
+			rr:class football:Football_Transfers;
+			rr:datatype xsd:double;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:league_name ;
+		rr:objectMap [ 
+			rr:column "LEAGUE_NAME";
+			rr:termType rr:Literal;
+			rr:class football:Competition;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:year ;
+		rr:objectMap [ 
+			rr:column "YEAR";
+			rr:termType rr:Literal;
+			rr:class football:Football_Transfers;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:season ;
+		rr:objectMap [ 
+			rr:column "SEASON";
+			rr:termType rr:Literal;
+			rr:class football:Football_Transfers;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	rr:predicateObjectMap [
+		rr:predicate football:C ;
+		rr:objectMap [ 
+			rr:column "COUNTRY";
+			rr:termType rr:Literal;
+			rr:class football:Countries;
+			rr:datatype xsd:string;
+			 ];
+	] ;
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;http://ex.org/entity/ft2021/Christopher%20Mamengi&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#C&gt;
+              "Netherlands" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#age&gt;
+              "20"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name&gt;
+              "Utrecht U21" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name&gt;
+              "FC Utrecht" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned&gt;
+              "0"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#league_name&gt;
+              "Eredivisie" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#player_name&gt;
+              "Christopher Mamengi" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#position&gt;
+              "Centre-Back" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#season&gt;
+              "2021/2022" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#year&gt;
+              "2021" .</pre>
+   </div>
+   <div id="R2RML Documentation Subsection 7">
+      <h3 id="games-mapping" class="list">Mapping the Football Games Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>Games</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="gamesmapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;#GamesMap&gt;
+   a rr:TriplesMap ;
+   rr:logicalTable [
+       rr:tableName "GAMES";
+   ];
+
+
+   # SUBJECT
+   rr:subjectMap [
+       rr:template "https://ex.org/entity/games/{GAME_ID}" ;
+       rr:class football:Games;
+   ];
+
+    rr:predicateObjectMap [
+       rr:predicate football:game_id ;
+       rr:objectMap [
+           rr:column "GAME_ID";
+           rr:termType rr:Literal;
+           rr:class football:Games;
+           rr:datatype xsd:int;
+           ];
+   ];
+
+   # STADIUM
+   rr:predicateObjectMap [
+       rr:predicate football:stadium ;
+       rr:objectMap [
+           rr:column "STADIUM";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Clubs;
+           ];
+   ];
+   # COMPETITION_CODE
+   rr:predicateObjectMap [
+       rr:predicate football:competition_code;
+       rr:objectMap [
+           rr:column "COMPETITION_CODE";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Competition;
+           ];
+   ];
+
+   # ROUND
+   rr:predicateObjectMap [
+       rr:predicate football:round;
+       rr:objectMap [
+           rr:column "ROUND";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Games;
+           ];
+   ];
+
+   #DATE
+   rr:predicateObjectMap [
+       rr:predicate football:date;
+       rr:objectMap [
+           rr:column "DATE";
+           rr:termType rr:Literal;
+           rr:datatype xsd:dateTime;
+           rr:class football:Games;
+           ];
+   ];
+
+   #HOME_CLUB_ID
+   rr:predicateObjectMap [
+       rr:predicate football:home_club_id;
+       rr:objectMap [
+           rr:column "HOME_CLUB_ID";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   #AWAY_CLUB_ID
+   rr:predicateObjectMap [
+       rr:predicate football:away_club_id;
+       rr:objectMap [
+           rr:column "AWAY_CLUB_ID";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+           ];
+   ];
+
+
+   #HOME_CLUB_GOALS
+   rr:predicateObjectMap [
+       rr:predicate football:home_club_goals;
+       rr:objectMap [
+           rr:column "HOME_CLUB_GOALS";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Games;
+           ];
+   ];
+
+   #AWAY_CLUB_GOALS
+   rr:predicateObjectMap [
+       rr:predicate football:away_club_goals;
+       rr:objectMap [
+           rr:column "AWAY_CLUB_GOALS";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Games;
+           ];
+   ];
+
+   rr:predicateObjectMap [
+       rr:predicate football:win_club_id;
+       rr:objectMap [
+           rr:column "WIN_CLUB_ID";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+           ];
+   ];
+
+   # URL
+   rr:predicateObjectMap [
+       rr:predicate football:games_url;
+       rr:objectMap [
+           rr:column "URL";
+           rr:termType rr:IRI;
+           rr:class football:Games;
+           ];
+   ];
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;https://ex.org/entity/games/3420439&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Games&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals&gt;
+              "1"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id&gt;
+              "10690"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#competition_code&gt;
+              "UKR1" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#date&gt;
+              "22/08/2020"^^&lt;http://www.w3.org/2001/XMLSchema#dateTime&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#game_id&gt;
+              "3420439"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#games_url&gt;
+              &lt;https://www.transfermarkt.co.uk/desna-chernigiv_zorya-lugansk/index/spielbericht/3420439&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals&gt;
+              "3"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id&gt;
+              "16239"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#round&gt;
+              "1. Matchday" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#stadium&gt;
+              "Stadion im. Yuriya Gagarina" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id&gt;
+              "16239"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; .</pre>
+   </div>
+   <div id="R2RML Documentation Subsection 8">
+      <h3 id="players-mapping" class="list">Mapping the Football Players Dataset</h3>
+
+    <p>The following  R2RML mapping document will produce
+    the desired triples from the <code>Players</code> csv</a>:</p>
+
+    <br/>
+    <p>The R2RML Mapping:</p>
+    <pre class="players-mapping">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+
+   &lt;#PlayersMap&gt;
+   a rr:TriplesMap ;
+   rr:logicalTable [
+       rr:tableName "PLAYERS"
+   ];
+
+   # SUBJECT
+   rr:subjectMap [
+       rr:template "http://ex.org/entity/players/{PRETTY_NAME}" ;
+       rr:class football:Players;
+   ];
+
+   rr:predicateObjectMap [
+       rr:predicate football:players_pretty_name ;
+       rr:objectMap [
+           rr:column "PRETTY_NAME";
+           rr:termType rr:Literal;
+           rr:class football:Players;
+           rr:datatype xsd:string;
+           ];
+   ];
+
+   # PLAYER_ID
+   rr:predicateObjectMap [
+       rr:predicate football:player_id ;
+       rr:objectMap [
+           rr:column "PLAYER_ID";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Players;
+           ];
+   ];
+
+   # CURRENT_CLUB_ID
+   rr:predicateObjectMap [
+       rr:predicate football:current_club_id ;
+       rr:objectMap [
+           rr:column "CURRENT_CLUB_ID";
+           rr:termType rr:Literal;
+           rr:datatype xsd:int;
+           rr:class football:Clubs;
+            ];
+   ];
+
+   # COUNTRY_OF_BIRTH
+   rr:predicateObjectMap [
+       rr:predicate football:country_of_birth ;
+       rr:objectMap [
+           rr:column "COUNTRY_OF_BIRTH";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Countries;
+            ];
+   ];
+
+   # COUNTRY_OF_CITIZENSHIP
+   rr:predicateObjectMap [
+       rr:predicate football:country_of_citizenship ;
+       rr:objectMap [
+           rr:column "COUNTRY_OF_CITIZENSHIP";
+           rr:termType rr:Literal;
+           rr:datatype xsd:string;
+           rr:class football:Countries;
+            ];
+   ];
+
+   #URL
+   rr:predicateObjectMap [
+       rr:predicate football:player_url;
+       rr:objectMap [
+           rr:column "URL";
+           rr:termType rr:IRI;
+           rr:class football:Players;
+            ];
+   ];
+
+	.</pre>
+
+    <br />
+    <p>The Desired Output - Sample</p>
+    <pre class="ex-output">&lt;http://ex.org/entity/players/Nassim%20Boujellab&gt;
+      a       &lt;http://www.cs7is1.org/ontologies/football-ontology-3#Players&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth&gt;
+              "Germany" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship&gt;
+              "Morocco" ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id&gt;
+              "33"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#player_id&gt;
+              "346332"^^&lt;http://www.w3.org/2001/XMLSchema#int&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#player_url&gt;
+              &lt;https://www.transfermarkt.co.uk/nassim-boujellab/profil/spieler/346332&gt; ;
+      &lt;http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name&gt;
+              "Nassim Boujellab" .</pre>
+   </div>
+   
+</div>
+
+
+   <!--SPARQL Queries Documentation-->
+  <div id="SPARQL_Queries">
+   <h2 id="ref" class="list">SPARQL Queries <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+   <span class="markdown">
+   </span>
+   This section contains details and explanations about the SPARQL Queries used to query the uplifted datasets that use the football ontology as a prefix in them. 
+   
+   <div id="SPARQLQuery1">
+   <h3 id="query-1" class="list">SPARQL Query 1</h3>
+
+    <p>The following query:</p>
+
+    <p>The SPARQL Query:</p>
+    <pre class="sparql-query-1">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+   </pre>
+   </div>
+
+   <div id="SPARQLQuery2">
+      <h3 id="query-2" class="list">SPARQL Query 2</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-2">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+      </div>
+
+   <div id="SPARQLQuery3">
+   <h3 id="query-3" class="list">SPARQL Query 3</h3>
+
+    <p>The following query:</p>
+
+    <p>The SPARQL Query:</p>
+    <pre class="sparql-query-3">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+   </pre>
+   </div>
+
+   <div id="SPARQLQuery4">
+      <h3 id="query-4" class="list">SPARQL Query 4</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-4">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+      </div>
+
+   <div id="SPARQLQuery5">
+   <h3 id="query-5" class="list">SPARQL Query 5</h3>
+
+    <p>The following query:</p>
+
+    <p>The SPARQL Query:</p>
+    <pre class="sparql-query-5">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+   </pre>
+   </div>
+
+   <div id="SPARQLQuery6">
+      <h3 id="query-6" class="list">SPARQL Query 6</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-6">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+   </div>
+
+   <div id="SPARQLQuery7">
+      <h3 id="query-7" class="list">SPARQL Query 7</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-7">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+   </div>
+
+   <div id="SPARQLQuery8">
+      <h3 id="query-8" class="list">SPARQL Query 8</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-8">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+   </div>
+
+   <div id="SPARQLQuery9">
+      <h3 id="query-9" class="list">SPARQL Query 9</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-9">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+   </div>
+
+   <div id="SPARQLQuery10">
+      <h3 id="query-10" class="list">SPARQL Query 10</h3>
+   
+       <p>The following query:</p>
+   
+       <p>The SPARQL Query:</p>
+       <pre class="sparql-query-10">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
+      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
+      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+      </pre>
+   </div>
+      
+   
+
+</div>
+
 <!--REFERENCES SECTION-->
   <div id="references">
 <h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
 Add your references here. It is recommended to have them as a list.</span>
+<dl>
+   <dt><a id="DM" name="DM">[DM]</a></dt>
 
+   <dd><cite><a href="http://www.w3.org/TR/2012/REC-rdb-direct-mapping-20120927/">A
+   Direct Mapping of Relational Data to RDF</a></cite>, Alexandre Bertails, Marcelo Arenas,
+   Eric Prud'hommeaux, Juan Sequeda, Editors. World Wide Web Consortium, 27 September 2012.
+   This version is http://www.w3.org/TR/2012/REC-rdb-direct-mapping-20120927/. The latest
+   version is http://www.w3.org/TR/rdb-direct-mapping/.</dd>
+ </dl>
 </div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
