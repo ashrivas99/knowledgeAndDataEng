@@ -83,14 +83,19 @@ $(function(){
 <span>Ontology Specification Draft</span>
 </div>
 </div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
-he Football Ontology is used to model the world of football and external factors such as GDP and World Health Organization health statistics for each country in the world. This ontology was created as a part of a group project for the module CS7IS1: Knowledge and Data Engineering, taught in Trinity College Dublin by Professor Declan O’Sullivan. The football ontology models various aspects of football, including but not limited to players, clubs, competitions, player appearances in football games, competitions, football leagues and football transfer mechanics. The football ontology also models various factors regarding a country, such as its GDP and Health Statistics. The Health Statistics for each country modelled by this ontology include obesity rate among children, life expectancy, assistance to medical research, total alcohol consumption, total population and more.</span>
+The Football Ontology is used to model the world of football and external factors such as GDP and World Health Organization health statistics for each country in the world. This ontology was created as a part of a group project for the module CS7IS1: Knowledge and Data Engineering, taught in Trinity College Dublin by Professor Declan O’Sullivan. The football ontology models various aspects of football, including but not limited to players, clubs, competitions, player appearances in football games, competitions, football leagues and football transfer mechanics. The football ontology also models various factors regarding a country, such as its GDP and Health Statistics. The Health Statistics for each country modelled by this ontology include obesity rate among children, life expectancy, assistance to medical research, total alcohol consumption, total population and more.</span>
 </div>
 <div id="toc"></div> 
 
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+The football ontology models a world of football while considering external factors of a country such as its GDP and health statistics.
+The football ontology was created so that we could relate the football world with external factor affecting this sport.
+By doing so this ontology allows a user to take a deep dive into the mechanics of football and see how external factors such as GDP may
+affect the decisions of player, clubs and competitions.
+The goal for this ontology is to model in more areas of football and external factors that affect the world of football.
+Another goal is to make this ontology more robust.</span>
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
 <div id="ns" align="center">
@@ -757,9 +762,28 @@ This ontology has the following classes and properties.</span>
 <!--DESCRIPTION SECTION-->
     <div id="description"><h2 id="desc" class="list"> The Football Ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
 
+This diagram of the football ontology is as follows:
+</span>
+<iframe align="center" width="100%" height ="500px" src="ontologyVisualized.png"></iframe>
+
+<p>The football ontology has one super class known as Countries. Countries has 3 subclasses known as
+   GDP, WHO and Football. The GDP class is a class for GDP of each country. The WHO class is a class for the 
+   health statistics of each Country and the Football class is a class for the football structure in a given country.
+   <br />
+   The football class contains eight subclasses which are Football Transfers, Games, Appearances, Clubs,
+   Competitions and Players. Each of these eight subclasses are interrelated to each other and have object relationships.
+   For example the relation hasAppeared is between players and appearances, a player hasAppeared in appearances.
+
+   Each class and subclass also has several data properties attached with them. From the diagram we can see above that the class GDP
+    has an object property known as gdpValue which is the indicator of the GDP value of each country.
+   Each object property and data property has a range and domain attached as well which can be observed from the figure above.
+   <br />
+   Please reach out to the authors of this ontology in case you may have any questions.
+
+</p>
 </div>
+
    
 
 <!--CROSSREF SECTION-->
@@ -6157,120 +6181,246 @@ rr:predicateObjectMap [
    <div id="SPARQLQuery1">
    <h3 id="query-1" class="list">SPARQL Query 1</h3>
 
-    <p>The following query:</p>
+    <p>The following query helps retrieve the list of professional footballers from first class leagues that come from coutries with a GDP greater than the median GDP of all countries</p>
 
     <p>The SPARQL Query:</p>
-    <pre class="sparql-query-1">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+    <pre class="sparql-query-1">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+      select ?players_entity ?country ?country_entity ?gdpValue
+      where {
+          ?competiton_entity football:type ?tier;
+                             football:competition_id ?competition_id .
+          ?club_entity football:domestic_competition_id ?competition_id;
+                       football:club_id ?club_id .
+          ?players_entity football:current_club_id ?club_id;
+                          a football:Players;
+                          football:country_of_birth ?country.
+          ?country_entity football:country ?country;
+                          football:gdpValue ?gdpValue
+          FILTER(?tier = "first_tier" && ?gdpValue &gt;7.33E+10) .
+      }.
    </pre>
    </div>
 
    <div id="SPARQLQuery2">
       <h3 id="query-2" class="list">SPARQL Query 2</h3>
    
-       <p>The following query:</p>
+       <p>The following query retrieves the GDP value and obesity rate of countries containing clubs that participate in first tier football leagues</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-2">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-2">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+         select (COUNT(?players_entity) as ?Count_players) ?country_entity_who ?obesity ?gdpValue
+         
+         where {
+             ?competiton_entity football:type ?tier;
+                                football:competition_id ?competition_id .
+             FILTER(?tier = "first_tier") .
+             ?club_entity football:domestic_competition_id ?competition_id;
+                          football:club_id ?club_id .
+             ?players_entity football:current_club_id ?club_id;
+                             a football:Players;
+                             football:country_of_birth ?country.
+             ?country_entity_gdp football:country ?country;
+                                 football:gdpValue ?gdpValue.
+             ?country_entity_who football:who_country ?country;
+                                 football:Prevalence_of_obesity_among_children ?obesity.
       </pre>
       </div>
 
    <div id="SPARQLQuery3">
    <h3 id="query-3" class="list">SPARQL Query 3</h3>
 
-    <p>The following query:</p>
+    <p>The following query answers the question of: What are the total number of stadium seats in each football playing country?</p>
 
     <p>The SPARQL Query:</p>
-    <pre class="sparql-query-3">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+    <pre class="sparql-query-3">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+      select ?countryName  (SUM(?stadSeats) AS ?totalStadiumSeats)
+      where {
+          ?competiton_entity football:competition_id ?compID ;
+                             football:country_name ?countryName.
+          ?club_entity football:domestic_competition_id ?compID;
+                       football:stadium_seats ?stadSeats .
+      } GROUP BY(?countryName) ORDER BY DESC(?totalStadiumSeats)
    </pre>
    </div>
 
    <div id="SPARQLQuery4">
       <h3 id="query-4" class="list">SPARQL Query 4</h3>
    
-       <p>The following query:</p>
+       <p>The following query gives the user information about the money spent on player transfers in the 2021 transfer season by each coach.</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-4">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-4">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+         select ?club_pretty_name ?coach_name (SUM(?fee) as ?TotalFee)
+         where {
+             ?club_entity a football:Clubs;
+                          football:club_pretty_name ?club_pretty_name;
+                          football:coach_name ?coach_name.
+             ?transfer_entity a football:Football_Transfers;
+                        football:fee_cleaned ?fee;
+                         football:club_transferrred_to_name ?club_pretty_name.
+         }
+         GROUP BY ?coach_name ?club_pretty_name
+         ORDER BY DESC (?TotalFee)
       </pre>
       </div>
 
    <div id="SPARQLQuery5">
    <h3 id="query-5" class="list">SPARQL Query 5</h3>
 
-    <p>The following query:</p>
+    <p>The following query retrieves the average playing minutes of each player that was transferred in the 2021 transfer season.</p>
 
     <p>The SPARQL Query:</p>
-    <pre class="sparql-query-5">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-   @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-   @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+    <pre class="sparql-query-5">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+      select
+      ?player_name (COUNT(?appearance_id) as ?Appearances) (AVG(?minutes_played) AS ?avg)
+      where {
+          ?tf_entity a football:Football_Transfers;
+                     football:player_name ?player_name.
+      
+          ?players_entity a football:Players;
+                          football:players_pretty_name ?player_name;
+                          football:player_id ?player_id.
+          ?appearance_entity a football:Appearances;
+                             football:player_id ?player_id;
+                             football:appearance_id ?appearance_id;
+                             football:minutes_played ?minutes_played.
+      }
+      GROUP BY ?player_name
    </pre>
    </div>
 
    <div id="SPARQLQuery6">
       <h3 id="query-6" class="list">SPARQL Query 6</h3>
    
-       <p>The following query:</p>
+       <p>The following query answers the question:What are the number of appearances and the total minutes played by each player and what are the health statistics of the country of this player?</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-6">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-6">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+         select
+         (COUNT(?appearance_id) as ?Appearances) ?country_of_birth (AVG(?minutes_played) AS ?Average_minutes_played) ?life_expectancy
+         where {
+             ?players_entity a football:Players;
+                             football:players_pretty_name ?player_name;
+                             football:player_id ?player_id;
+                             football:country_of_birth ?country_of_birth.
+         
+             ?appearance_entity a football:Appearances;
+                                football:player_id ?player_id;
+                                football:appearance_id ?appearance_id;
+                                football:minutes_played ?minutes_played.
+         
+             ?who_entity a football:WHO;
+                         football:who_country ?country_of_birth;
+                         football:LifeExpectancy ?life_expectancy.
+         }
+         GROUP BY ?country_of_birth ?life_expectancy
+         ORDER BY DESC (?Appearances)
+         
       </pre>
    </div>
 
    <div id="SPARQLQuery7">
       <h3 id="query-7" class="list">SPARQL Query 7</h3>
    
-       <p>The following query:</p>
+       <p>The following query returns the number of wins of each club that participate in the last 2 years of the champions league?</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-7">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-7">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+         Select (Count(?win_club_id) as ?number_of_wins) ?club_name
+         where {
+             ?competition_entity a football:Competition;
+                                 football:competition_name ?competition_name;
+                                 football:competition_id ?competition_id.
+             FILTER(?competition_name= "uefa-champions-league")
+         
+             ?games_entity a football:Games;
+                     football:competition_code ?competition_id;
+                     football:game_id ?game_id;
+                     football:win_club_id ?win_club_id.
+         
+             ?club_entity a football:Clubs;
+                     football:club_id ?win_club_id;
+                     football:club_pretty_name ?club_name.
+         
+         }
+         GROUP BY ?club_name
+         ORDER BY DESC (?number_of_wins)
       </pre>
    </div>
 
    <div id="SPARQLQuery8">
       <h3 id="query-8" class="list">SPARQL Query 8</h3>
    
-       <p>The following query:</p>
+       <p>The following query retrieves the list of players that immigrated to countries that have a higer GDP value</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-8">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-8">
+         prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+         Select ?player_pretty_name ?country_of_birth ?gdp_value_birth ?country_of_citizenship ?gdp_value_citizenship
+         where{
+             ?player_entity a football:Players;
+                            football:players_pretty_name ?player_pretty_name;
+                            football:country_of_birth ?country_of_birth;
+                            football:country_of_citizenship ?country_of_citizenship.
+         
+             ?gdp_entity_birth a football:GDP;
+                         football:country ?country_of_birth;
+                         football:gdpValue ?gdp_value_birth.
+         
+             ?gdp_entity_citizenship a football:GDP;
+                         football:country ?country_of_citizenship;
+                         football:gdpValue ?gdp_value_citizenship.
+         
+             FILTER (?gdp_value_birth &lt; ?gdp_value_citizenship)
+         }
       </pre>
    </div>
 
    <div id="SPARQLQuery9">
       <h3 id="query-9" class="list">SPARQL Query 9</h3>
    
-       <p>The following query:</p>
+       <p>The following query returns the density of doctors in each country and this country's GDP value:</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-9">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-9">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+         select ?country ?gdpValue ?densityDocs
+         where {
+             ?gdp_entity football:country ?country;
+                         football:gdpValue ?gdpValue;
+                         a football:GDP.
+            ?who_entity football:who_country ?country;
+                        football:Density_of_medical_doctors ?densityDocs;
+                        a football:WHO.
+         }
+         ORDER BY DESC (?densityDocs)
       </pre>
    </div>
 
    <div id="SPARQLQuery10">
       <h3 id="query-10" class="list">SPARQL Query 10</h3>
    
-       <p>The following query:</p>
+       <p>The following query returns the list of football clubs that earned the most money from football player tansfers..</p>
    
        <p>The SPARQL Query:</p>
-       <pre class="sparql-query-10">@prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt;.
-      @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;.
-      @prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;.
+       <pre class="sparql-query-10">prefix football: &lt;http://www.cs7is1.org/ontologies/football-ontology-3#&gt;
+
+         select (SUM(?fee) AS ?totalfee) ?club_name
+         where {
+             ?tf_entitiy a football:Football_Transfers;
+                         football:fee_cleaned ?fee;
+                         football:club_transferred_from_name ?club_name.
+             ?club_entity football:club_pretty_name ?club_name .
+         }
+         GROUP BY ?club_name
+         ORDER BY DESC (?totalfee)
       </pre>
    </div>
       
@@ -6281,8 +6431,7 @@ rr:predicateObjectMap [
 <!--REFERENCES SECTION-->
   <div id="references">
 <h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-Add your references here. It is recommended to have them as a list.</span>
+<span class="markdown"></span>
 <dl>
    <dt><a id="DM" name="DM">[DM]</a></dt>
 
@@ -6291,11 +6440,46 @@ Add your references here. It is recommended to have them as a list.</span>
    Eric Prud'hommeaux, Juan Sequeda, Editors. World Wide Web Consortium, 27 September 2012.
    This version is http://www.w3.org/TR/2012/REC-rdb-direct-mapping-20120927/. The latest
    version is http://www.w3.org/TR/rdb-direct-mapping/.</dd>
+
+   <dt><a id="TURTLE" name="TURTLE">[TURTLE]</a></dt>
+
+      <dd><cite><a href="http://www.w3.org/TR/2012/WD-turtle-20120710/">Turtle - Terse RDF
+      Triple Language</a></cite>, Eric Prud'hommeaux, Gavin Carothers.
+      World Wide Web Consortium, 10 July 2012. This version is
+      http://www.w3.org/TR/2012/WD-turtle-20120710/. The latest version is
+      http://www.w3.org/TR/turtle/. </dd>
+
+   <dt><a id="PROTEGE" name="PROTEGE">[PROTEGE]</a></dt>
+
+      <dd><cite><a href="https://protege.stanford.edu//">Protege - A free, open-source ontology editor and framework for building intelligent systems</a></cite>, Stanford University.
+       </dd>
+
+       <dt><a id="SPARQL" name="SPARQL">[SPARQL]</a></dt>
+
+       <dd><cite><a href="http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/">SPARQL
+       Query Language for RDF</a></cite>, Eric Prud'hommeaux, Andy Seaborne, Editors.
+       World Wide Web Consortium, 15 January 2008. This version is
+       http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/. The latest version is
+       http://www.w3.org/TR/rdf-sparql-query/.</dd>
+
+       <dt><a id="R2RML" name="SPARQL">[R2RML]</a></dt>
+
+       <dd><cite><a href="https://www.w3.org/TR/r2rml/">R2RML: RDB to RDF Mapping Language</a></cite> Souripriya Das, Seema Sundara, Richard Cyganiak.
+         R2RML, a language for expressing customized mappings from relational databases to RDF datasets.</dd>
+
+         <dt><a id="CS7IS1" name="CS7IS1">[CS7IS1 KNOWLEDGE AND DATA ENGINEERING]</a></dt>
+
+         <dd><cite><a href="https://teaching.scss.tcd.ie/module/cs7is1-knowledge-and-data-engineering/">CS7IS1 – Knowledge and Data Engineering</a></cite> Prof. Declan O’Sullivan.
+            The module is designed to explore the management, delivery and inter-operability of knowledge, information and data through knowledge and data engineering. The module encourages students to perceive the challenges, technologies and solutions, in handling distributed, multi modal, heterogeneous information and knowledge models and using those models to drive adaptation within applications and systems. The module focuses on advanced technologies (in particular semantic web technologies), to provide adaptive, agile handling of heterogeneous, ubiquitous information. The module includes such areas as integration of heterogeneous information repositories, schema (RDF) and semantic (e.g. ontology) representation and querying.</dd>
+       
+
  </dl>
 </div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
+We would like to thank Prof. Declan O’Sullivan and Albert Navarro-Gallinad for all their support in their project. Without their support, this project would not be possible
+ Through the module taught by Prof. Declan O’Sullivan we were able to learn about knowledge graphs, linked data and the sematic web. <br />
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
 </div>
 
