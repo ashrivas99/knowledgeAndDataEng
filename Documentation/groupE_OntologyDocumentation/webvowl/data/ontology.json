@@ -1,0 +1,2345 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.cs7is1.org/ontologies/football-ontology-3", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Players"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WHO"
+    },
+    "id" : "35",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Games"
+    },
+    "id" : "28",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GDP"
+    },
+    "id" : "64",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Football"
+    },
+    "subClasses" : [ "1", "28", "3", "46", "30", "24" ],
+    "id" : "4",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Football_Transfers"
+    },
+    "id" : "30",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Countries"
+    },
+    "subClasses" : [ "35", "4", "64" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "147",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Clubs"
+    },
+    "id" : "1",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Competition"
+    },
+    "id" : "46",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Appearances"
+    },
+    "id" : "24",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "180",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "181",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "home_club_id"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "6",
+    "subproperty" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "playAgainst"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "1",
+    "attributes" : [ "object", "symmetric", "transitive" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "clubsProperties"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#goals",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "goals"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "away_club_id"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance",
+    "inverse" : "20",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "resultInAppearance"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "footballTransfersProperties"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "win_club_id"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "Total_alcohol_consumption"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#fee",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "fee"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "Density_of_medical_doctors"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_name",
+    "equivalent" : [ "43" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "player_name"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#confederation",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "confederation"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "POPULATIONHOUSEHOLDGT25"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hostsSport"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "Births_Attended_By_Skilled_Professionals"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasCompetition"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "whoProperties"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "current_club_id"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#year",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "year"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "player_club_id"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "date_of_birth"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "participateInCompetition"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasMonetaryValue"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "havePlayers"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#assists",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "assists"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "LifeExpectancy"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_id",
+    "equivalent" : [ "60", "32", "0", "56", "26" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "club_id"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "club_transferred_from_name"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "playerProperties"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium",
+    "equivalent" : [ "77" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "stadium"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_code",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "competition_code"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "conductedBetween"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "30",
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "goal_difference"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_url",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "club_url"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "domestic_league_code"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#season",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "season"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "gamePlayedSeason"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#generateGames",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "generateGames"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "46",
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#game_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "game_id"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasAppeared"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "country_of_citizenship"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_id",
+    "equivalent" : [ "78", "96" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "competition_id"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#age",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "age"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "player_id"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#coach_name",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "coach_name"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "appearancesPropertes"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "national_team_players"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#playInGames",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "playInGames"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "stadium_seats"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "domestic_competition_id"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_url",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "competition_url"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "Totalpopulation"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "home_club_goals"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#position",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "position"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "IndicatorName"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "Prevalence_of_obesity_among_children"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name",
+    "equivalent" : [ "75" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "stadium_name"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_name",
+    "equivalent" : [ "133" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "competition_name"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "total_market_value"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "net_transfer_record"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "gdpProperties"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "average_age_of_players"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#who_country",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "who_country"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#league_name",
+    "equivalent" : [ "132" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "league_name"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "minutes_played"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#squad_size",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "squad_size"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "IndicatorCode"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "gdpValue"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasTransfers"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "club_transferrred_to_name"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#type",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_name",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "country_name"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "gamesProperties"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasHealthStats"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name",
+    "equivalent" : [ "71", "154" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "club_pretty_name"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "country_of_birth"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "yellow_cards"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "foreigners_percentage"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "fee_cleaned"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#Country",
+    "equivalent" : [ "161", "167", "142", "92" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "174",
+    "label" : {
+      "IRI-based" : "competitionProperties"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#red_cards",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "red_cards"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name",
+    "equivalent" : [ "41" ],
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "players_pretty_name"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#games_url",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "games_url"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "180",
+    "label" : {
+      "IRI-based" : "POPULATIONHOUSEHOLDGT10"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "country_id"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype" ],
+    "id" : "181"
+  }, {
+    "range" : "44",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "44",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "44",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#round",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "round"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#date",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "date"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "foreigners_number"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "189"
+  }, {
+    "range" : "4",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "4",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "resultInGames"
+    },
+    "superproperty" : [ "5" ],
+    "domain" : "24",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "range" : "4",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "ASSISTANCE_TO_MEDICAL_RESEARCH"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "194"
+  }, {
+    "range" : "4",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "away_club_goals"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "CountryCode"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_url",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "player_url"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id",
+    "baseIri" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "appearance_id"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "200"
+  } ]
+}
