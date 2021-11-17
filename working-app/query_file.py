@@ -56,15 +56,19 @@ where {
     "4": """
 prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#>
 
-select (SUM(?fee) AS ?totalfee) ?league_name
-where {
-    ?tf_entitiy a football:Football_Transfers;
-               football:fee_cleaned ?fee;
-            football:league_name ?league_name;
-            football:player_name ?player_name.
-}
 
-GROUP BY ?league_name
+select ?club_pretty_name ?coach_name (SUM(?fee) as ?TotalFee)
+where {
+    ?club_entity a football:Clubs;
+                 football:club_pretty_name ?club_pretty_name;
+                 football:coach_name ?coach_name.
+
+    ?transfer_entity a football:Football_Transfers;
+               football:fee_cleaned ?fee;
+                football:club_transferrred_to_name ?club_pretty_name.
+}
+GROUP BY ?coach_name ?club_pretty_name
+ORDER BY DESC (?TotalFee)
 
 """,
 

@@ -21,7 +21,7 @@
 			 ];
 	] ;
 	rr:predicateObjectMap [
-		rr:predicate football:club_transferrred_to_name ;
+		rr:predicate football:club_transferred_to_name ;
 		rr:objectMap [ 
 			rr:column "CLUB_NAME";
 			rr:termType rr:Literal;
