@@ -1,8 +1,8 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph
-
+import json
 
 sparql = SPARQLWrapper("http://127.0.0.1:7200/repositories/group_e_football")
 
@@ -63,12 +63,14 @@ def query_handler(id):
     return sparql.query().convert()
 
 
+
 @app.route('/user-query', methods=['GET'])
 def user_query():
     query_string = request.args.get('user_query')
 
     sparql.setQuery(str(query_string))
     sparql.setReturnFormat(JSON)
+
 
     return sparql.query().convert()
 
