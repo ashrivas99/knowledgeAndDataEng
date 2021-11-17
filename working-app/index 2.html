@@ -39,26 +39,42 @@
             <template v-if="show_queries">
                 <div class="container has-text-centered">
                     <section class="hero is-small is-black">
-                        <a v-on:click="getResult(1)">
+                        <a class="subtitle is-4" v-on:click="getQueryText(1) ; getResult(1)">
                             Do professional footballers from first class leagues come from high or low GDP countries?
+                        </a>
+                        <a v-on:click="getQueryText(2); getResult(2)">
+                            Sample Query
                         </a>
                     </section>
                 </div>
             </template>
-            <!-- -----------------City exists --------------->
+            <template v-if="query_text.length!==0">
+                <div class="container has-text-centered">
+                    <section class="hero is-small is-black">
+                        <h1 class="title is-4"> Query sent</h1>
+                        <div class="columns is-centered">
+                            <div class="column is-half">
+                                <pre class=" box has-text-left"> {{query_text}}</pre>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </template>
+            <!-- -----------------Data exists --------------->
             <template v-if="table_data">
                 <section class="hero is-medium is-black">
                     <div class="hero-body container has-text-centered">
+                        <h1 class="title is-3"> Result</h1>
                         <table class="table is-bordered is-striped is-fullwidth is-hoverable">
                             <thead>
-                              <tr>
+                                <tr>
                                     <th v-for="column in data_column_names">{{column}}</th>
-                              <tr>
+                                <tr>
                             </thead>
                             <tbody>
-                              <tr v-for="rows in rows_data">
-                                <td v-for="data in rows"> {{data}}
-                              </tr>
+                                <tr v-for="rows in rows_data">
+                                    <td v-for="data in rows"> {{data}}
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -71,15 +87,20 @@
 var app = new Vue({
     el: "#app",
     data: {
-        //
+        //this url geths data from db
         query_url: "http://127.0.0.1:5000/query/",
+
+        query_text_url: "http://127.0.0.1:5000/query-text/",
+
         user_query: "",
+
+        query_text: "",
 
         //data received from the server is stored in these variables
         table_data: false,
         data_column_names: [],
         data_column_bindings: [],
-        rows_data:[],
+        rows_data: [],
 
         //toggling between show_data and error
         show_queries: false,
@@ -92,19 +113,30 @@ var app = new Vue({
             console.log(this.user_query)
         },
 
-        process_data:function(data){
-          for (var i = 0; i < data.length; i++) {
-            var obj = data[i]
+        process_data: function(data) {
+            for (var i = 0; i < data.length; i++) {
+                var obj = data[i]
 
-            var dict_to_push = {}
+                var dict_to_push = {}
 
-            for(j in this.data_column_names){
-              var col = this.data_column_names[j]
-              dict_to_push[col]= obj[col].value
+                for (j in this.data_column_names) {
+                    var col = this.data_column_names[j]
+                    dict_to_push[col] = obj[col].value
+                }
+                this.rows_data.push(dict_to_push)
             }
-            this.rows_data.push(dict_to_push)
-          }
-          console.log(this.rows_data)
+            //console.log(this.rows_data)
+        },
+
+        getQueryText: function(query_id) {
+            axios.get(this.query_text_url + query_id).then((response) => {
+                if (response.data.error) {
+                    console.log("error fetching query");
+                } else {
+                    console.log(response.data)
+                    this.query_text = response.data;
+                }
+            })
         },
 
         getResult: function(query_id) {
@@ -116,6 +148,7 @@ var app = new Vue({
                     console.log("error");
                 } else {
                     this.table_data = true;
+                    this.rows_data = [];
                     this.data_column_names = response.data.head.vars;
                     this.data_column_bindings = response.data.results.bindings;
                     this.process_data(this.data_column_bindings);

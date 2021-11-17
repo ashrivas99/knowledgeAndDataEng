@@ -30,6 +30,15 @@ where {
 GROUP BY ?club_name
 ORDER BY DESC (?number_of_wins)
 """,
+"2": """
+prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#>
+
+Select *
+where {
+    ?s ?p ?o
+}
+LIMIT 25
+"""
 }
 
 
@@ -54,6 +63,10 @@ def query_handler(id):
     return sparql.query().convert()
 
 
+@app.route('/query-text/<id>', methods=['GET'])
+def query_text_handler(id):
+
+    return str(queries[str(id)])
 
 if __name__ == '__main__':
     app.run(debug=True)
