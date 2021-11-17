@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS, cross_origin
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph
@@ -49,7 +49,7 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def hello():
     return "Group E Football Server"
 
@@ -58,6 +58,16 @@ def hello():
 def query_handler(id):
 
     sparql.setQuery(queries.get(str(id)))
+    sparql.setReturnFormat(JSON)
+
+    return sparql.query().convert()
+
+
+@app.route('/user-query', methods=['GET'])
+def user_query():
+    query_string = request.args.get('user_query')
+
+    sparql.setQuery(str(query_string))
     sparql.setReturnFormat(JSON)
 
     return sparql.query().convert()

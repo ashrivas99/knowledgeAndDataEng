@@ -92,6 +92,8 @@ var app = new Vue({
 
         query_text_url: "http://127.0.0.1:5000/query-text/",
 
+        user_query_url: "http://127.0.0.1:5000/user-query",
+
         user_query: "",
 
         query_text: "",
@@ -110,7 +112,23 @@ var app = new Vue({
 
     methods: {
         getUserQueryResult: function() {
-            console.log(this.user_query)
+            axios.get(this.user_query_url, {
+                params: {
+                    user_query: this.user_query.toString()
+                }
+            }).then((response) => {
+                if (response.data.error) {
+                    this.table_data = false;
+                    console.log("error");
+                } else {
+                    this.table_data = true;
+                    this.rows_data = [];
+                    this.query_text = "";
+                    this.data_column_names = response.data.head.vars;
+                    this.data_column_bindings = response.data.results.bindings;
+                    this.process_data(this.data_column_bindings);
+                }
+            });
         },
 
         process_data: function(data) {
@@ -140,8 +158,6 @@ var app = new Vue({
         },
 
         getResult: function(query_id) {
-            console.log(query_id)
-
             axios.get(this.query_url + query_id).then((response) => {
                 if (response.data.error) {
                     this.table_data = false;
