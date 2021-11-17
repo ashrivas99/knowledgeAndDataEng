@@ -23,31 +23,58 @@
     <!-- Vue section starts -->
     <section>
         <div id="app">
-            <!-- --------------------Input Field ----------------------->
+            <!-- -------------------- User Input----------------------->
             <div class="container">
                 <div class="control">
-                    <textarea class="textarea" v-model="user_query" type="text" placeholder="Enter Query" rows="10"></textarea>
+                    <textarea class="textarea" v-model="user_query" type="text" placeholder="Enter Query" rows="5"></textarea>
                 </div>
                 <br />
                 <div class="has-text-centered">
                     <input class="button" v-on:click="getUserQueryResult" type="submit" value="Submit">
                     <br />
                     <br />
-                    <input class="button" v-on:click="show_queries = !show_queries" type="submit" value="Queries">
+            <!-- ------------------Pre loaded queries ----------------------->
+                    <input class="button is-info is-outlined is-rounded" v-on:click="show_queries = !show_queries" type="submit" value="View queries">
                 </div>
             </div>
+
             <template v-if="show_queries">
                 <div class="container has-text-centered">
                     <section class="hero is-small is-black">
                         <a class="subtitle is-4" v-on:click="getQueryText(1) ; getResult(1)">
                             Do professional footballers from first class leagues come from high or low GDP countries?
                         </a>
-                        <a v-on:click="getQueryText(2); getResult(2)">
-                            Sample Query
+                        <a class="subtitle is-4" v-on:click="getQueryText(2); getResult(2)">
+                            Correlation between GDP/obesity rate of high performance football countries
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(3) ; getResult(3)">
+                            Stadium Seats?
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(4) ; getResult(4)">
+                            Most transfer money spent by a league?
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(5) ; getResult(5)">
+                            Playing minutes of players just transferred
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(6) ; getResult(6)">
+                            Player appearances by country and its health stats
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(7) ; getResult(7)">
+                            Wins of clubs in CL in last 2 seasons
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(8) ; getResult(8)">
+                            Players who moved from low to high gdp countries
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(9) ; getResult(9)">
+                            GDP of a country and its number of doctors
+                        </a>
+                        <a class="subtitle is-4" v-on:click="getQueryText(10) ; getResult(10)">
+                            Club earned the most in transfers
                         </a>
                     </section>
                 </div>
             </template>
+            <br />
             <template v-if="query_text.length!==0">
                 <div class="container has-text-centered">
                     <section class="hero is-small is-black">
@@ -60,7 +87,7 @@
                     </section>
                 </div>
             </template>
-            <!-- -----------------Data exists --------------->
+            <!-- -----------------Table exists --------------->
             <template v-if="table_data">
                 <section class="hero is-medium is-black">
                     <div class="hero-body container has-text-centered">
@@ -87,16 +114,20 @@
 var app = new Vue({
     el: "#app",
     data: {
-        //this url geths data from db
+
+        //API ENDPOINTS
+
+        // gets data from db
         query_url: "http://127.0.0.1:5000/query/",
 
+        //returns the query text for pre loaded queries
         query_text_url: "http://127.0.0.1:5000/query-text/",
 
+        //processes the query submitted by the user
         user_query_url: "http://127.0.0.1:5000/user-query",
 
-        user_query: "",
-
         query_text: "",
+        user_query: "",
 
         //data received from the server is stored in these variables
         table_data: false,
@@ -143,15 +174,13 @@ var app = new Vue({
                 }
                 this.rows_data.push(dict_to_push)
             }
-            //console.log(this.rows_data)
         },
 
         getQueryText: function(query_id) {
             axios.get(this.query_text_url + query_id).then((response) => {
                 if (response.data.error) {
-                    console.log("error fetching query");
+                    console.log("error fetching query text");
                 } else {
-                    console.log(response.data)
                     this.query_text = response.data;
                 }
             })
