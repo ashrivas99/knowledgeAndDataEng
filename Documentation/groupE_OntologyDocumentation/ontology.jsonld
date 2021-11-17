@@ -1,0 +1,1256 @@
+[ {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3/1.0.0"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_name"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#who_country"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#assists",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_id"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#club_url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_url"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#games_url"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_url"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#coach_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_id"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#league_name"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competition_url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#games_url"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_url"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#confederation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#fee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#game_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#games_url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_url"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#generateGames",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#goals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#GDP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#league_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playInGames",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  }, {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#player_url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Players"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#red_cards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#round",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Games"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#season",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#squad_size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Competition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#WHO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#who_country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Clubs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties"
+  } ]
+}, {
+  "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#Appearances"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes"
+  } ]
+} ]
