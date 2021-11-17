@@ -56,7 +56,6 @@ where {
     "4": """
 prefix football: <http://www.cs7is1.org/ontologies/football-ontology-3#>
 
-
 select ?club_pretty_name ?coach_name (SUM(?fee) as ?TotalFee)
 where {
     ?club_entity a football:Clubs;

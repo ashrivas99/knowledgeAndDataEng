@@ -1,0 +1,665 @@
+<http://www.cs7is1.org/ontologies/football-ontology-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.cs7is1.org/ontologies/football-ontology-3> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.cs7is1.org/ontologies/football-ontology-3/1.0.0> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween
+<http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#conductedBetween> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#generateGames
+<http://www.cs7is1.org/ontologies/football-ontology-3#generateGames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#generateGames> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#generateGames> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#generateGames> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasAppeared> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasHealthStats> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#GDP> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hasTransfers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers
+<http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#havePlayers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport
+<http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#hostsSport> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition
+<http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#participateInCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst
+<http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#playInGames
+<http://www.cs7is1.org/ontologies/football-ontology-3#playInGames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playInGames> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playInGames> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playInGames> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInAppearance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH
+<http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#ASSISTANCE_TO_MEDICAL_RESEARCH> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals
+<http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Births_Attended_By_Skilled_Professionals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Country
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#country_name> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#who_country> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Country> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode
+<http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#GDP> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#CountryCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors
+<http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Density_of_medical_doctors> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#GDP> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#GDP> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#IndicatorName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy
+<http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#LifeExpectancy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT10> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#POPULATIONHOUSEHOLDGT25> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children
+<http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Prevalence_of_obesity_among_children> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption
+<http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Total_alcohol_consumption> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation
+<http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Totalpopulation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#age
+<http://www.cs7is1.org/ontologies/football-ontology-3#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#age> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearance_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#assists
+<http://www.cs7is1.org/ontologies/football-ontology-3#assists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#assists> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#assists> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#assists> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players
+<http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#average_age_of_players> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_goals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#club_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#away_club_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#club_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_pretty_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferred_from_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_transferrred_to_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#club_url
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.cs7is1.org/ontologies/football-ontology-3#games_url> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#club_url> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.cs7is1.org/ontologies/football-ontology-3#player_url> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#coach_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#coach_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#coach_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#coach_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#coach_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#competition_code
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_code> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#competition_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#competition_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#league_name> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#competition_url
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.cs7is1.org/ontologies/football-ontology-3#games_url> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#competition_url> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.cs7is1.org/ontologies/football-ontology-3#player_url> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#confederation
+<http://www.cs7is1.org/ontologies/football-ontology-3#confederation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#confederation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#confederation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#confederation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#country_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#country_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_birth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#country_of_citizenship> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#current_club_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#date
+<http://www.cs7is1.org/ontologies/football-ontology-3#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth
+<http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#date_of_birth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_competition_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#domestic_league_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#fee
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#fee_cleaned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#foreigners_percentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamePlayedSeason> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#game_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#game_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#game_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#game_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#game_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#game_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#games_url
+<http://www.cs7is1.org/ontologies/football-ontology-3#games_url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#games_url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#games_url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#games_url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#games_url> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.cs7is1.org/ontologies/football-ontology-3#player_url> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#GDP> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gdpProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#GDP> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#gdpValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference
+<http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#goal_difference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#goals
+<http://www.cs7is1.org/ontologies/football-ontology-3#goals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#goals> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#goals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#goals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_goals> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#home_club_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#league_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#league_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#league_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#league_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#league_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played
+<http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#minutes_played> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players
+<http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#national_team_players> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record
+<http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#net_transfer_record> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_club_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#player_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#player_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#player_url
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#player_url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#playerProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Players> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#players_pretty_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#position
+<http://www.cs7is1.org/ontologies/football-ontology-3#position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#position> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#position> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#position> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#red_cards
+<http://www.cs7is1.org/ontologies/football-ontology-3#red_cards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#red_cards> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#red_cards> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#red_cards> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#round
+<http://www.cs7is1.org/ontologies/football-ontology-3#round> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#round> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#round> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Games> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#round> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#season
+<http://www.cs7is1.org/ontologies/football-ontology-3#season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#season> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#season> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#season> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#squad_size
+<http://www.cs7is1.org/ontologies/football-ontology-3#squad_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#squad_size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#squad_size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#squad_size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#stadium
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#stadium_seats> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value
+<http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#clubsProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#total_market_value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#type
+<http://www.cs7is1.org/ontologies/football-ontology-3#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#competitionProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Competition> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties
+<http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#WHO> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#who_country
+<http://www.cs7is1.org/ontologies/football-ontology-3#who_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#who_country> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#whoProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#who_country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#who_country> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id
+<http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#gamesProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#win_club_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#year
+<http://www.cs7is1.org/ontologies/football-ontology-3#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#year> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#footballTransfersProperties> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#year> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards
+<http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cs7is1.org/ontologies/football-ontology-3#appearancesPropertes> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#yellow_cards> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Appearances
+<http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Appearances> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Clubs
+<http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Clubs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Competition
+<http://www.cs7is1.org/ontologies/football-ontology-3#Competition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Competition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Countries
+<http://www.cs7is1.org/ontologies/football-ontology-3#Countries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Football
+<http://www.cs7is1.org/ontologies/football-ontology-3#Football> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Football> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers
+<http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Football_Transfers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#GDP
+<http://www.cs7is1.org/ontologies/football-ontology-3#GDP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#GDP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Games
+<http://www.cs7is1.org/ontologies/football-ontology-3#Games> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Games> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#Players
+<http://www.cs7is1.org/ontologies/football-ontology-3#Players> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#Players> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Football> .
+# 
+# http://www.cs7is1.org/ontologies/football-ontology-3#WHO
+<http://www.cs7is1.org/ontologies/football-ontology-3#WHO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.cs7is1.org/ontologies/football-ontology-3#WHO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cs7is1.org/ontologies/football-ontology-3#Countries> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

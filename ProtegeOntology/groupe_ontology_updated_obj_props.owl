@@ -86,7 +86,8 @@
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#playAgainst
 :playAgainst rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdf:type owl:SymmetricProperty ;
+             rdf:type owl:SymmetricProperty ,
+                      owl:TransitiveProperty ;
              rdfs:domain :Clubs ;
              rdfs:range :Clubs .
 
@@ -109,7 +110,6 @@
 ###  http://www.cs7is1.org/ontologies/football-ontology-3#resultInGames
 :resultInGames rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
-               rdf:type owl:TransitiveProperty ;
                rdfs:domain :Appearances ;
                rdfs:range :Games .
 
